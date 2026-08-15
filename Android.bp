@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: Apache-2.0
+
+soong_namespace {
+    imports: [
+        "hardware/mediatek",
+        "hardware/xiaomi",
+        "vendor/xiaomi/aristotle",
+    ],
+}
+

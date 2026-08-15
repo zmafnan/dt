@@ -1,0 +1,3212 @@
+# Xiaomi 13T (aristotle) - Android 16 proprietary files
+# Source: xiaomi.eu OS3.0.5.0.WMFMIXM (SDK 36)
+# Generated independently; previous aristotle lists were not inputs.
+
+# Android 16 device-critical content inventory
+odm/app/goodix_sz_aristotle/goodix_sz_aristotle.apk
+odm/bin/SoterProvisioningTool_mitee
+odm/bin/hw/mfp-daemon
+odm/bin/hw/vendor.xiaomi.hw.touchfeature-service
+odm/bin/mlipayd_mitee
+odm/bin/mrmd_mitee
+odm/bin/mtd_mitee
+odm/bin/soterd
+odm/bin/toucheventcheck
+odm/bin/vib_cal
+odm/etc/barrage_v3.tflite
+odm/etc/camera/cameracustomize.json
+odm/etc/camera/cameraopt.json
+odm/etc/camera/cameraopt_reclaim.json
+odm/etc/cit_param_config.json
+odm/etc/default_cloud.json
+odm/etc/df_default.xml
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/cct_pcc.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLutInfo.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_0.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_1.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_10.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_11.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_12.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_13.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_14.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_15.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_16.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_17.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_18.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_19.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_2.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_20.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_21.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_22.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_23.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_24.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_25.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_26.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_3.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_4.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_5.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_6.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_7.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_8.txt
+odm/etc/disp0/dsi_m12a_36_02_0a_dsc_cmd/miLut_9.txt
+odm/etc/dsi_m12a_36_02_0a_dsc_cmd_mi.xml
+odm/etc/felica/libnfc-nci-JP.conf
+odm/etc/felica/libnfc-nxp.conf
+odm/etc/felica/libnfc-nxp_RF.conf
+odm/etc/init.panel_info.sh
+odm/etc/libnfc-nci.conf
+odm/etc/libnfc-nxp.conf
+odm/etc/libnfc-nxp_RF.conf
+odm/etc/m12a_36_02_0a_dsc_cmd_cust_silky_brightness.xml
+odm/etc/m12a_36_02_0a_dsc_cmd_pq.xml
+odm/etc/mimdconfig.json
+odm/etc/permissions/android.hardware.nfc.ese.xml
+odm/etc/permissions/android.hardware.nfc.hce.xml
+odm/etc/permissions/android.hardware.nfc.hcef.xml
+odm/etc/permissions/android.hardware.nfc.uicc.xml
+odm/etc/permissions/android.hardware.nfc.xml
+odm/etc/permissions/android.hardware.se.omapi.ese.xml
+odm/etc/permissions/android.hardware.se.omapi.uicc.xml
+odm/etc/permissions/com.android.nfc_extras.xml
+odm/etc/permissions/com.android.se.xml
+odm/etc/permissions/com.nxp.mifare.xml
+odm/etc/permissions/vendor.hardware.vibratorfeature-permission.xml
+odm/etc/screen_light.xml
+odm/etc/sems/4LS_M4M-3.1.5.1_iPass_araRules_for_GooglePlay_Wallet_1.0.txt
+odm/etc/setting.xml
+odm/etc/thermal-4k.conf
+odm/etc/thermal-arvr.conf
+odm/etc/thermal-camera.conf
+odm/etc/thermal-cclassvideo.conf
+odm/etc/thermal-cgame.conf
+odm/etc/thermal-chg-only.conf
+odm/etc/thermal-class0.conf
+odm/etc/thermal-hp-mgame.conf
+odm/etc/thermal-hp-normal.conf
+odm/etc/thermal-huanji.conf
+odm/etc/thermal-mgame.conf
+odm/etc/thermal-navigation.conf
+odm/etc/thermal-nolimits.conf
+odm/etc/thermal-normal.conf
+odm/etc/thermal-per-camera.conf
+odm/etc/thermal-per-class0.conf
+odm/etc/thermal-per-huanji.conf
+odm/etc/thermal-per-navigation.conf
+odm/etc/thermal-per-normal.conf
+odm/etc/thermal-per-video.conf
+odm/etc/thermal-phone.conf
+odm/etc/thermal-region-map.conf
+odm/etc/thermal-tgame.conf
+odm/etc/thermal-video.conf
+odm/etc/thermal-videochat.conf
+odm/etc/thermal-yuanshen.conf
+odm/firmware/goodix_cfg_group_aristotle.bin
+odm/firmware/goodix_firmware_aristotle.bin
+odm/firmware/goodix_test_limits_255.csv
+odm/lib64/hw/displayfeature.default.so
+odm/lib64/libMiDispDevManager.so
+odm/lib64/libaachaptics.so
+odm/lib64/libadaptivehdr.so
+odm/lib64/libalCFR.so
+odm/lib64/libcolortempmode.so
+odm/lib64/libdisplaycount.so
+odm/lib64/libdisplaylog.so
+odm/lib64/libdither.so
+odm/lib64/libdynamicelvss.so
+odm/lib64/libeyecare.so
+odm/lib64/libflatmode.so
+odm/lib64/libhistprocess.so
+odm/lib64/libmfido_mitee.so
+odm/lib64/libmiBrightness.so
+odm/lib64/libmiSensorCtrl.so
+odm/lib64/libmiXmlParser.so
+odm/lib64/libmi_dspp.so
+odm/lib64/libmieventnodewatch.so
+odm/lib64/libmiriskmanager_mitee.so
+odm/lib64/libmlipay_mitee.so
+odm/lib64/libmt_mitee.so
+odm/lib64/libpaperMode.so
+odm/lib64/librhytheyecare.so
+odm/lib64/libsdr2hdr.so
+odm/lib64/libsoter.so
+odm/lib64/libsre.so
+odm/lib64/libtruetone.so
+odm/lib64/libvideomode.so
+odm/lib64/vendor.xiaomi.hardware.misauth-V1-ndk.so
+odm/lib64/vendor.xiaomi.hardware.mrm-V1-ndk.so
+odm/mitee/ta/123af5d1-d6f5-cc54-f78fa19030b2e76a.ta
+vendor/etc/camera/110_BlackGold.png
+vendor/etc/camera/129_LeicaVivid.png
+vendor/etc/camera/130_LeicaNatural.png
+vendor/etc/camera/131_MonochromeTrue.png
+vendor/etc/camera/132_MonochromeHighContrast.png
+vendor/etc/camera/133_MonochromeBrown.png
+vendor/etc/camera/134_MonochromeBlue.png
+vendor/etc/camera/144_RedHero.png
+vendor/etc/camera/146_TactileGreen.png
+vendor/etc/camera/148_Mild.png
+vendor/etc/camera/149_LilyWhite.png
+vendor/etc/camera/150_Bright.png
+vendor/etc/camera/151_Fresh.png
+vendor/etc/camera/152_Limpid.png
+vendor/etc/camera/153_KC64.png
+vendor/etc/camera/154_V250.png
+vendor/etc/camera/155_H400.png
+vendor/etc/camera/156_ColdWhite.png
+vendor/etc/camera/157_Native.png
+vendor/etc/camera/158_BWClassical.png
+vendor/etc/camera/159_Flowers.png
+vendor/etc/camera/160_Vivid.png
+vendor/etc/camera/161_KP160.png
+vendor/etc/camera/162_Natural.png
+vendor/etc/camera/163_KG200.png
+vendor/etc/camera/164_FC400.png
+vendor/etc/camera/165_C50D.png
+vendor/etc/camera/166_F50.png
+vendor/etc/camera/CFR_para_W.bin
+vendor/etc/camera/af_class_all.dla
+vendor/etc/camera/af_class_human.dla
+vendor/etc/camera/af_classify.dla
+vendor/etc/camera/af_detect_1st.dla
+vendor/etc/camera/af_detect_2nd.dla
+vendor/etc/camera/af_detect_3rd.dla
+vendor/etc/camera/af_saliency.dla
+vendor/etc/camera/af_track_backbone.dla
+vendor/etc/camera/af_track_head.dla
+vendor/etc/camera/aivsModel_0478CF20
+vendor/etc/camera/aivsModel_16E8F8F9
+vendor/etc/camera/aivsModel_56058501
+vendor/etc/camera/aivsModel_6627C7AA
+vendor/etc/camera/aivsModel_8D84710A
+vendor/etc/camera/aivsModel_CA81E52F
+vendor/etc/camera/aivsModel_D249D0CD
+vendor/etc/camera/aivsModel_FF7AE9B5
+vendor/etc/camera/arcsoft_dynamicEV_config.ini
+vendor/etc/camera/bokehParams.json
+vendor/etc/camera/com.xiaomi.dcal.wt.golden
+vendor/etc/camera/dualcam_bokeh_params_pro.json
+vendor/etc/camera/dualcam_depth_params_pro.json
+vendor/etc/camera/dualcam_mdbokeh_params_depth.json
+vendor/etc/camera/dualcam_mdbokeh_params_pro.json
+vendor/etc/camera/dualcam_predepth_params_pro.json
+vendor/etc/camera/dualcam_preview_quan8_enc250.dlc
+vendor/etc/camera/ellc.bin
+vendor/etc/camera/ellc_params.json
+vendor/etc/camera/ellv.bin
+vendor/etc/camera/ellv_params.xml
+vendor/etc/camera/facesr_hd_composite_ref_4.5.10_mtkg610_apu_segapu_partblock_qualityv47r3.model
+vendor/etc/camera/fold_qianzhi_512_edutpu140_ar36912_depth128_dd48_2_128_inscale_q12qrqfct_rotate45_scale_distortcolor_quantaware_step205420_without_softmax_mdla30.dla
+vendor/etc/camera/ldc/LDC_FRONT_FPC_TUNING.bin
+vendor/etc/camera/ldc/LDC_FRONT_FPC_TUNING_AI.bin
+vendor/etc/camera/ldc/LDC_FRONT_PACKDATA.dat
+vendor/etc/camera/ldc/LDC_REAR_FPC_TUNING.bin
+vendor/etc/camera/ldc/LDC_REAR_FPC_TUNING_AI.bin
+vendor/etc/camera/ldc/LDC_REAR_PACKDATA.dat
+vendor/etc/camera/ldc/intsense_config_undistort.bin
+vendor/etc/camera/ldc/ldc_cap_cache
+vendor/etc/camera/ldc/ldc_cap_model
+vendor/etc/camera/ldc/ldc_cap_policy
+vendor/etc/camera/libarcsoft_high_dynamic_range.bin
+vendor/etc/camera/libarcsoft_mf_superresolution.bin
+vendor/etc/camera/libarcsoft_super_night_raw.bin
+vendor/etc/camera/libarcsoft_super_night_raw_front.bin
+vendor/etc/camera/mage_mtk_capture_bokeh_cl.bin
+vendor/etc/camera/mage_mtk_capture_bokeh_mvpu.bin
+vendor/etc/camera/mage_mtk_capture_mdbokeh_cl.bin
+vendor/etc/camera/mage_mtk_capture_mdbokeh_mono_mvpu.bin
+vendor/etc/camera/mage_mtk_capture_mdbokeh_mvpu.bin
+vendor/etc/camera/mage_mtk_capture_mdbokeh_portrait_mvpu.bin
+vendor/etc/camera/mage_mtk_capture_mdbokeh_soft_mvpu.bin
+vendor/etc/camera/mage_mtk_capture_mdbokeh_spin_mvpu.bin
+vendor/etc/camera/mdbokeh_bwt.bin
+vendor/etc/camera/mdbokeh_ngt.bin
+vendor/etc/camera/mdbokeh_prt.bin
+vendor/etc/camera/mdbokeh_sft.bin
+vendor/etc/camera/monocam_bokeh_params.json
+vendor/etc/camera/morpho_tele_30fps.bin
+vendor/etc/camera/portraitrepaire_front_class.json
+vendor/etc/camera/portraitrepaire_front_live.json
+vendor/etc/camera/portraitrepaire_rear_class.json
+vendor/etc/camera/portraitrepaire_rear_live.json
+vendor/etc/camera/preview_bokeh_params_mono.json
+vendor/etc/camera/preview_bokeh_params_pro.json
+vendor/etc/camera/preview_mdbokeh_params_pro.json
+vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_mdla30.dla
+vendor/etc/camera/sat_mecp.bin
+vendor/etc/camera/skyseg_384_without_softmax_mdla30.dla
+vendor/etc/camera/video_stabilizer.xml
+vendor/etc/camera/vidhance.lic
+vendor/etc/camera/xiaomi/MiCamCPUControl.xml
+vendor/etc/camera/xiaomi/ecocloudinfo.json
+vendor/etc/camera/xiaomi/ecoplatforminfo.json
+vendor/etc/camera/xiaomi/mivisettings.json
+vendor/etc/camera/xiaomi/overridesettings.json
+vendor/etc/camera/xiaomi/rearsupernightsnapshot.json
+vendor/etc/camera/xiaomi/settings.json
+vendor/etc/camera/xiaomi/tpfrontbokehsnapshot.json
+vendor/etc/camera/xiaomi/tpfrontnormalsnapshot.json
+vendor/etc/camera/xiaomi/tpfrontsnsnapshot.json
+vendor/etc/camera/xiaomi/tprearbokehsnapshot.json
+vendor/etc/camera/xiaomi/tprearnormalsnapshot.json
+vendor/etc/camera/xiaomi/tprearsnsnapshot.json
+vendor/etc/camera/xiaomiSceneDetection.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_DoCoMo.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Chile.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Ecuador.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Peru.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Rakuten.xml
+vendor/etc/init/hw/factory_init.connectivity.common.rc
+vendor/etc/init/hw/factory_init.connectivity.rc
+vendor/etc/init/hw/factory_init.project.rc
+vendor/etc/init/hw/factory_init.rc
+vendor/etc/init/hw/meta_init.connectivity.common.rc
+vendor/etc/init/hw/meta_init.connectivity.rc
+vendor/etc/init/hw/meta_init.modem.rc
+vendor/etc/init/hw/meta_init.project.rc
+vendor/etc/init/hw/meta_init.rc
+vendor/etc/init/hw/meta_init.vendor.rc
+vendor/etc/init/hw/multi_init.rc
+vendor/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml
+vendor/etc/permissions/android.hardware.audio.low_latency.xml
+vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml
+vendor/etc/permissions/android.hardware.camera.xml
+vendor/etc/permissions/android.hardware.consumerir.prebuilt.xml
+vendor/etc/permissions/android.hardware.consumerir.xml
+vendor/etc/permissions/android.hardware.faketouch.prebuilt.xml
+vendor/etc/permissions/android.hardware.fingerprint.xml
+vendor/etc/permissions/android.hardware.hardware_keystore.xml
+vendor/etc/permissions/android.hardware.identity_credential.mitee.xml
+vendor/etc/permissions/android.hardware.keystore.app_attest_key.xml
+vendor/etc/permissions/android.hardware.location.gps.prebuilt.xml
+vendor/etc/permissions/android.hardware.location.gps.xml
+vendor/etc/permissions/android.hardware.microphone.xml
+vendor/etc/permissions/android.hardware.opengles.aep.prebuilt.xml
+vendor/etc/permissions/android.hardware.se.omapi.ese.prebuilt.xml
+vendor/etc/permissions/android.hardware.se.omapi.prebuilt.xml
+vendor/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml
+vendor/etc/permissions/android.hardware.sensor.compass.prebuilt.xml
+vendor/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml
+vendor/etc/permissions/android.hardware.sensor.light.prebuilt.xml
+vendor/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml
+vendor/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml
+vendor/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml
+vendor/etc/permissions/android.hardware.telephony.gsm.xml
+vendor/etc/permissions/android.hardware.telephony.ims.prebuilt.xml
+vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml
+vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml
+vendor/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml
+vendor/etc/permissions/android.hardware.touchscreen.prebuilt.xml
+vendor/etc/permissions/android.hardware.touchscreen.xml
+vendor/etc/permissions/android.hardware.usb.accessory.prebuilt.xml
+vendor/etc/permissions/android.hardware.usb.accessory.xml
+vendor/etc/permissions/android.hardware.usb.host.prebuilt.xml
+vendor/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml
+vendor/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml
+vendor/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml
+vendor/etc/permissions/android.hardware.wifi.direct.xml
+vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml
+vendor/etc/permissions/android.hardware.wifi.xml
+vendor/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml
+vendor/etc/permissions/android.software.midi.xml
+vendor/etc/permissions/android.software.opengles.deqp.level-2025-03-01.prebuilt.xml
+vendor/etc/permissions/android.software.verified_boot.prebuilt.xml
+vendor/etc/permissions/android.software.vulkan.deqp.level-2025-03-01.prebuilt.xml
+vendor/etc/permissions/camera_extensions.xml
+vendor/etc/permissions/com.mediatek.hardware.vow.gva.tflite.xml
+vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml
+vendor/etc/permissions/com.xiaomi.sensor.xml
+vendor/etc/permissions/handheld_core_hardware.prebuilt.xml
+vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy
+vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy
+vendor/etc/seccomp_policy/mediacodec.policy
+vendor/etc/seccomp_policy/mediaextractor.policy
+vendor/etc/seccomp_policy/mediaswcodec.policy
+vendor/etc/thermal/disable_skin_control.conf
+vendor/etc/thermal/disable_thermal.conf
+vendor/etc/thermal/disable_thermal_temp.conf
+vendor/etc/thermal/disable_throttling.conf
+vendor/etc/thermal/thermal.conf
+vendor/etc/thermal/thermal_mtbf.conf
+vendor/etc/thermal/thermal_policy_00.conf
+vendor/etc/thermal/thermal_policy_01.conf
+vendor/etc/thermal/thermal_policy_02.conf
+vendor/etc/thermal/thermal_policy_03.conf
+vendor/etc/thermal/thermal_policy_04.conf
+vendor/etc/thermal/thermal_policy_08.conf
+vendor/etc/wifi/nvram/wfnv_desc_data_soc70.bin
+vendor/etc/wifi/nvram/wfnv_desc_map_soc70.bin
+vendor/etc/wifi/p2p_supplicant_overlay.conf
+vendor/etc/wifi/wpa_supplicant.conf
+vendor/etc/wifi/wpa_supplicant_overlay.conf
+vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_1.bin
+vendor/firmware/WIFI_RAM_CODE_soc7_0_1c_1.bin
+vendor/firmware/aw882xx_acf.bin
+vendor/firmware/connfem.cfg
+vendor/firmware/fm_cust.cfg
+vendor/firmware/gt9896s_cfg_1080x2280.bin
+vendor/firmware/gt9896s_cfg_1080x2400.bin
+vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin
+vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin
+vendor/firmware/gt9896s_cfg_6789v01.bin
+vendor/firmware/gt9896s_cfg_6833v01.bin
+vendor/firmware/gt9896s_cfg_6853v01.bin
+vendor/firmware/gt9896s_cfg_6855v01.bin
+vendor/firmware/gt9896s_cfg_6873v01.bin
+vendor/firmware/gt9896s_cfg_6877v01.bin
+vendor/firmware/gt9896s_cfg_6877v02.bin
+vendor/firmware/gt9896s_cfg_6878v01.bin
+vendor/firmware/gt9896s_cfg_6879v01.bin
+vendor/firmware/gt9896s_cfg_6893v01.bin
+vendor/firmware/gt9896s_cfg_6893v02.bin
+vendor/firmware/gt9896s_cfg_6893v03.bin
+vendor/firmware/gt9896s_cfg_6893v04.bin
+vendor/firmware/gt9896s_cfg_6893v05.bin
+vendor/firmware/gt9896s_cfg_6895v01.bin
+vendor/firmware/gt9896s_cfg_6983v01.bin
+vendor/firmware/gt9896s_firmware_1080x2280.bin
+vendor/firmware/gt9896s_firmware_1080x2400.bin
+vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin
+vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin
+vendor/firmware/gt9896s_firmware_6789v01.bin
+vendor/firmware/gt9896s_firmware_6833v01.bin
+vendor/firmware/gt9896s_firmware_6853v01.bin
+vendor/firmware/gt9896s_firmware_6855v01.bin
+vendor/firmware/gt9896s_firmware_6873v00.bin
+vendor/firmware/gt9896s_firmware_6877v01.bin
+vendor/firmware/gt9896s_firmware_6877v02.bin
+vendor/firmware/gt9896s_firmware_6878v01.bin
+vendor/firmware/gt9896s_firmware_6879v01.bin
+vendor/firmware/gt9896s_firmware_6893v01.bin
+vendor/firmware/gt9896s_firmware_6893v02.bin
+vendor/firmware/gt9896s_firmware_6893v03.bin
+vendor/firmware/gt9896s_firmware_6893v04.bin
+vendor/firmware/gt9896s_firmware_6893v05.bin
+vendor/firmware/gt9896s_firmware_6895v01.bin
+vendor/firmware/gt9896s_firmware_6983v01.bin
+vendor/firmware/haptic_config.bin
+vendor/firmware/mt6627_fm_v1_coeff.bin
+vendor/firmware/mt6627_fm_v1_patch.bin
+vendor/firmware/mt6630_fm_v1_coeff.bin
+vendor/firmware/mt6630_fm_v1_patch.bin
+vendor/firmware/mt6630_fm_v2_coeff.bin
+vendor/firmware/mt6630_fm_v2_coeff_tx.bin
+vendor/firmware/mt6630_fm_v2_patch.bin
+vendor/firmware/mt6630_fm_v2_patch_tx.bin
+vendor/firmware/mt6631_fm_v1_coeff.bin
+vendor/firmware/mt6631_fm_v1_patch.bin
+vendor/firmware/mt6632_fm_v1_coeff.bin
+vendor/firmware/mt6632_fm_v1_patch.bin
+vendor/firmware/mt6635_fm_v1_coeff.bin
+vendor/firmware/mt6635_fm_v1_patch.bin
+vendor/firmware/novatek_ts_fw.bin
+vendor/firmware/novatek_ts_fw_144.bin
+vendor/firmware/novatek_ts_fw_jdi.bin
+vendor/firmware/novatek_ts_fw_tm.bin
+vendor/firmware/soc7_0_ram_bt_1_1_hdr.bin
+vendor/firmware/soc7_0_ram_bt_1_t_1_hdr.bin
+vendor/firmware/soc7_0_ram_bt_1a_1_hdr.bin
+vendor/firmware/soc7_0_ram_bt_1b_1_hdr.bin
+vendor/firmware/soc7_0_ram_mcu_1_1_hdr.bin
+vendor/firmware/soc7_0_ram_mcu_1_t_1_hdr.bin
+vendor/firmware/soc7_0_ram_mcu_1a_1_hdr.bin
+vendor/firmware/soc7_0_ram_mcu_1b_1_hdr.bin
+vendor/firmware/soc7_0_ram_wmmcu_1b_1_hdr.bin
+vendor/firmware/soc7_0_ram_wmmcu_1c_1_hdr.bin
+vendor/firmware/soc_fm_v1_coeff.bin
+vendor/firmware/soc_fm_v1_patch.bin
+vendor/firmware/vib_170/0_click_P_RTP.bin
+vendor/firmware/vib_170/101_offlineCountdown_RTP.bin
+vendor/firmware/vib_170/102_sceneBombInjury_RTP.bin
+vendor/firmware/vib_170/103_sceneBomb_RTP.bin
+vendor/firmware/vib_170/104_doorOpen_RTP.bin
+vendor/firmware/vib_170/106_sceneStep_RTP.bin
+vendor/firmware/vib_170/107_crawl_RTP.bin
+vendor/firmware/vib_170/108_scopeOn_RTP.bin
+vendor/firmware/vib_170/109_scopeOff_RTP.bin
+vendor/firmware/vib_170/10_ringTone4_RTP.bin
+vendor/firmware/vib_170/110_magazineQuick_RTP.bin
+vendor/firmware/vib_170/111_grenade_RTP.bin
+vendor/firmware/vib_170/112_sceneGetshot_RTP.bin
+vendor/firmware/vib_170/113_grenadeExplosion_RTP.bin
+vendor/firmware/vib_170/114_punch_RTP.bin
+vendor/firmware/vib_170/115_pan_RTP.bin
+vendor/firmware/vib_170/116_bandage_RTP.bin
+vendor/firmware/vib_170/118_sceneJump_RTP.bin
+vendor/firmware/vib_170/119_vehiclePlane_RTP.bin
+vendor/firmware/vib_170/11_ringTone4_RTP.bin
+vendor/firmware/vib_170/120_sceneOpenparachute_RTP.bin
+vendor/firmware/vib_170/121_sceneCloseparachute_RTP.bin
+vendor/firmware/vib_170/122_vehicleCollision_RTP.bin
+vendor/firmware/vib_170/123_vehicleBuggy_RTP.bin
+vendor/firmware/vib_170/124_vehicleDacia_RTP.bin
+vendor/firmware/vib_170/125_vehicleMoto_RTP.bin
+vendor/firmware/vib_170/126_firearmsAkm_RTP.bin
+vendor/firmware/vib_170/127_firearmsM16a4_RTP.bin
+vendor/firmware/vib_170/128_firearmsAwm_RTP.bin
+vendor/firmware/vib_170/129_firearmsawm_RTP.bin
+vendor/firmware/vib_170/12_ringTone4_RTP.bin
+vendor/firmware/vib_170/130_firearmsMini14_RTP.bin
+vendor/firmware/vib_170/131_firearmsVss_RTP.bin
+vendor/firmware/vib_170/132_firearmsQbz_RTP.bin
+vendor/firmware/vib_170/133_firearmsUmp9_RTP.bin
+vendor/firmware/vib_170/134_firearmsDp28_RTP.bin
+vendor/firmware/vib_170/135_firearmsS1897_RTP.bin
+vendor/firmware/vib_170/137_firearmsP18c_RTP.bin
+vendor/firmware/vib_170/13_ringTone4_RTP.bin
+vendor/firmware/vib_170/140_cfmKillOne_RTP.bin
+vendor/firmware/vib_170/141_cfmHeadshot_RTP.bin
+vendor/firmware/vib_170/142_cfmMultiKill_RTP.bin
+vendor/firmware/vib_170/143_cfmKillOneStrong_RTP.bin
+vendor/firmware/vib_170/144_cfmHeadshotStrong_RTP.bin
+vendor/firmware/vib_170/145_cfmMultiKillStrong_RTP.bin
+vendor/firmware/vib_170/146_cfmWeaponGrenadeExplode_RTP.bin
+vendor/firmware/vib_170/147_cfmWeaponGrenadeKillOne_RTP.bin
+vendor/firmware/vib_170/148_cfmImpactFleshNormal_RTP.bin
+vendor/firmware/vib_170/149_cfmWeaponC4Installed_RTP.bin
+vendor/firmware/vib_170/14_ringTone4_RTP.bin
+vendor/firmware/vib_170/150_cfmHeroAppear_RTP.bin
+vendor/firmware/vib_170/151_cfmUIRewardOpenBox_RTP.bin
+vendor/firmware/vib_170/152_cfmUIRewardTask_RTP.bin
+vendor/firmware/vib_170/153_cfmWeaponBLTShoot_RTP.bin
+vendor/firmware/vib_170/154_Atlantis_RTP.bin
+vendor/firmware/vib_170/155_DigitalUniverse_RTP.bin
+vendor/firmware/vib_170/156_Reveries_RTP.bin
+vendor/firmware/vib_170/157_fodMotionTriang_RTP.bin
+vendor/firmware/vib_170/158_fodMotionFlare_RTP.bin
+vendor/firmware/vib_170/159_fodMotionRipple_RTP.bin
+vendor/firmware/vib_170/15_ringTone4_RTP.bin
+vendor/firmware/vib_170/160_fodMotionSpiral_RTP.bin
+vendor/firmware/vib_170/161_gameboxLaunch_RTP.bin
+vendor/firmware/vib_170/162_GestureBackPull_RTP.bin
+vendor/firmware/vib_170/163_GestureBackRelease_RTP.bin
+vendor/firmware/vib_170/164_alert_RTP.bin
+vendor/firmware/vib_170/165_feedbackNegativeLight_RTP.bin
+vendor/firmware/vib_170/166_feedbackNeutral_RTP.bin
+vendor/firmware/vib_170/167_feedbackPositive_RTP.bin
+vendor/firmware/vib_170/168_fingerprintRecord_RTP.bin
+vendor/firmware/vib_170/169_lockdown_RTP.bin
+vendor/firmware/vib_170/16_ringTone4_RTP.bin
+vendor/firmware/vib_170/170_slidingDamping_RTP.bin
+vendor/firmware/vib_170/171_todoAlldone_RTP.bin
+vendor/firmware/vib_170/172_uninstallAnimationIcon_RTP.bin
+vendor/firmware/vib_170/173_signalButtonHighlight_RTP.bin
+vendor/firmware/vib_170/174_signalButtonNegative_RTP.bin
+vendor/firmware/vib_170/175_signalButton_RTP.bin
+vendor/firmware/vib_170/176_signalClockHigh_RTP.bin
+vendor/firmware/vib_170/177_signalClock_RTP.bin
+vendor/firmware/vib_170/178_signalClockUnit_RTP.bin
+vendor/firmware/vib_170/179_signalInputbox_RTP.bin
+vendor/firmware/vib_170/17_ringTone4_RTP.bin
+vendor/firmware/vib_170/180_signalKeyHigh_RTP.bin
+vendor/firmware/vib_170/181_signalKeyUnit_RTP.bin
+vendor/firmware/vib_170/182_signalListHighlight_RTP.bin
+vendor/firmware/vib_170/183_signalList_RTP.bin
+vendor/firmware/vib_170/184_signalPicker_RTP.bin
+vendor/firmware/vib_170/185_signalPopup_RTP.bin
+vendor/firmware/vib_170/186_signalSeekbar_RTP.bin
+vendor/firmware/vib_170/187_signalSwitch_RTP.bin
+vendor/firmware/vib_170/188_signalTab_RTP.bin
+vendor/firmware/vib_170/189_signalText_RTP.bin
+vendor/firmware/vib_170/18_ringTone4_RTP.bin
+vendor/firmware/vib_170/190_signalTransitionLight_RTP.bin
+vendor/firmware/vib_170/191_signalTransition_RTP.bin
+vendor/firmware/vib_170/192_hapticsVideo_RTP.bin
+vendor/firmware/vib_170/19_ringTone4_RTP.bin
+vendor/firmware/vib_170/1_doubelClick_P_RTP.bin
+vendor/firmware/vib_170/20_ringTone4_RTP.bin
+vendor/firmware/vib_170/23_Candy_RTP.bin
+vendor/firmware/vib_170/24_Carousel_RTP.bin
+vendor/firmware/vib_170/25_Celesta_RTP.bin
+vendor/firmware/vib_170/26_Childhood_RTP.bin
+vendor/firmware/vib_170/27_Country_RTP.bin
+vendor/firmware/vib_170/28_Cowboy_RTP.bin
+vendor/firmware/vib_170/2_tick_P_RTP.bin
+vendor/firmware/vib_170/30_Fairyland_RTP.bin
+vendor/firmware/vib_170/31_Fantasy_RTP.bin
+vendor/firmware/vib_170/32_FieldTrip_RTP.bin
+vendor/firmware/vib_170/33_Glee_RTP.bin
+vendor/firmware/vib_170/35_IceLatte_RTP.bin
+vendor/firmware/vib_170/36_KungFu_RTP.bin
+vendor/firmware/vib_170/38_Lollipop_RTP.bin
+vendor/firmware/vib_170/39_MiMix2_RTP.bin
+vendor/firmware/vib_170/3_thud_P_RTP.bin
+vendor/firmware/vib_170/40_Mi_RTP.bin
+vendor/firmware/vib_170/41_MiHouse_RTP.bin
+vendor/firmware/vib_170/42_MiJazz_RTP.bin
+vendor/firmware/vib_170/43_MiRemix_RTP.bin
+vendor/firmware/vib_170/44_MountainSpring_RTP.bin
+vendor/firmware/vib_170/45_Orange_RTP.bin
+vendor/firmware/vib_170/46_WindChime_RTP.bin
+vendor/firmware/vib_170/47_SpaceAge_RTP.bin
+vendor/firmware/vib_170/48_ToyRobot_RTP.bin
+vendor/firmware/vib_170/49_Vigor_RTP.bin
+vendor/firmware/vib_170/4_pop_P_RTP.bin
+vendor/firmware/vib_170/50_Bottle_RTP.bin
+vendor/firmware/vib_170/51_Bubble_RTP.bin
+vendor/firmware/vib_170/521_AcousticGuitar_RTP.bin
+vendor/firmware/vib_170/52_Bullfrog_RTP.bin
+vendor/firmware/vib_170/53_Burst_RTP.bin
+vendor/firmware/vib_170/54_Chirp_RTP.bin
+vendor/firmware/vib_170/55_Clank_RTP.bin
+vendor/firmware/vib_170/56_Crystal_RTP.bin
+vendor/firmware/vib_170/57_FadeIn_RTP.bin
+vendor/firmware/vib_170/58_FadeOut_RTP.bin
+vendor/firmware/vib_170/59_Flute_RTP.bin
+vendor/firmware/vib_170/5_heavyClick_P_RTP.bin
+vendor/firmware/vib_170/60_Fresh_RTP.bin
+vendor/firmware/vib_170/61_Frog_RTP.bin
+vendor/firmware/vib_170/62_Guitar_RTP.bin
+vendor/firmware/vib_170/63_Harp_RTP.bin
+vendor/firmware/vib_170/64_IncomingMessage_RTP.bin
+vendor/firmware/vib_170/65_MessageSent_RTP.bin
+vendor/firmware/vib_170/66_Moment_RTP.bin
+vendor/firmware/vib_170/67_NotificationXylophone_RTP.bin
+vendor/firmware/vib_170/68_Potion_RTP.bin
+vendor/firmware/vib_170/69_Radar_RTP.bin
+vendor/firmware/vib_170/6_ringTone1_P_RTP.bin
+vendor/firmware/vib_170/70_Spring_RTP.bin
+vendor/firmware/vib_170/71_Swoosh_RTP.bin
+vendor/firmware/vib_170/72_GestureUpSlide_RTP.bin
+vendor/firmware/vib_170/73_fodMotionPlanet_RTP.bin
+vendor/firmware/vib_170/74_ChargeWire_RTP.bin
+vendor/firmware/vib_170/75_ChargeWireless_RTP.bin
+vendor/firmware/vib_170/76_UnlockFailed_RTP.bin
+vendor/firmware/vib_170/77_fodMotion1_RTP.bin
+vendor/firmware/vib_170/78_fodMotion2_RTP.bin
+vendor/firmware/vib_170/79_fodMotion3_RTP.bin
+vendor/firmware/vib_170/7_ringTone2_P_RTP.bin
+vendor/firmware/vib_170/80_fodMotion4_RTP.bin
+vendor/firmware/vib_170/81_fodMotionAurora_RTP.bin
+vendor/firmware/vib_170/82_FaceIDWrong2_RTP.bin
+vendor/firmware/vib_170/83_uninstallAnimation_RTP.bin
+vendor/firmware/vib_170/84_uninstallDialog_RTP.bin
+vendor/firmware/vib_170/85_screenshot_RTP.bin
+vendor/firmware/vib_170/86_lockscreenCameraEntry_RTP.bin
+vendor/firmware/vib_170/87_launcherEdit_RTP.bin
+vendor/firmware/vib_170/88_launcherIconSelection_RTP.bin
+vendor/firmware/vib_170/8_ringTone3_P_RTP.bin
+vendor/firmware/vib_170/90_taskCleanAll_RTP.bin
+vendor/firmware/vib_170/91_newIconFolder_RTP.bin
+vendor/firmware/vib_170/92_notificationRemove_RTP.bin
+vendor/firmware/vib_170/93_notificationCleanall_RTP.bin
+vendor/firmware/vib_170/96_nfcCard_RTP.bin
+vendor/firmware/vib_170/98_nfcCardSlow_RTP.bin
+vendor/firmware/vib_170/99_POCO_RTP.bin
+vendor/firmware/vib_170/9_ringTone4_P_RTP.bin
+
+# Android 16 linker/fstab/ueventd evidence
+vendor/etc/fstab.emmc
+vendor/etc/fstab.enableswap
+vendor/etc/fstab.mt6895
+vendor/etc/linker.config.pb
+vendor/etc/public.libraries.txt
+vendor/etc/ueventd.rc
+
+# Android 16 recursive init closure
+mi_ext/etc/init/init.miui.mi_ext.rc
+odm/etc/init/display.rc
+odm/etc/init/init.mfp-daemon.aidl.rc
+odm/etc/init/mrm_mitee.rc
+odm/etc/init/vendor.xiaomi.hardware.aidl.mtdservice-miteeservice.rc
+odm/etc/init/vendor.xiaomi.hardware.mlipay-miteeservice.rc
+odm/etc/init/vendor.xiaomi.hardware.soterservice-service.rc
+odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc
+system_ext/etc/init/aee_aed.rc
+system_ext/etc/init/aee_aed64.rc
+system_ext/etc/init/aee_aed64_v2.rc
+system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc
+system_ext/etc/init/android.hidl.allocator@1.0-service.rc
+system_ext/etc/init/bootlogoupdater.rc
+system_ext/etc/init/bpf_service.rc
+system_ext/etc/init/consyslogger.rc
+system_ext/etc/init/emdlogger.rc
+system_ext/etc/init/f2fs.dfc.native@1.0-service.rc
+system_ext/etc/init/hw/init.aee.rc
+system_ext/etc/init/hwservicemanager.rc
+system_ext/etc/init/hyper_bpfloader.rc
+system_ext/etc/init/hypsys_system.rc
+system_ext/etc/init/init.hbt.leroy.rc
+system_ext/etc/init/init.hbt.rc
+system_ext/etc/init/init.launch_boost.rc
+system_ext/etc/init/init.lbs_dbg.rc
+system_ext/etc/init/init.milletmonitor.rc
+system_ext/etc/init/init.misight.rc
+system_ext/etc/init/init.miui.cameraopt.rc
+system_ext/etc/init/init.miui.cust.rc
+system_ext/etc/init/init.miui.dumpaudiobinderInfo.rc
+system_ext/etc/init/init.miui.ext.rc
+system_ext/etc/init/init.nativedebug.rc
+system_ext/etc/init/init.offline.log.mtk.rc
+system_ext/etc/init/init.restore_aconfig_perm.rc
+system_ext/etc/init/init.secureboot.rc
+system_ext/etc/init/init.thermald.rc
+system_ext/etc/init/init.vtservice.rc
+system_ext/etc/init/init.xiaomi.cammsger.rc
+system_ext/etc/init/loghidlsysservice.rc
+system_ext/etc/init/magt.rc
+system_ext/etc/init/mbrain_client.rc
+system_ext/etc/init/mdi_redirector.rc
+system_ext/etc/init/mdlogger.rc
+system_ext/etc/init/mediaserver_dynamicMTK.rc
+system_ext/etc/init/memory.fbo.native@1.0-service.rc
+system_ext/etc/init/memory.swap.native@1.0-service.rc
+system_ext/etc/init/miuibooster.rc
+system_ext/etc/init/miupdater.rc
+system_ext/etc/init/miuserfs.rc
+system_ext/etc/init/mobile_log_d.rc
+system_ext/etc/init/mtk-plpath-utils.rc
+system_ext/etc/init/mtk_usermodehelper.rc
+system_ext/etc/init/native.hang@1.0-service.rc
+system_ext/etc/init/netdiag.rc
+system_ext/etc/init/terserver.rc
+system_ext/etc/init/virtual_keyboard.rc
+vendor/etc/boringssl_self_test.zygote64_32.rc
+vendor/etc/init/FastSwitch.rc
+vendor/etc/init/aee_aedv64_v2.rc
+vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc
+vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc
+vendor/etc/init/android.hardware.boot-service.mtk.rc
+vendor/etc/init/android.hardware.drm-service.clearkey.rc
+vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc
+vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc
+vendor/etc/init/android.hardware.graphics.composer@3.4-service.rc
+vendor/etc/init/android.hardware.health-service.example.rc
+vendor/etc/init/android.hardware.identity@5.0-service.mitee.rc
+vendor/etc/init/android.hardware.ir-service.example.rc
+vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc
+vendor/etc/init/android.hardware.security.keymint.mitee@4.0-service.rc
+vendor/etc/init/android.hardware.sensors-service-multihal.rc
+vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc
+vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc
+vendor/etc/init/android.hardware.wifi-service-lazy.rc
+vendor/etc/init/android.hardware.wifi.supplicant-service.rc
+vendor/etc/init/atcid.rc
+vendor/etc/init/audiocmdservice_atci.rc
+vendor/etc/init/bootperf.rc
+vendor/etc/init/boringssl_self_test.rc
+vendor/etc/init/dmc_core.rc
+vendor/etc/init/dms-service.rc
+vendor/etc/init/dumpstate-xiaomi.rc
+vendor/etc/init/eara-io-service.rc
+vendor/etc/init/fpsgo.rc
+vendor/etc/init/fuelgauged_init.rc
+vendor/etc/init/fuelgauged_nvram_init.rc
+vendor/etc/init/gpuserv-default.rc
+vendor/etc/init/gsm0710muxd.rc
+vendor/etc/init/hostapd.android.rc
+vendor/etc/init/hw/init.aee.rc
+vendor/etc/init/hw/init.batterysecret.rc
+vendor/etc/init/hw/init.cgroup.rc
+vendor/etc/init/hw/init.connectivity.common.rc
+vendor/etc/init/hw/init.connectivity.rc
+vendor/etc/init/hw/init.mi_thermald.rc
+vendor/etc/init/hw/init.modem.rc
+vendor/etc/init/hw/init.mt6895.rc
+vendor/etc/init/hw/init.mt6895.usb.rc
+vendor/etc/init/hw/init.mtkgki.rc
+vendor/etc/init/hw/init.project.rc
+vendor/etc/init/hw/init.sensor_2_0.rc
+vendor/etc/init/hw/init_conninfra.rc
+vendor/etc/init/hypsys_vendor.rc
+vendor/etc/init/init.bip_ap.rc
+vendor/etc/init/init.fpsgo.rc
+vendor/etc/init/init.frs.rc
+vendor/etc/init/init.thermal_core.rc
+vendor/etc/init/init.touch.rc
+vendor/etc/init/init.vendor.ins.rc
+vendor/etc/init/init.vtservice_aidl.rc
+vendor/etc/init/ipsec_mon.rc
+vendor/etc/init/lights-mtk-default.rc
+vendor/etc/init/loghidlvendorservice.rc
+vendor/etc/init/mbrain-mtk-default.rc
+vendor/etc/init/mcfota_service.rc
+vendor/etc/init/md_monitor.rc
+vendor/etc/init/memtrack-mediatek.rc
+vendor/etc/init/miteelog.rc
+vendor/etc/init/mtk_gnss.rc
+vendor/etc/init/mtk_lbs_service.rc
+vendor/etc/init/mtk_pkm_service.rc
+vendor/etc/init/mtk_storageproxyd.rc
+vendor/etc/init/mtklog.rc
+vendor/etc/init/mtkpower_applist-mtk-default.rc
+vendor/etc/init/muxreport.rc
+vendor/etc/init/networksetting.rc
+vendor/etc/init/neuronservice-mtk-default.rc
+vendor/etc/init/nfc-service-nxp.rc
+vendor/etc/init/secure_element-service.rc
+vendor/etc/init/slad.rc
+vendor/etc/init/tee-supplicant.rc
+vendor/etc/init/thermal-mediatek.rc
+vendor/etc/init/touch_boost.rc
+vendor/etc/init/v3avpud-64b.rc
+vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc
+vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc
+vendor/etc/init/vendor.mediatek.hardware.aee@V1-service.rc
+vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc
+vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc
+vendor/etc/init/vendor.mediatek.hardware.mms-service.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+vendor/etc/init/vendor.mediatek.hardware.nvram-sevice.rc
+vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc
+vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
+vendor/etc/init/vendor.qti.sla.service@2.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.mimd2-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys.core-service.rc
+vendor/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc
+vendor/etc/init/vgoservice.rc
+vendor/etc/init/vndservicemanager.rc
+vendor/etc/init/volte_clientapi_ua.rc
+
+# Android 16 stock audio/media configuration
+vendor/etc/audio_cloud_control_white_list.xml
+vendor/etc/audio_device.xml
+vendor/etc/audio_effects.xml
+vendor/etc/audio_effects_config.xml
+vendor/etc/audio_em.xml
+vendor/etc/audio_framework_configuration.xml
+vendor/etc/audio_game_effect_items.xml
+vendor/etc/audio_policy.conf
+vendor/etc/audio_policy_configuration.xml
+vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml
+vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml
+vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled_bms_enable.xml
+vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml
+vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable_bms_enable.xml
+vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/audiodata.db
+vendor/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml
+vendor/etc/bluetooth_audio_policy_configuration.xml
+vendor/etc/bluetooth_offload_audio_policy_configuration.xml
+vendor/etc/bluetooth_ums_offload_audio_policy_configuration.xml
+vendor/etc/media_codecs.xml
+vendor/etc/media_codecs_c2.xml
+vendor/etc/media_codecs_dolby_audio.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_codecs_system_default.xml
+vendor/etc/media_profiles_V1_0.xml
+vendor/etc/r_submix_audio_policy_configuration.xml
+vendor/etc/usb_audio_accessory_only_policy_configuration.xml
+vendor/etc/usb_audio_policy_configuration.xml
+
+# Android 16 symlink target
+vendor/lib64/hw/mt6895/vendor.mediatek.hardware.pq_aidl-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so
+vendor/lib64/hw/mt6895/vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl.so
+vendor/lib64/mt6895/aristotleimx596_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/aristotleimx596_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/aristotleimx707_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/aristotleimx707_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/aristotleov13b10_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/aristotleov13b10_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/aristotleov50d_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/aristotleov50d_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/lib3a.cculog.so;SYMLINK=vendor/lib64/lib3a.cculog.so
+vendor/lib64/mt6895/libAITrackingAFMgr.so;SYMLINK=vendor/lib64/libAITrackingAFMgr.so
+vendor/lib64/mt6895/libaaa_gma.so;SYMLINK=vendor/lib64/libaaa_gma.so
+vendor/lib64/mt6895/libapiwrapper.so;SYMLINK=vendor/lib64/libapiwrapper.so
+vendor/lib64/mt6895/libcam.hal3a.guard.so;SYMLINK=vendor/lib64/libcam.hal3a.guard.so
+vendor/lib64/mt6895/libcamalgo.eis.so;SYMLINK=vendor/lib64/libcamalgo.eis.so
+vendor/lib64/mt6895/libcamalgo.fdft.so;SYMLINK=vendor/lib64/libcamalgo.fdft.so
+vendor/lib64/mt6895/libcamalgo.fsc.so;SYMLINK=vendor/lib64/libcamalgo.fsc.so
+vendor/lib64/mt6895/libcamalgo.gyro.so;SYMLINK=vendor/lib64/libcamalgo.gyro.so
+vendor/lib64/mt6895/libcamalgo.lmv.so;SYMLINK=vendor/lib64/libcamalgo.lmv.so
+vendor/lib64/mt6895/libcamalgo.mcnr.so;SYMLINK=vendor/lib64/libcamalgo.mcnr.so
+vendor/lib64/mt6895/libcamalgo.n3d.so;SYMLINK=vendor/lib64/libcamalgo.n3d.so
+vendor/lib64/mt6895/libcamalgo.tsfs.so;SYMLINK=vendor/lib64/libcamalgo.tsfs.so
+vendor/lib64/mt6895/libcamalgo.vsdofUtil.so;SYMLINK=vendor/lib64/libcamalgo.vsdofUtil.so
+vendor/lib64/mt6895/libcameracustom_camera_db_ext.so;SYMLINK=vendor/lib64/libcameracustom_camera_db_ext.so
+vendor/lib64/mt6895/libdre.so;SYMLINK=vendor/lib64/libdre.so
+vendor/lib64/mt6895/libfeature.hdr10.so;SYMLINK=vendor/lib64/libfeature.hdr10.so
+vendor/lib64/mt6895/libfeaturepolicy.so;SYMLINK=vendor/lib64/libfeaturepolicy.so
+vendor/lib64/mt6895/libfeaturepolicy_dbhandler.so;SYMLINK=vendor/lib64/libfeaturepolicy_dbhandler.so
+vendor/lib64/mt6895/libhdrvideo.so;SYMLINK=vendor/lib64/libhdrvideo.so
+vendor/lib64/mt6895/libimgsys_tile.so;SYMLINK=vendor/lib64/libimgsys_tile.so
+vendor/lib64/mt6895/libmmagent.so;SYMLINK=vendor/lib64/libmmagent.so
+vendor/lib64/mt6895/libmml.so;SYMLINK=vendor/lib64/libmml.so
+vendor/lib64/mt6895/libmmlpqImpl.so;SYMLINK=vendor/lib64/libmmlpqImpl.so
+vendor/lib64/mt6895/libmtk_mali_user.so;SYMLINK=vendor/lib64/libmtk_mali_user.so
+vendor/lib64/mt6895/libmtkcam_externalisploader.so;SYMLINK=vendor/lib64/libmtkcam_externalisploader.so
+vendor/lib64/mt6895/libmtkcam_fdWarpConvert.so;SYMLINK=vendor/lib64/libmtkcam_fdWarpConvert.so
+vendor/lib64/mt6895/libmtkcam_grallocutils_aidlv2helper.so;SYMLINK=vendor/lib64/libmtkcam_grallocutils_aidlv2helper.so
+vendor/lib64/mt6895/libmtkcam_hal_aidl_common.so;SYMLINK=vendor/lib64/libmtkcam_hal_aidl_common.so
+vendor/lib64/mt6895/libmtkcam_hal_aidl_device.so;SYMLINK=vendor/lib64/libmtkcam_hal_aidl_device.so
+vendor/lib64/mt6895/libmtkcam_hal_aidl_provider.so;SYMLINK=vendor/lib64/libmtkcam_hal_aidl_provider.so
+vendor/lib64/mt6895/libmtkcam_hal_aidl_utils.so;SYMLINK=vendor/lib64/libmtkcam_hal_aidl_utils.so
+vendor/lib64/mt6895/libmtkcam_hal_custom_state.so;SYMLINK=vendor/lib64/libmtkcam_hal_custom_state.so
+vendor/lib64/mt6895/libmtkcam_pip.so;SYMLINK=vendor/lib64/libmtkcam_pip.so
+vendor/lib64/mt6895/libmtkcam_thirdparty.customzone.so;SYMLINK=vendor/lib64/libmtkcam_thirdparty.customzone.so
+vendor/lib64/mt6895/libpq_sec.so;SYMLINK=vendor/lib64/libpq_sec.so
+vendor/lib64/mt6895/libpqconfig.so;SYMLINK=vendor/lib64/libpqconfig.so
+
+
+
+# ELF dependency `android.frameworks.sensorservice@1.0.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/android.frameworks.sensorservice@1.0.so;MODULE_SUFFIX=-vendor
+
+
+
+
+# ELF dependency `android.hardware.audio.common@5.0.so` required by `vendor/lib64/hw/audio.primary.mediatek.so`
+vendor/lib64/android.hardware.audio.common@5.0.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.audio.core-impl-mediatek.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/android.hardware.audio.core-impl-mediatek.so
+
+
+
+
+# ELF dependency `android.hardware.audio.effect.aidl-impl-mediatek.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so
+
+
+# ELF dependency `android.hardware.biometrics.common.thread.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/android.hardware.biometrics.common.thread.so;MODULE_SUFFIX=-vendor
+
+
+
+
+
+
+# ELF dependency `android.hardware.bluetooth.audio-impl-mediatek.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
+
+# ELF dependency `android.hardware.bluetooth.audio@2.0.so` required by `vendor/lib64/libbluetooth_audio_session_aidl_mtk.so`
+vendor/lib64/android.hardware.bluetooth.audio@2.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.bluetooth.audio@2.1.so` required by `vendor/lib64/libbluetooth_audio_session_aidl_mtk.so`
+vendor/lib64/android.hardware.bluetooth.audio@2.1.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.boot@1.0.so` required by `vendor/lib64/android.hardware.boot@1.1.so`
+vendor/lib64/android.hardware.boot@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.boot@1.1.so` required by `vendor/bin/hw/android.hardware.boot-service.mtk`
+vendor/lib64/android.hardware.boot@1.1.so;MODULE_SUFFIX=-vendor
+
+
+
+# ELF dependency `android.hardware.camera.common@1.0.so` required by `vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so`
+vendor/lib64/android.hardware.camera.common@1.0.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.camera.device@1.0.so` required by `vendor/lib64/android.hardware.camera.provider@2.4.so`
+vendor/lib64/android.hardware.camera.device@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.camera.device@3.2.so` required by `vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so`
+vendor/lib64/android.hardware.camera.device@3.2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.camera.device@3.3.so` required by `vendor/lib64/android.hardware.camera.provider@2.6.so`
+vendor/lib64/android.hardware.camera.device@3.3.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.camera.device@3.4.so` required by `vendor/lib64/android.hardware.camera.provider@2.6.so`
+vendor/lib64/android.hardware.camera.device@3.4.so;MODULE_SUFFIX=-vendor
+
+
+
+# ELF dependency `android.hardware.camera.provider@2.4.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/android.hardware.camera.provider@2.4.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.camera.provider@2.5.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/android.hardware.camera.provider@2.5.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.camera.provider@2.6.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/android.hardware.camera.provider@2.6.so;MODULE_SUFFIX=-vendor
+
+
+
+
+
+
+
+
+
+# ELF dependency `android.hardware.graphics.allocator@2.0.so` required by `odm/lib64/hw/displayfeature.default.so`
+vendor/lib64/android.hardware.graphics.allocator@2.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.allocator@3.0.so` required by `odm/lib64/hw/displayfeature.default.so`
+vendor/lib64/android.hardware.graphics.allocator@3.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.allocator@4.0.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
+vendor/lib64/android.hardware.graphics.allocator@4.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.bufferqueue@1.0.so` required by `vendor/lib64/android.hardware.media.c2@1.0.so`
+vendor/lib64/android.hardware.graphics.bufferqueue@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.bufferqueue@2.0.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
+vendor/lib64/android.hardware.graphics.bufferqueue@2.0.so;MODULE_SUFFIX=-vendor
+
+
+
+# ELF dependency `android.hardware.graphics.common@1.0.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/android.hardware.graphics.common@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.common@1.1.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/android.hardware.graphics.common@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.common@1.2.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
+vendor/lib64/android.hardware.graphics.common@1.2.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.graphics.mapper@2.0.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/android.hardware.graphics.mapper@2.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.mapper@2.1.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/android.hardware.graphics.mapper@2.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.mapper@3.0.so` required by `odm/lib64/hw/displayfeature.default.so`
+vendor/lib64/android.hardware.graphics.mapper@3.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.graphics.mapper@4.0.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
+vendor/lib64/android.hardware.graphics.mapper@4.0.so;MODULE_SUFFIX=-vendor
+
+
+
+# ELF dependency `android.hardware.health@1.0.so` required by `vendor/bin/batterysecret`
+vendor/lib64/android.hardware.health@1.0.so;MODULE_SUFFIX=-vendor
+
+
+
+# ELF dependency `android.hardware.keymaster@3.0.so` required by `vendor/lib64/libkeymaster4support.so`
+vendor/lib64/android.hardware.keymaster@3.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.keymaster@4.0.so` required by `vendor/lib64/libkeymaster4support.so`
+vendor/lib64/android.hardware.keymaster@4.0.so;MODULE_SUFFIX=-vendor
+
+# Stock Mitee uses both frozen KeyMint generations in one vendor dependency graph
+vendor/lib64/android.hardware.security.keymint-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.security.keymint-V4-ndk.so;MODULE_SUFFIX=-vendor
+
+# Stock A16 frozen/current AIDL libraries paired with proprietary vendor consumers
+vendor/lib/android.frameworks.sensorservice-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.frameworks.sensorservice-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.frameworks.stats-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.frameworks.stats-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.audio.common-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.common-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.audio.common-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.common-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.core-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.core.sounddose-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.audio.core.sounddose-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.core.sounddose-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.audio.effect-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.effect-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.audio.effect-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.audio.effect-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.biometrics.common-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.biometrics.fingerprint-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.bluetooth-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.bluetooth.audio-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.bluetooth.audio-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.bluetooth.audio-V5-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.bluetooth.audio-V5-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.bluetooth.finder-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.bluetooth.ranging-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.boot-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.camera.common-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.camera.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.camera.device-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.camera.metadata-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.camera.provider-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.common.fmq-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.common.fmq-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.contexthub-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.drm-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.drm.common-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.dumpstate-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.gatekeeper-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.gnss-V5-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.graphics.allocator-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.graphics.allocator-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.graphics.common-V5-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.graphics.common-V6-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.graphics.common-V6-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.graphics.composer3-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.graphics.composer3-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.health-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.health-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.ir-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.keymaster-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.light-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.light-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.media.bufferpool2-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.media.bufferpool2-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.media.c2-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.media.c2-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.memtrack-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.nfc-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.power-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.power-V6-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.config-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.data-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.ims-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.messaging-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.modem-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.network-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.sap-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.sim-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.radio.voice-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.secure_element-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.security.keymint-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.security.rkp-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.security.secureclock-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.security.sharedsecret-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.sensors-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.sensors-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.sensors-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.sensors-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.soundtrigger3-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.hardware.soundtrigger3-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.soundtrigger3-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.tetheroffload-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.usb-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.usb.gadget-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.vibrator-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.wifi-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.wifi.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.wifi.hostapd-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.hardware.wifi.supplicant-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.media.audio.common.types-V2-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.media.audio.common.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.media.audio.common.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.media.audio.common.types-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.media.audio.common.types-V4-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.media.audio.eraser.types-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.media.audio.eraser.types-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.media.soundtrigger.types-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.media.soundtrigger.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.media.soundtrigger.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.system.keystore2-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/android.system.suspend-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/android.system.suspend-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib/vendor.mediatek.hardware.audio-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/vendor.mediatek.hardware.audio-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/vendor.nxp.nxpnfc_aidl-V1-ndk.so;MODULE_SUFFIX=-vendor
+vendor/lib64/vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk.so;MODULE_SUFFIX=-vendor
+
+
+
+# ELF dependency `android.hardware.light@2.0.so` required by `vendor/bin/factory`
+vendor/lib64/android.hardware.light@2.0.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.media.bufferpool@2.0.so` required by `vendor/lib64/libcodec2_vndk.so`
+vendor/lib64/android.hardware.media.bufferpool@2.0.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.media.c2@1.0.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
+vendor/lib64/android.hardware.media.c2@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.media.c2@1.1.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
+vendor/lib64/android.hardware.media.c2@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.media.c2@1.2.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
+vendor/lib64/android.hardware.media.c2@1.2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.media.omx@1.0.so` required by `vendor/lib64/android.hardware.media.c2@1.0.so`
+vendor/lib64/android.hardware.media.omx@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.media@1.0.so` required by `vendor/lib64/android.hardware.media.c2@1.0.so`
+vendor/lib64/android.hardware.media@1.0.so;MODULE_SUFFIX=-vendor
+
+
+
+# ELF dependency `android.hardware.nfc@1.0.so` required by `vendor/lib64/android.hardware.nfc@1.2.so`
+vendor/lib64/android.hardware.nfc@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.nfc@1.1.so` required by `vendor/lib64/android.hardware.nfc@1.2.so`
+vendor/lib64/android.hardware.nfc@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.nfc@1.2.so` required by `vendor/bin/hw/android.hardware.nqnfc-service.nxp`
+vendor/lib64/android.hardware.nfc@1.2.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.power-service-mediatek.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek`
+vendor/lib64/android.hardware.power-service-mediatek.so
+
+# ELF dependency `android.hardware.power@1.0.so` required by `vendor/lib64/mt6895/libmtkcam_hwutils_android.so`
+vendor/lib64/android.hardware.power@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.power@1.1.so` required by `vendor/lib64/vendor.mediatek.hardware.power@2.0.so`
+vendor/lib64/android.hardware.power@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.power@1.2.so` required by `vendor/lib64/vendor.mediatek.hardware.power@2.0.so`
+vendor/lib64/android.hardware.power@1.2.so;MODULE_SUFFIX=-vendor
+
+
+
+
+
+
+
+
+
+
+
+
+# ELF dependency `android.hardware.secure_element@1.0.so` required by `vendor/lib64/libmigpese@2.0.so`
+vendor/lib64/android.hardware.secure_element@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.secure_element@1.1.so` required by `vendor/lib64/android.hardware.secure_element@1.2.so`
+vendor/lib64/android.hardware.secure_element@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.secure_element@1.2.so` required by `vendor/lib64/libmigpese@2.0.so`
+vendor/lib64/android.hardware.secure_element@1.2.so;MODULE_SUFFIX=-vendor
+
+
+
+
+
+
+
+
+
+# ELF dependency `android.hardware.sensors@1.0.so` required by `vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so`
+vendor/lib64/android.hardware.sensors@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.sensors@2.0-ScopedWakelock.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
+vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.sensors@2.0.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
+vendor/lib64/android.hardware.sensors@2.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hardware.sensors@2.1.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
+vendor/lib64/android.hardware.sensors@2.1.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `android.hardware.soundtrigger3-impl.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/hw/android.hardware.soundtrigger3-impl.so;MODULE_SUFFIX=-vendor
+
+
+
+
+
+
+
+
+
+# ELF dependency `android.hidl.allocator@1.0.so` required by `system_ext/bin/hypsys_system`
+vendor/lib64/android.hidl.allocator@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hidl.memory.token@1.0.so` required by `vendor/lib64/libhidlmemory.so`
+vendor/lib64/android.hidl.memory.token@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hidl.memory@1.0.so` required by `system_ext/bin/hypsys_system`
+vendor/lib64/android.hidl.memory@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hidl.safe_union@1.0.so` required by `vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so`
+vendor/lib64/android.hidl.safe_union@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hidl.token@1.0-utils.so` required by `vendor/lib64/libstagefright_bufferqueue_helper.so`
+vendor/lib64/android.hidl.token@1.0-utils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `android.hidl.token@1.0.so` required by `vendor/lib64/android.hidl.token@1.0-utils.so`
+vendor/lib64/android.hidl.token@1.0.so;MODULE_SUFFIX=-vendor
+
+
+
+
+
+
+
+# ELF dependency `android.system.suspend@1.0.so` required by `vendor/bin/factory`
+vendor/lib64/android.system.suspend@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `com.fingerprints.extension3-V1-ndk.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/com.fingerprints.extension3-V1-ndk.so
+
+# ELF dependency `libAF.so` required by `vendor/lib64/mt6895/libmtkcam_hwnode.so`
+vendor/lib64/libAF.so
+
+# ELF dependency `libBlAlgointf.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/libBlAlgointf.so
+
+# ELF dependency `libGLES_meow.so` required by `vendor/lib64/egl/libMEOW_trace.so`
+
+# ELF dependency `libHISCppAlgos.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libHISCppAlgos.so
+
+# ELF dependency `libHardwareBacklightcore.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/libHardwareBacklightcore.so
+
+# ELF dependency `libMiPhotoFilter.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libMiPhotoFilter.so
+
+# ELF dependency `lib_android_keymaster_keymint_utils.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
+vendor/lib64/lib_android_keymaster_keymint_utils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libaaa_flickerutil.so` required by `vendor/lib64/mt6895/lib3a.flicker.so`
+vendor/lib64/libaaa_flickerutil.so
+
+# ELF dependency `libaal_sec.so` required by `vendor/lib64/libdre.so`
+vendor/lib64/libaal_sec.so
+
+# ELF dependency `libaconfig_storage_read_api_cc.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
+vendor/lib64/libaconfig_storage_read_api_cc.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libaed.so` required by `system_ext/bin/aee`
+system_ext/lib/libaed.so
+system_ext/lib64/libaed.so
+
+# ELF dependency `libalgobaseutils.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libalgobaseutils.so
+
+# ELF dependency `libalsautilsv2.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/libalsautilsv2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libarcsoft_super_night_detection.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libarcsoft_super_night_detection.so
+
+# ELF dependency `libasn1c_core.so` required by `vendor/lib64/libtranslator_utils.so`
+vendor/lib64/libasn1c_core.so
+
+# ELF dependency `libaudio_aidl_conversion_common_ndk.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/libaudio_aidl_conversion_common_ndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libaudioaidlcommon.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/libaudioaidlcommon.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libaudiocloudctrl.so` required by `vendor/lib64/hw/audio.primary.mediatek.so`
+vendor/lib64/libaudiocloudctrl.so
+
+# ELF dependency `libaudioutils.so` required by `vendor/bin/factory`
+vendor/lib64/libaudioutils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libavservices_minijail.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
+vendor/lib64/libavservices_minijail.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libbase.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libbase.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libbinder.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libbinder.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libbluetooth_audio_session_aidl_mtk.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/libbluetooth_audio_session_aidl_mtk.so
+
+# ELF dependency `libboost.so` required by `system_ext/bin/mcd`
+system_ext/lib64/libboost.so
+
+# ELF dependency `libc++.so` required by `odm/bin/hw/mfp-daemon`
+
+# ELF dependency `libcam.halsensor.hwintegration_mt6895.so` required by `vendor/lib64/mt6895/libcam.halsensor.so`
+vendor/lib64/libcam.halsensor.hwintegration_mt6895.so
+
+# ELF dependency `libcamera_metadata.so` required by `vendor/lib64/hw/mt6895/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so`
+vendor/lib64/libcamera_metadata.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcamlog.so` required by `vendor/lib64/mt6895/libmtkcam.debugwrapper.so`
+vendor/lib64/libcamlog.so
+
+# ELF dependency `libcap.so` required by `vendor/lib64/libminijail.so`
+vendor/lib64/libcap.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcdsprpc.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libcdsprpc.so
+
+# ELF dependency `libclang_rt.ubsan_standalone-aarch64-android.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.secure_element-service`
+vendor/lib64/libclang_rt.ubsan_standalone-aarch64-android.so
+
+# ELF dependency `libcodec2.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
+vendor/lib64/libcodec2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_aidl.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
+vendor/lib64/libcodec2_aidl.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_fsr.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
+vendor/lib64/libcodec2_fsr.so
+
+# ELF dependency `libcodec2_hal_common.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
+vendor/lib64/libcodec2_hal_common.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_hidl@1.0.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
+vendor/lib64/libcodec2_hidl@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_hidl@1.1.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
+vendor/lib64/libcodec2_hidl@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_hidl@1.2.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
+vendor/lib64/libcodec2_hidl@1.2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_hidl_plugin.so` required by `vendor/lib64/libcodec2_aidl.so`
+vendor/lib64/libcodec2_hidl_plugin.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_soft_common.so` required by `vendor/lib64/libcodec2_mtk_c2store.so`
+vendor/lib64/libcodec2_soft_common.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_store_dolby.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
+vendor/lib64/libcodec2_store_dolby.so
+
+# ELF dependency `libcodec2_vndk.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
+vendor/lib64/libcodec2_vndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcodec2_vpp_chdr_plugin.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
+vendor/lib64/libcodec2_vpp_chdr_plugin.so
+
+# ELF dependency `libcodec2_vpp_fa_plugin.so` required by `vendor/lib64/libcodec2_mtk_venc.so`
+vendor/lib64/libcodec2_vpp_fa_plugin.so
+
+# ELF dependency `libcodec2_vpp_ft_plugin.so` required by `vendor/lib64/libcodec2_mtk_venc.so`
+vendor/lib64/libcodec2_vpp_ft_plugin.so
+
+# ELF dependency `libcodec2_vpp_mi_plugin.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
+vendor/lib64/libcodec2_vpp_mi_plugin.so
+
+# ELF dependency `libcodec2_vpp_roi_plugin.so` required by `vendor/lib64/libcodec2_mtk_venc.so`
+vendor/lib64/libcodec2_vpp_roi_plugin.so
+
+# ELF dependency `libcom.xiaomi.debug.so` required by `vendor/lib64/libcom.xiaomi.pluginutils.so`
+vendor/lib64/libcom.xiaomi.debug.so
+
+# ELF dependency `libcom.xiaomi.eventcallback.so` required by `vendor/lib64/hw/vendor.xiaomi.hardware.aidlbgservice-V1-impl.so`
+vendor/lib64/libcom.xiaomi.eventcallback.so
+
+# ELF dependency `libcom.xiaomi.grallocutils.so` required by `vendor/lib64/libmialgoengine.so`
+vendor/lib64/libcom.xiaomi.grallocutils.so
+
+# ELF dependency `libcom.xiaomi.metadatautils.so` required by `vendor/lib64/libcom.xiaomi.pluginutils.so`
+vendor/lib64/libcom.xiaomi.metadatautils.so
+
+# ELF dependency `libcom.xiaomi.mizone.cpupolicy.so` required by `vendor/lib64/libcom.xiaomi.mizone.so`
+vendor/lib64/libcom.xiaomi.mizone.cpupolicy.so
+
+# ELF dependency `libcom.xiaomi.mizone.decoupleutil.so` required by `vendor/lib64/libcom.xiaomi.mizone.so`
+vendor/lib64/libcom.xiaomi.mizone.decoupleutil.so
+
+# ELF dependency `libcom.xiaomi.mizone.so` required by `vendor/lib64/mt6895/libmtkcam_hal_custom.so`
+vendor/lib64/libcom.xiaomi.mizone.so
+
+# ELF dependency `libcomutils.so` required by `system_ext/lib64/libimsma.so`
+system_ext/lib64/libcomutils.so
+
+# ELF dependency `libcppbor.so` required by `vendor/lib64/libkeymint.so`
+vendor/lib64/libcppbor.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcppbor_external.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
+vendor/lib64/libcppbor_external.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcppcose_rkp.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
+vendor/lib64/libcppcose_rkp.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcrypto.so` required by `odm/bin/mtd_mitee`
+vendor/lib/libcrypto.so;MODULE_SUFFIX=-vendor
+vendor/lib64/libcrypto.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcurl.so` required by `vendor/bin/mnld`
+vendor/lib64/libcurl.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libcutils.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libcutils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libdapparamstorage.so` required by `vendor/bin/hw/vendor.dolby.dms.service`
+vendor/lib64/libdapparamstorage.so
+
+# ELF dependency `libdfintf.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/libdfintf.so
+
+# ELF dependency `libdisplayfeature.so` required by `vendor/lib64/libdisplayfeatureservice.so`
+vendor/lib64/libdisplayfeature.so
+
+# ELF dependency `libdisplayfeatureservice.so` required by `vendor/bin/displayfeature`
+vendor/lib64/libdisplayfeatureservice.so
+
+# ELF dependency `libdlbdsservice.so` required by `vendor/bin/hw/vendor.dolby.dms.service`
+vendor/lib64/libdlbdsservice.so
+
+# ELF dependency `libdmabufheap.so` required by `vendor/lib64/egl/mt6895/libGLES_mali.so`
+vendor/lib64/libdmabufheap.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libdmshal.so` required by `vendor/bin/hw/vendor.dolby.dms.service`
+vendor/lib64/libdmshal.so
+
+# ELF dependency `libdrm.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
+vendor/lib64/libdrm.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libdumpstateutil.so` required by `vendor/bin/hw/android.hardware.dumpstate-service.xiaomi`
+vendor/lib64/libdumpstateutil.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libellv.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libellv.so
+
+# ELF dependency `libexpat.so` required by `system_ext/bin/DfcNativeService`
+vendor/lib64/libexpat.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libfdpp.so` required by `system_ext/bin/fdpp`
+system_ext/lib64/libfdpp.so
+
+# ELF dependency `libfft_vendor.so` required by `vendor/bin/factory`
+vendor/lib64/libfft_vendor.so
+
+# ELF dependency `libflatbuffers-cpp.so` required by `vendor/lib64/libbluetooth_audio_session_aidl_mtk.so`
+vendor/lib64/libflatbuffers-cpp.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libfmq.so` required by `odm/bin/mrmd_mitee`
+vendor/lib64/libfmq.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libfsutils.so` required by `system_ext/bin/FboNativeService`
+system_ext/lib64/libfsutils.so
+
+# ELF dependency `libgatekeeper.so` required by `vendor/bin/hw/android.hardware.gatekeeper-service.mitee`
+vendor/lib64/libgatekeeper.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libgralloctypes.so` required by `vendor/lib64/egl/mt6895/libGLES_mali.so`
+vendor/lib64/libgralloctypes.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libgrallocusage.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/libgrallocusage.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libhardware.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libhardware.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libhardware_legacy.so` required by `vendor/bin/ccci_mdinit`
+vendor/lib64/libhardware_legacy.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libhfmanagerwrapper.so` required by `vendor/bin/factory`
+vendor/lib64/libhfmanagerwrapper.so
+
+# ELF dependency `libhidlbase.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libhidlbase.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libhidlmemory.so` required by `system_ext/bin/DfcNativeService`
+vendor/lib64/libhidlmemory.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libhidltransport.so` required by `system_ext/bin/lbs_dbg_ext`
+vendor/lib64/libhidltransport.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libhis_face_tracking.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libhis_face_tracking.so
+
+# ELF dependency `libhis_motion_tracker.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libhis_motion_tracker.so
+
+# ELF dependency `libhwbinder.so` required by `vendor/bin/factory`
+vendor/lib64/libhwbinder.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libicd_decoder.so` required by `vendor/bin/dmc_core`
+vendor/lib64/libicd_decoder.so
+
+# ELF dependency `libimsma.so` required by `system_ext/lib64/libmtk_vt_service.so`
+system_ext/lib64/libimsma.so
+
+# ELF dependency `libimsma_adapt.so` required by `system_ext/lib64/libimsma_rtp.so`
+system_ext/lib64/libimsma_adapt.so
+
+# ELF dependency `libimsma_rtp.so` required by `system_ext/lib64/libmtk_vt_service.so`
+system_ext/lib64/libimsma_rtp.so
+
+# ELF dependency `libimsma_socketwrapper.so` required by `system_ext/lib64/libimsma_rtp.so`
+system_ext/lib64/libimsma_socketwrapper.so
+
+# ELF dependency `libion.so` required by `odm/bin/mrmd_mitee`
+vendor/lib64/libion.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libjpeg.so` required by `vendor/bin/factory`
+vendor/lib64/libjpeg.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libjsoncpp.so` required by `system_ext/bin/DfcNativeService`
+vendor/lib64/libjsoncpp.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libkeymaster4support.so` required by `odm/lib64/libmt_mitee.so`
+vendor/lib64/libkeymaster4support.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libkeymaster_messages.so` required by `vendor/bin/hw/android.hardware.identity-service.mitee@5.0`
+vendor/lib64/libkeymaster_messages.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libkeymaster_portable.so` required by `vendor/lib64/libkeymint.so`
+vendor/lib64/libkeymaster_portable.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libkeymint.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
+vendor/lib64/libkeymint.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libkeymint_remote_prov_support.so` required by `odm/lib64/libmt_mitee.so`
+vendor/lib64/libkeymint_remote_prov_support.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libkeymint_support.so` required by `odm/lib64/libmt_mitee.so`
+vendor/lib64/libkeymint_support.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libkeystore-engine-wifi-hidl.so` required by `vendor/bin/hw/wpa_supplicant`
+vendor/lib64/libkeystore-engine-wifi-hidl.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libladder.so` required by `vendor/bin/factory`
+vendor/lib64/libladder.so
+
+# ELF dependency `liblzma.so` required by `vendor/lib64/libunwindstack.so`
+vendor/lib64/liblzma.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libmagt.so` required by `system_ext/bin/magt`
+system_ext/lib64/libmagt.so
+
+# ELF dependency `libmagtsync.so` required by `system_ext/lib64/libmagt.so`
+system_ext/lib64/libmagtsync.so
+
+# ELF dependency `libmedia_helper.so` required by `system_ext/bin/hw/android.hardware.audio.parameter_parser.service`
+vendor/lib64/libmedia_helper.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libmediautils_vendor.so` required by `vendor/lib/hw/vendor.mediatek.hardware.audio-impl.so`
+vendor/lib64/libmediautils_vendor.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libmeminfo.so` required by `system_ext/lib64/libmagt.so`
+vendor/lib64/libmeminfo.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libmemunreachable.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.secure_element-service`
+vendor/lib64/libmemunreachable.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libmialgo_ai_vision.so` required by `vendor/lib64/libmialgo_sd.so`
+vendor/lib64/libmialgo_ai_vision.so
+
+# ELF dependency `libmialgo_aio_seg.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libmialgo_aio_seg.so
+
+# ELF dependency `libmialgo_video_seg_depth.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libmialgo_video_seg_depth.so
+
+# ELF dependency `libmialgoengine.so` required by `vendor/lib64/libcom.xiaomi.mizone.so`
+vendor/lib64/libmialgoengine.so
+
+# ELF dependency `libmigpese@2.0.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.secure_element-service`
+vendor/lib64/libmigpese@2.0.so
+
+# ELF dependency `libminijail.so` required by `vendor/lib64/libavservices_minijail.so`
+vendor/lib64/libminijail.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libmiphone_preview_bokeh.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libmiphone_preview_bokeh.so
+
+# ELF dependency `libmiphone_preview_bokeh_mono.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libmiphone_preview_bokeh_mono.so
+
+# ELF dependency `libmiphone_preview_depth.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libmiphone_preview_depth.so
+
+# ELF dependency `libmiphone_preview_mdbokeh.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libmiphone_preview_mdbokeh.so
+
+# ELF dependency `libmisight.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libmisight.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libmisight.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/libmisight.so
+
+# ELF dependency `libmorpho_video_stabilizer.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libmorpho_video_stabilizer.so
+
+# ELF dependency `libmqsas.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/libmqsas.so
+
+# ELF dependency `libmtk_bsg.so` required by `vendor/bin/hw/android.hardware.boot-service.mtk`
+vendor/lib64/libmtk_bsg.so
+
+# ELF dependency `libmtk_vt_service.so` required by `system_ext/bin/vtservice`
+system_ext/lib64/libmtk_vt_service.so
+
+# ELF dependency `libmtkcam_hal_custom_utils.so` required by `vendor/lib64/mt6895/libmtkcam_hal_custom.so`
+vendor/lib64/libmtkcam_hal_custom_utils.so
+
+# ELF dependency `libmtkcam_metadata_ext.so` required by `vendor/lib64/mt6895/libmtkcam_metaconv.so`
+vendor/lib64/libmtkcam_metadata_ext.so
+
+# ELF dependency `libmtkgpuserv.so` required by `vendor/bin/hw/vendor.mediatek.hardware.gpuserv-service`
+vendor/lib64/libmtkgpuserv.so
+
+# ELF dependency `libmtkisp_metadata_v3_12.so` required by `vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal_aidl@1.0-impl.so`
+vendor/lib64/libmtkisp_metadata_v3_12.so
+
+# ELF dependency `libmvpu_runtime_builtin.so` required by `vendor/lib64/libmvpu_runtime.so`
+vendor/lib64/libmvpu_runtime_builtin.so
+
+# ELF dependency `libmvpu_wrapper.so` required by `vendor/lib64/mt6895/libAIOTcore.so`
+vendor/lib64/libmvpu_wrapper.so
+
+# ELF dependency `libnbaio_mono.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/libnbaio_mono.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libnetutils.so` required by `system_ext/bin/loghidlsysservice`
+vendor/lib64/libnetutils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libneuralnetworks_sl_driver_mtk_prebuilt.so` required by `vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk`
+vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so
+
+# ELF dependency `libnl.so` required by `system_ext/bin/hypsys_system`
+vendor/lib64/libnl.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `liboctvm.so` required by `system_ext/bin/mcd`
+system_ext/lib64/liboctvm.so
+
+# ELF dependency `liboctvm_drv.so` required by `system_ext/bin/mcd`
+system_ext/lib64/liboctvm_drv.so
+
+# ELF dependency `liboctvm_runtime.so` required by `system_ext/bin/mcd`
+system_ext/lib64/liboctvm_runtime.so
+
+# ELF dependency `liboctvm_utils.so` required by `system_ext/bin/mcd`
+system_ext/lib64/liboctvm_utils.so
+
+# ELF dependency `libomp.so` required by `vendor/lib64/libmiphone_preview_bokeh.so`
+vendor/lib64/libomp.so
+
+# ELF dependency `libpcap.so` required by `vendor/bin/tcpdump-vendor`
+vendor/lib64/libpcap.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libpcap_bak.so` required by `system_ext/bin/netdiag`
+system_ext/lib64/libpcap_bak.so
+
+# ELF dependency `libpng.so` required by `vendor/bin/hw/android.hardware.health-service.example`
+vendor/lib64/libpng.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libpower.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
+vendor/lib64/libpower.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libpower_timer.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek`
+vendor/lib64/libpower_timer.so
+
+# ELF dependency `libpowerhal.so` required by `vendor/lib/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so`
+vendor/lib64/libpowerhal.so
+
+# ELF dependency `libpqcustutils.so` required by `vendor/lib64/libmmlpqImpl.so`
+vendor/lib64/libpqcustutils.so
+
+# ELF dependency `libpqhdrmetaparser.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/libpqhdrmetaparser.so
+
+# ELF dependency `libpqsharememory.so` required by `vendor/lib64/mt6895/libdpframework.so`
+vendor/lib64/libpqsharememory.so
+
+# ELF dependency `libpqtuning.so` required by `vendor/lib64/mt6895/libdpframework.so`
+vendor/lib64/libpqtuning.so
+
+# ELF dependency `libpqxmlflagparser.so` required by `vendor/lib64/mt6895/libpqparamparser.so`
+vendor/lib64/libpqxmlflagparser.so
+
+# ELF dependency `libpqxmlparser.so` required by `vendor/lib64/libmmlpqImpl.so`
+vendor/lib64/libpqxmlparser.so
+
+# ELF dependency `libprocessgroup.so` required by `system_ext/bin/iorapd`
+vendor/lib64/libprocessgroup.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libprocinfo.so` required by `system_ext/bin/inject_mgr`
+vendor/lib64/libprocinfo.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libprotobuf-cpp-lite-21.12.so` required by `vendor/bin/hw/android.hardware.drm-service.clearkey`
+vendor/lib64/libprotobuf-cpp-lite-21.12.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libpuresoftkeymasterdevice.so` required by `vendor/lib64/libkeymint.so`
+vendor/lib64/libpuresoftkeymasterdevice.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `librfs_warp.so` required by `vendor/lib64/mt6895/libmtkcam.featurepipe.capture.so`
+vendor/lib64/librfs_warp.so
+
+# ELF dependency `librilutils.so` required by `vendor/lib64/libmtk-fusion-ril-prop-vsim.so`
+vendor/lib64/librilutils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libsdrparser.so` required by `vendor/lib64/mt6895/libpqparamparser.so`
+vendor/lib64/libsdrparser.so
+
+# ELF dependency `libsensorndkbridge.so` required by `vendor/bin/mnld`
+vendor/lib64/libsensorndkbridge.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libsfplugin_ccodec_utils.so` required by `vendor/lib64/libcodec2_mtk_c2store.so`
+vendor/lib64/libsfplugin_ccodec_utils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libshell.so` required by `system_ext/lib64/libshellservice.so`
+system_ext/lib64/libshell.so
+
+# ELF dependency `libshell_jni.so` required by `system_ext/bin/shelld`
+system_ext/lib64/libshell_jni.so
+
+# ELF dependency `libshellservice.so` required by `system_ext/bin/shelld`
+system_ext/lib64/libshellservice.so
+
+# ELF dependency `libsignal.so` required by `system_ext/lib64/libimsma.so`
+system_ext/lib64/libsignal.so
+
+# ELF dependency `libsilkybrightnesscore.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/libsilkybrightnesscore.so
+
+# ELF dependency `libsink.so` required by `system_ext/lib64/libimsma.so`
+system_ext/lib64/libsink.so;MODULE_SUFFIX=-xiaomi
+
+# ELF dependency `libskuparser_cpp.so` required by `system_ext/bin/connsyslogger`
+system_ext/lib64/libskuparser_cpp.so
+
+# ELF dependency `libskuparser_ffi.so` required by `system_ext/lib64/libskuparser_cpp.so`
+system_ext/lib64/libskuparser_ffi.so
+
+# Stock Rust dylib runtime required by `system_ext/lib64/libskuparser_ffi.so`
+system/lib64/libcesu8.dylib.so
+system/lib64/libcxx.dylib.so
+system/lib64/libjni.dylib.so
+system/lib64/liblog_rust.dylib.so
+system/lib64/libstd.dylib.so
+system/lib64/libxml_rust.dylib.so
+
+# Stock A16 pair required by the system_ext audio parameter parser
+system/lib64/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-stock
+system/lib64/av-audio-types-aidl-ndk.so;MODULE_SUFFIX=-stock
+
+# ELF dependency `libsoft_attestation_cert.so` required by `vendor/lib64/libpuresoftkeymasterdevice.so`
+vendor/lib64/libsoft_attestation_cert.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libsource.so` required by `system_ext/lib64/libmtk_vt_service.so`
+system_ext/lib64/libsource.so
+
+# ELF dependency `libspeexresampler.so` required by `vendor/lib64/libaudioutils.so`
+vendor/lib64/libspeexresampler.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libsqlite.so` required by `system_ext/bin/DfcNativeService`
+vendor/lib64/libsqlite.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libssl.so` required by `system_ext/bin/hypsys_system`
+vendor/lib64/libssl.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libstagefright_aidl_bufferpool2.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
+vendor/lib64/libstagefright_aidl_bufferpool2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libstagefright_bufferpool@2.0.1.so` required by `vendor/lib64/libcodec2_vndk.so`
+vendor/lib64/libstagefright_bufferpool@2.0.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libstagefright_bufferqueue_helper.so` required by `vendor/lib64/libcodec2_hidl@1.0.so`
+vendor/lib64/libstagefright_bufferqueue_helper.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libstagefright_foundation.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libstagefright_foundation.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libsysutils.so` required by `system_ext/bin/loghidlsysservice`
+vendor/lib64/libsysutils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libteecli.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libteecli.so
+
+# ELF dependency `libterservice.so` required by `system_ext/bin/terservice`
+system_ext/lib64/libterservice.so
+
+# ELF dependency `libtextclassifier_hash.so` required by `vendor/lib64/libtflite.so`
+vendor/lib64/libtextclassifier_hash.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libtflite.so` required by `vendor/bin/displayfeature`
+vendor/lib64/libtflite.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libtinyalsa.so` required by `vendor/bin/factory`
+vendor/lib64/libtinyalsa.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libtinyalsav2.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/libtinyalsav2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libtinycompress.so` required by `vendor/bin/factory`
+vendor/lib64/libtinycompress.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libtinyxml2.so` required by `system_ext/bin/miupdater`
+vendor/lib64/libtinyxml2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libtranslator_utils.so` required by `vendor/bin/dmc_core`
+vendor/lib64/libtranslator_utils.so
+
+# ELF dependency `libtrusty.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
+vendor/lib64/libtrusty.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libui.so` required by `odm/bin/hw/vendor.xiaomi.hw.touchfeature-service`
+vendor/lib64/libui.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libunwindstack.so` required by `system_ext/bin/aee_aed`
+vendor/lib64/libunwindstack.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libutils.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/libutils.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libutilscallstack.so` required by `vendor/lib64/egl/libMEOW_gift.so`
+vendor/lib64/libutilscallstack.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libvcodec_cap.so` required by `system_ext/lib64/libmtk_vt_service.so`
+system_ext/lib64/libvcodec_cap.so
+
+# ELF dependency `libvcodec_capenc.so` required by `system_ext/lib64/libvcodec_cap.so`
+system_ext/lib64/libvcodec_capenc.so
+
+# ELF dependency `libvgoservice.so` required by `vendor/bin/hw/vendor.mediatek.hardware.vgoservice`
+vendor/lib64/libvgoservice.so
+
+# ELF dependency `libvideoBokeh.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libvideoBokeh.so
+
+# ELF dependency `libvow_comp_test.so` required by `vendor/lib64/hw/sound_trigger.primary.default.so`
+vendor/lib64/libvow_comp_test.so
+
+# ELF dependency `libvt_avsync.so` required by `system_ext/lib64/libmtk_vt_service.so`
+system_ext/lib64/libvt_avsync.so
+
+# ELF dependency `libwa_opticalzoomfactor.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libwa_opticalzoomfactor.so
+
+# ELF dependency `libwa_sat.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
+vendor/lib64/libwa_sat.so
+
+# ELF dependency `libwifi-system-iface.so` required by `vendor/bin/hw/android.hardware.wifi-service-lazy`
+vendor/lib64/libwifi-system-iface.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libwifical.so` required by `vendor/bin/meta_tst`
+vendor/lib64/libwifical.so
+
+# ELF dependency `libwifinvram.so` required by `vendor/bin/meta_tst`
+vendor/lib64/libwifinvram.so
+
+# ELF dependency `libwifitest.so` required by `vendor/bin/atcid`
+vendor/lib64/libwifitest.so
+
+# ELF dependency `libwifitesttool.so` required by `vendor/bin/meta_tst`
+vendor/lib64/libwifitesttool.so
+
+# ELF dependency `libxml2.so` required by `system_ext/bin/misight`
+vendor/lib64/libxml2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `libz.so` required by `system_ext/bin/aee`
+vendor/lib64/libz.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `miui-native-nativehang-aidl-cpp.so` required by `system_ext/bin/NativeHangService`
+system_ext/lib64/miui-native-nativehang-aidl-cpp.so
+
+# ELF dependency `miui.mqsas.native-cpp.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/miui.mqsas.native-cpp.so
+
+# ELF dependency `miui_f2fs_io.so` required by `system_ext/bin/DfcNativeService`
+system_ext/lib64/miui_f2fs_io.so
+
+# ELF dependency `mtk_lbs_service-impl.so` required by `vendor/bin/mtk_lbs_service`
+vendor/lib64/mtk_lbs_service-impl.so
+
+# ELF dependency `nfc_nci.nqx.default.hw.so` required by `vendor/bin/hw/android.hardware.nqnfc-service.nxp`
+vendor/lib64/nfc_nci.nqx.default.hw.so
+
+# ELF dependency `nwk_opt_imp.so` required by `vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service`
+vendor/lib64/nwk_opt_imp.so
+
+# ELF dependency `server_configurable_flags.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
+vendor/lib64/server_configurable_flags.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.dolby.dms-V1-ndk.so` required by `vendor/bin/hw/vendor.dolby.dms.service`
+vendor/lib64/vendor.dolby.dms-V1-ndk.so
+
+# ELF dependency `vendor.dolby.hardware.dms@2.0.so` required by `vendor/lib64/libdmshal.so`
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+
+# ELF dependency `vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service`
+vendor/lib64/vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.framework.mtksf_ext-V4-ndk.so` required by `system_ext/lib64/libmagt.so`
+system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V4-ndk.so
+
+# ELF dependency `vendor.mediatek.framework.mtksf_ext-V7-ndk.so` required by `vendor/lib64/libpowerhal.so`
+vendor/lib64/vendor.mediatek.framework.mtksf_ext-V7-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.aee-V1-ndk.so` required by `system_ext/bin/aee_aed`
+system_ext/lib/vendor.mediatek.hardware.aee-V1-ndk.so
+system_ext/lib64/vendor.mediatek.hardware.aee-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.aee-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.aee@V1-service`
+vendor/lib64/vendor.mediatek.hardware.aee-V1-ndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.aee@1.0.so` required by `system_ext/lib64/vendor.mediatek.hardware.aee@1.1.so`
+system_ext/lib/vendor.mediatek.hardware.aee@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.aee@1.0.so
+
+# ELF dependency `vendor.mediatek.hardware.aee@1.0.so` required by `vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service`
+vendor/lib64/vendor.mediatek.hardware.aee@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.aee@1.1.so` required by `system_ext/bin/aee_aed`
+system_ext/lib/vendor.mediatek.hardware.aee@1.1.so
+system_ext/lib64/vendor.mediatek.hardware.aee@1.1.so
+
+# ELF dependency `vendor.mediatek.hardware.aee@1.1.so` required by `vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service`
+vendor/lib64/vendor.mediatek.hardware.aee@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.apmonitor-V1-ndk.so` required by `vendor/bin/dmc_core`
+vendor/lib64/vendor.mediatek.hardware.apmonitor-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.atci-V1-ndk.so` required by `vendor/bin/atcid`
+vendor/lib64/vendor.mediatek.hardware.atci-V1-ndk.so
+
+
+# ELF dependency `vendor.mediatek.hardware.audio-impl.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
+vendor/lib64/hw/vendor.mediatek.hardware.audio-impl.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so` required by `vendor/lib64/hw/audio.primary.mediatek.so`
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.camera.atms-V1-ndk.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/vendor.mediatek.hardware.camera.atms-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.camera.atms_aidl@1.0-impl.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/hw/vendor.mediatek.hardware.camera.atms_aidl@1.0-impl.so
+
+# ELF dependency `vendor.mediatek.hardware.camera.bgservice-V1-ndk.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/vendor.mediatek.hardware.camera.bgservice-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.camera.bgservice_aidl@1.0-impl.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice_aidl@1.0-impl.so
+
+# ELF dependency `vendor.mediatek.hardware.camera.isphal-V1-ndk.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.clientapi-V1-ndk.so` required by `vendor/bin/volte_clientapi_ua`
+vendor/lib64/vendor.mediatek.hardware.clientapi-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.composer_ext-V1-ndk.so` required by `vendor/lib64/libcomposer_ext.so`
+vendor/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.dmc-V1-ndk.so` required by `system_ext/bin/mdi_redirector`
+system_ext/lib64/vendor.mediatek.hardware.dmc-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.dmc-V1-ndk.so` required by `vendor/bin/dmc_core`
+vendor/lib64/vendor.mediatek.hardware.dmc-V1-ndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.dmc@1.0.so` required by `system_ext/bin/mdi_redirector`
+system_ext/lib64/vendor.mediatek.hardware.dmc@1.0.so
+
+# ELF dependency `vendor.mediatek.hardware.dmc@1.1.so` required by `system_ext/bin/mdi_redirector`
+system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
+
+# ELF dependency `vendor.mediatek.hardware.dmc@1.2.so` required by `system_ext/bin/mdi_redirector`
+system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
+
+# ELF dependency `vendor.mediatek.hardware.gnss-V3-ndk.so` required by `vendor/lib64/hw/vendor.mediatek.hardware.gnss-impl.so`
+vendor/lib64/vendor.mediatek.hardware.gnss-V3-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.gnss-impl.so` required by `vendor/bin/hw/android.hardware.gnss-service.mediatek`
+vendor/lib64/hw/vendor.mediatek.hardware.gnss-impl.so
+
+# ELF dependency `vendor.mediatek.hardware.gnss.batching-V1-ndk.so` required by `vendor/lib64/hw/vendor.mediatek.hardware.gnss.batching-impl.so`
+vendor/lib64/vendor.mediatek.hardware.gnss.batching-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.gnss.batching-impl.so` required by `vendor/bin/hw/vendor.mediatek.hardware.gnss-service`
+vendor/lib64/hw/vendor.mediatek.hardware.gnss.batching-impl.so
+
+# ELF dependency `vendor.mediatek.hardware.lbs-V1-ndk.so` required by `vendor/bin/mtk_lbs_service`
+vendor/lib64/vendor.mediatek.hardware.lbs-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.lbs@1.0.so` required by `system_ext/bin/lbs_dbg_ext`
+system_ext/lib64/vendor.mediatek.hardware.lbs@1.0.so
+
+# ELF dependency `vendor.mediatek.hardware.lbs@1.0.so` required by `vendor/bin/meta_tst`
+vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.log-V1-ndk.so` required by `system_ext/bin/loghidlsysservice`
+system_ext/lib64/vendor.mediatek.hardware.log-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.log-V1-ndk.so` required by `vendor/bin/loghidlvendorservice`
+vendor/lib64/vendor.mediatek.hardware.log-V1-ndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.log@1.0.so` required by `system_ext/bin/loghidlsysservice`
+system_ext/lib64/vendor.mediatek.hardware.log@1.0.so
+
+# ELF dependency `vendor.mediatek.hardware.mbrain-V6-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mbrain-service.mediatek`
+vendor/lib64/vendor.mediatek.hardware.mbrain-V6-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mbrainj-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mbrain-service.mediatek`
+vendor/lib64/vendor.mediatek.hardware.mbrainj-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mdmonitor-V1-ndk.so` required by `vendor/bin/dmc_core`
+vendor/lib64/vendor.mediatek.hardware.mdmonitor-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mdmonitor@1.0.so` required by `vendor/bin/dmc_core`
+vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
+
+# ELF dependency `vendor.mediatek.hardware.mmagent-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mmagent-service`
+vendor/lib64/vendor.mediatek.hardware.mmagent-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mmlpq-V3-ndk.so` required by `vendor/lib64/mt6895/libpqparamparser.so`
+vendor/lib64/vendor.mediatek.hardware.mmlpq-V3-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mmlpq-V4-ndk.so` required by `vendor/lib64/libmmlpqImpl.so`
+vendor/lib64/vendor.mediatek.hardware.mmlpq-V4-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mms-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mms-service`
+vendor/lib64/vendor.mediatek.hardware.mms-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtklight-V1-ndk.so` required by `vendor/bin/hw/android.hardware.lights-service.mediatek`
+vendor/lib64/vendor.mediatek.hardware.mtklight-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower-V1-ndk.so` required by `system_ext/xbin/miuibooster`
+system_ext/lib64/vendor.mediatek.hardware.mtkpower-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower-V2-ndk.so` required by `vendor/lib64/android.hardware.power-service-mediatek.so`
+vendor/lib64/vendor.mediatek.hardware.mtkpower-V2-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower-V3-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek`
+vendor/lib64/vendor.mediatek.hardware.mtkpower-V3-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower-aidl-impl.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek`
+vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower@1.0.so` required by `system_ext/xbin/miuibooster`
+system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower@1.0.so` required by `vendor/lib64/mt6895/libmtkcam_pipelinemodel_session.so`
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower@1.1.so` required by `vendor/lib64/android.hardware.power-service-mediatek.so`
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower@1.2.so` required by `vendor/lib64/android.hardware.power-service-mediatek.so`
+vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.mtkpower_applist-V4-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek`
+vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V4-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.assist-V2-ndk.so` required by `vendor/lib64/vendor.mediatek.hardware.mtkradioex.data-V3-ndk.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V2-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.assist-V4-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.assist-V4-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.atci-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.atci-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.cap-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.cap-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.data-V3-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.data-V3-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.dch-V2-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.dch-V2-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.em-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.em-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.ims-V3-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.ims-V3-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.messaging-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.messaging-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.modem-V5-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.modem-V5-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.mwi-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.mwi-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.network-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.network-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.ntn-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.ntn-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.rcs-V2-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.rcs-V2-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so` required by `vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so` required by `vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.sim-V2-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.sim-V2-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so` required by `vendor/lib64/librilfusion.so`
+vendor/lib64/vendor.mediatek.hardware.mtkradioex.voice-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.netdagent-V1-ndk.so` required by `vendor/bin/netdagent`
+vendor/lib64/vendor.mediatek.hardware.netdagent-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.neuropilot.agent-V1-ndk.so` required by `vendor/lib64/libnpagent.so`
+vendor/lib64/vendor.mediatek.hardware.neuropilot.agent-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.neuropilot.neuronservice-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.neuropilot.neuronservice.neuronservice.mediatek`
+vendor/lib64/vendor.mediatek.hardware.neuropilot.neuronservice-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.nps.nos.fastswitch-V1-ndk.so` required by `vendor/bin/jxnosfastswitch`
+vendor/lib64/vendor.mediatek.hardware.nps.nos.fastswitch-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.nvram-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.nvram-service`
+vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.nwk_opt_new-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service`
+vendor/lib64/vendor.mediatek.hardware.nwk_opt_new-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.pq_aidl-V4-ndk.so` required by `odm/lib64/hw/displayfeature.default.so`
+vendor/lib64/vendor.mediatek.hardware.pq_aidl-V4-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.pq_aidl-V7-ndk.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.videotelephony-V1-ndk.so` required by `system_ext/lib64/libmtk_vt_service.so`
+system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
+
+# ELF dependency `vendor.mediatek.hardware.videotelephony-V1-ndk.so` required by `vendor/bin/hw/vtservice_aidl`
+vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.mediatek.hardware.videotelephony-impl.so` required by `vendor/bin/hw/vtservice_aidl`
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
+
+# ELF dependency `vendor.mediatek.hardware.videotelephony@1.0.so` required by `system_ext/lib64/libmtk_vt_service.so`
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# ELF dependency `vendor.nxp.hardware.nfc@2.0.so` required by `vendor/bin/hw/android.hardware.nqnfc-service.nxp`
+vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
+
+# ELF dependency `vendor.nxp.nxpese@1.0.so` required by `vendor/lib64/nfc_nci.nqx.default.hw.so`
+vendor/lib64/vendor.nxp.nxpese@1.0.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `vendor.qti.sla.service-V1-ndk.so` required by `vendor/bin/hw/vendor.qti.sla.service@2.0-service`
+vendor/lib64/vendor.qti.sla.service-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk.so` required by `odm/bin/mtd_mitee`
+vendor/lib64/vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.aidlbgservice-V1-impl.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/hw/vendor.xiaomi.hardware.aidlbgservice-V1-impl.so
+
+# ELF dependency `vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so` required by `vendor/bin/hw/camerahalserver`
+vendor/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.displayfeature@1.0.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
+vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so;MODULE_SUFFIX=-vendor
+
+
+# ELF dependency `vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.mfidoca-V1-ndk.so` required by `odm/bin/mtd_mitee`
+vendor/lib64/vendor.xiaomi.hardware.mfidoca-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.micharge-V2-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.micharge-service`
+vendor/lib64/vendor.xiaomi.hardware.micharge-V2-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.mimd2-V1-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.mimd2-service`
+vendor/lib64/vendor.xiaomi.hardware.mimd2-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.misys.common-V3-ndk.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.misys.common-V3-ndk.so` required by `vendor/bin/hypsys_vendor`
+vendor/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.xiaomi.hardware.misys.core-V1-ndk.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.misys.core-V1-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.misys.core-service`
+vendor/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so;MODULE_SUFFIX=-vendor
+
+# ELF dependency `vendor.xiaomi.hardware.misys@1.0.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/vendor.xiaomi.hardware.misys@1.0.so
+
+# ELF dependency `vendor.xiaomi.hardware.misys@3.0.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/vendor.xiaomi.hardware.misys@3.0.so
+
+# ELF dependency `vendor.xiaomi.hardware.mlipay-V1-ndk.so` required by `odm/bin/mlipayd_mitee`
+vendor/lib64/vendor.xiaomi.hardware.mlipay-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.mtkblackbox-V3-ndk.so` required by `vendor/bin/hw/android.hardware.dumpstate-service.xiaomi`
+vendor/lib64/vendor.xiaomi.hardware.mtkblackbox-V3-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.soterservice-V1-ndk.so` required by `odm/bin/soterd`
+vendor/lib64/vendor.xiaomi.hardware.soterservice-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.wifi.hostapd-V1-ndk.so` required by `vendor/bin/hw/hostapd`
+vendor/lib64/vendor.xiaomi.hardware.wifi.hostapd-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hardware.wifi.supplicant-V1-ndk.so` required by `vendor/bin/hw/wpa_supplicant`
+vendor/lib64/vendor.xiaomi.hardware.wifi.supplicant-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.hw.touchfeature-V1-ndk.so` required by `odm/bin/hw/mfp-daemon`
+vendor/lib64/vendor.xiaomi.hw.touchfeature-V1-ndk.so
+
+# ELF dependency `vendor.xiaomi.sensor.citsensorservice-V1-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
+vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
+
+# ELF dependency `xiaomi.launch_boost.readahead-ndk.so` required by `system_ext/bin/iorapd`
+system_ext/lib64/xiaomi.launch_boost.readahead-ndk.so
+
+# ELF dependency `xiaomi.system.hypsys.common-V1-ndk.so` required by `system_ext/bin/hypsys_system`
+system_ext/lib64/xiaomi.system.hypsys.common-V1-ndk.so
+
+# ELF dependency `xiaomi.system.hypsys.common-V1-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
+vendor/lib64/xiaomi.system.hypsys.common-V1-ndk.so;MODULE_SUFFIX=-vendor
+
+# executable referenced by Android 16 init
+system_ext/bin/DfcNativeService
+system_ext/bin/FboNativeService
+system_ext/bin/NativeHangService
+system_ext/bin/SwapNativeService
+system_ext/bin/aee
+system_ext/bin/aee_aed
+system_ext/bin/aee_aed64
+system_ext/bin/aee_aed64_v2
+system_ext/bin/aee_v2
+system_ext/bin/connsyslogger
+system_ext/bin/fdpp
+system_ext/bin/hbt_translator
+system_ext/bin/hw/android.hardware.audio.parameter_parser.service
+system_ext/bin/hyper_bpfloader
+system_ext/bin/hypsys_system
+system_ext/bin/init.dumpaudiobinderInfo.sh
+system_ext/bin/init.rootpub.sh
+system_ext/bin/init.rotatekey.sh
+system_ext/bin/init.socid.sh
+system_ext/bin/init.stabilitysetup.sh
+system_ext/bin/inject_mgr
+system_ext/bin/iorapd
+system_ext/bin/lbs_dbg_ext
+system_ext/bin/loghidlsysservice
+system_ext/bin/magt
+system_ext/bin/mcd
+system_ext/bin/mdi_redirector
+system_ext/bin/mediahelper
+system_ext/bin/millet_monitor
+system_ext/bin/misight
+system_ext/bin/miupdater
+system_ext/bin/miuserfsd
+system_ext/bin/mobile_log_d
+system_ext/bin/mtdoopslog.sh
+system_ext/bin/mtk_plpath_utils
+system_ext/bin/netdiag
+system_ext/bin/shelld
+system_ext/bin/terservice
+system_ext/bin/thermald
+system_ext/bin/virtual_keyboard
+system_ext/bin/vtservice
+system_ext/xbin/miuibooster
+system_ext/xbin/system_perf_init
+vendor/bin/aee_aedv64_v2
+vendor/bin/aeev_v2
+vendor/bin/atcid
+vendor/bin/audiocmdservice_atci
+vendor/bin/bip_ap
+vendor/bin/boringssl_self_test32
+vendor/bin/boringssl_self_test64
+vendor/bin/bt_dump
+vendor/bin/displayfeature
+vendor/bin/dmc_core
+vendor/bin/eara_io_service
+vendor/bin/factory
+vendor/bin/fpsgo
+vendor/bin/frs
+vendor/bin/fuelgauged
+vendor/bin/fuelgauged_nvram
+vendor/bin/gps_dump
+vendor/bin/gsm0710muxd
+vendor/bin/hw/android.hardware.audio.service-aidl.mediatek
+vendor/bin/hw/android.hardware.bluetooth-service-mediatek
+vendor/bin/hw/android.hardware.boot-service.mtk
+vendor/bin/hw/android.hardware.drm-service.clearkey
+vendor/bin/hw/android.hardware.dumpstate-service.xiaomi
+vendor/bin/hw/android.hardware.gatekeeper-service.mitee
+vendor/bin/hw/android.hardware.graphics.composer@3.4-service
+vendor/bin/hw/android.hardware.health-service.example
+vendor/bin/hw/android.hardware.identity-service.mitee@5.0
+vendor/bin/hw/android.hardware.ir-service.example
+vendor/bin/hw/android.hardware.lights-service.mediatek
+vendor/bin/hw/android.hardware.media.c2-mediatek-64b
+vendor/bin/hw/android.hardware.memtrack-service.mediatek
+vendor/bin/hw/android.hardware.nqnfc-service.nxp
+vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee
+vendor/bin/hw/android.hardware.sensors-service.multihal
+vendor/bin/hw/android.hardware.thermal-service.mediatek
+vendor/bin/hw/android.hardware.usb-aidl-service.mediatek
+vendor/bin/hw/android.hardware.usb.gadget-aidl-service.mediatek
+vendor/bin/hw/android.hardware.wifi-service-lazy
+vendor/bin/hw/hostapd
+vendor/bin/hw/vendor.dolby.dms.service
+vendor/bin/hw/vendor.dolby.media.c2-default-service-dax
+vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service
+vendor/bin/hw/vendor.mediatek.hardware.aee@V1-service
+vendor/bin/hw/vendor.mediatek.hardware.gnss-service
+vendor/bin/hw/vendor.mediatek.hardware.gpuserv-service
+vendor/bin/hw/vendor.mediatek.hardware.mbrain-service.mediatek
+vendor/bin/hw/vendor.mediatek.hardware.mmagent-service
+vendor/bin/hw/vendor.mediatek.hardware.mmlpq@V1-service
+vendor/bin/hw/vendor.mediatek.hardware.mms-service
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek
+vendor/bin/hw/vendor.mediatek.hardware.neuropilot.neuronservice.neuronservice.mediatek
+vendor/bin/hw/vendor.mediatek.hardware.nvram-service
+vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service
+vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
+vendor/bin/hw/vendor.mediatek.hardware.vgoservice
+vendor/bin/hw/vendor.qti.sla.service@2.0-service
+vendor/bin/hw/vendor.xiaomi.hardware.displayfeature_aidl-service
+vendor/bin/hw/vendor.xiaomi.hardware.micharge-service
+vendor/bin/hw/vendor.xiaomi.hardware.mimd2-service
+vendor/bin/hw/vendor.xiaomi.hardware.misys.core-service
+vendor/bin/hw/vendor.xiaomi.hardware.secure_element-service
+vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
+vendor/bin/hw/vtservice_aidl
+vendor/bin/hw/wpa_supplicant
+vendor/bin/hypsys_vendor
+vendor/bin/init.insmod.sh
+vendor/bin/ipsec_mon
+vendor/bin/jxnosfastswitch
+vendor/bin/loghidlvendorservice
+vendor/bin/mcfota_service
+vendor/bin/md_monitor
+vendor/bin/meta_tst
+vendor/bin/miteelog
+vendor/bin/mtk_lbs_service
+vendor/bin/mtk_pkm_service
+vendor/bin/mtk_storageproxyd
+vendor/bin/muxreport
+vendor/bin/slad
+vendor/bin/tcpdump-vendor
+vendor/bin/tee-supplicant
+vendor/bin/touch_boost
+vendor/bin/vndservicemanager
+vendor/bin/volte_clientapi_ua
+vendor/bin/wifi_dump
+
+# reference classification: proprietary-files.txt / AEE
+vendor/lib64/libaedv.so
+
+# reference classification: proprietary-files.txt / Audio
+vendor/etc/audio_param/AudioParamOptions_vext.xml
+vendor/etc/audio_param/FV-SAM-MTKXX.dat
+vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml
+vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml
+vendor/etc/audio_param/RecordFIR_AudioParam.xml
+vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param/Record_AudioParam.xml
+vendor/etc/audio_param/Record_ParamUnitDesc.xml
+vendor/etc/audio_param/SmartPa_AudioParam.xml
+vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechVol_AudioParam.xml
+vendor/etc/audio_param/VoIPVol_AudioParam.xml
+vendor/etc/audio_param/VoIPv2_AudioParam.xml
+vendor/etc/audio_param/VoWDspAec_AudioParam.xml
+vendor/etc/audio_param/VoWEngineFeature_AudioParam.xml
+vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml
+vendor/etc/misound_res_headphone.bin
+vendor/etc/misound_res_spk.bin
+vendor/lib64/hw/audio.primary.mediatek.so
+vendor/lib64/hw/audio.r_submix.mediatek.so
+vendor/lib64/hw/sound_trigger.primary.default.so
+vendor/lib64/libMtkSpeechEnh.so
+vendor/lib64/lib_iir.so
+vendor/lib64/libalsautils.so;MODULE_SUFFIX=-vendor
+vendor/lib64/libaudio_param_parser-vnd.so
+vendor/lib64/libaudiocompensationfilter_vendor.so
+vendor/lib64/libaudiocompensationfilterc.so
+vendor/lib64/libaudiocomponentengine_vendor.so
+vendor/lib64/libaudiocomponentenginec.so
+vendor/lib64/libaudiocustparam_vendor.so
+vendor/lib64/libaudiodcrflt_vendor.so
+vendor/lib64/libaudiofmtconv.so
+vendor/lib64/libaudioloudc.so
+vendor/lib64/libaudioprimarydevicehalifclient.so
+vendor/lib64/libaudiotoolkit_vendor.so
+vendor/lib64/libaurisysdemo.so
+vendor/lib64/libbessound_hd_mtk_vendor.so
+vendor/lib64/libblisrc32_vendor.so
+vendor/lib64/libbwc.so
+vendor/lib64/libcvsd_mtk.so
+vendor/lib64/libfvaudio.so
+vendor/lib64/libmisound.so
+vendor/lib64/libmisoundcrossfade.so
+vendor/lib64/libmispowerop.so
+vendor/lib64/libmsbc_mtk.so
+vendor/lib64/libmtklimiter_vendor.so
+vendor/lib64/libmtkshifter_vendor.so
+vendor/lib64/libnxp_extamp_intf.so
+vendor/lib64/librt_extamp_intf.so
+vendor/lib64/libspeech_enh_lib.so
+vendor/lib64/libspeechparser_vendor.so
+vendor/lib64/libvow_ap_test_aa.so
+vendor/lib64/libvow_ap_test_dd.so
+vendor/lib64/libvow_ap_test_ha.so
+vendor/lib64/libvow_ap_test_hh.so
+vendor/lib64/libvow_ap_test_nn.so
+
+# reference classification: proprietary-files.txt / Audio Configs
+vendor/etc/audio_param/AudioParamOptions_mgvi.xml
+vendor/etc/audio_param/BtInfo_AudioParam.xml
+vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml
+vendor/etc/audio_param/HpImpedance_AudioParam.xml
+vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml
+vendor/etc/audio_param/MicInfo_AudioParam.xml
+vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml
+vendor/etc/audio_param/PlaybackACF_AudioParam.xml
+vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml
+vendor/etc/audio_param/PlaybackDRC_AudioParam.xml
+vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml
+vendor/etc/audio_param/PlaybackHCF_AudioParam.xml
+vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml
+vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml
+vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml
+vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml
+vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param/Playback_AudioParam.xml
+vendor/etc/audio_param/Playback_ParamTreeView.xml
+vendor/etc/audio_param/Playback_ParamUnitDesc.xml
+vendor/etc/audio_param/RecordDMNR_AudioParam.xml
+vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml
+vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml
+vendor/etc/audio_param/RecordUI_AudioParam.xml
+vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml
+vendor/etc/audio_param/RecordVolUI_AudioParam.xml
+vendor/etc/audio_param/RecordVol_AudioParam.xml
+vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml
+vendor/etc/audio_param/Record_ParamTreeView.xml
+vendor/etc/audio_param/RingbackVolUI_AudioParam.xml
+vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml
+vendor/etc/audio_param/SoundEnhancement_AudioParam.xml
+vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechDMNR_AudioParam.xml
+vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml
+vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechGeneral_AudioParam.xml
+vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml
+vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechNetwork_AudioParam.xml
+vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechUI_AudioParam.xml
+vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechVolUI_AudioParam.xml
+vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml
+vendor/etc/audio_param/Speech_AudioParam.xml
+vendor/etc/audio_param/Speech_ParamTreeView.xml
+vendor/etc/audio_param/Speech_ParamUnitDesc.xml
+vendor/etc/audio_param/USBCall_AudioParam.xml
+vendor/etc/audio_param/USBCall_ParamUnitDesc.xml
+vendor/etc/audio_param/USBDevice_AudioParam.xml
+vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml
+vendor/etc/audio_param/Ultrasound_AudioParam.xml
+vendor/etc/audio_param/Ultrasound_ParamUnitDesc.xml
+vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml
+vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPDMNR_AudioParam.xml
+vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPGeneral_AudioParam.xml
+vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPUI_AudioParam.xml
+vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPVolUI_AudioParam.xml
+vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIP_AudioParam.xml
+vendor/etc/audio_param/VoIP_ParamTreeView.xml
+vendor/etc/audio_param/VoIP_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml
+vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPv2General_AudioParam.xml
+vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPv2UI_AudioParam.xml
+vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml
+vendor/etc/audio_param/VoIPv2_ParamTreeView.xml
+vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml
+vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml
+vendor/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml
+vendor/etc/audio_param/VoWHwVad_AudioParam.xml
+vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml
+vendor/etc/audio_param/VoWMicSetting_AudioParam.xml
+vendor/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml
+vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml
+vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml
+vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml
+vendor/etc/audio_param/VolumeGainMap_AudioParam.xml
+vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml
+vendor/etc/audio_param/Volume_AudioParam.xml
+vendor/etc/audio_param/Volume_ParamUnitDesc.xml
+
+# reference classification: proprietary-files.txt / Batterysecret
+vendor/bin/batterysecret
+
+# reference classification: proprietary-files.txt / Bluetooth
+vendor/etc/init/init.bt_drv.rc
+vendor/firmware/BT_FW.cfg
+vendor/firmware/soc7_0_ram_bt_1b_t_1_hdr.bin
+vendor/lib64/libbluetooth_mtk.so
+vendor/lib64/libbluetooth_mtk_pure.so
+vendor/lib64/libbt-vendor.so;MODULE_SUFFIX=-vendor
+
+# reference classification: proprietary-files.txt / Bluetooth (A2DP)
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
+
+# reference classification: proprietary-files.txt / Camera
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6895/ParameterDB_ae.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/af/mt6895/ParameterDB_af.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/awb/mt6895/ParameterDB_awb.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/awbsync/mt6895/ParameterDB_awbsync.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/feature/mt6895/ParameterDB_feature.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/flash/mt6895/ParameterDB_flash.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/flashcali/mt6895/ParameterDB_flashcali.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/ParameterDB.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/mt6895/top_control_data.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/pd/mt6895/ParameterDB_pd.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/pipeline/mt6895/ParameterDB_pipeline.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tone/mt6895/ParameterDB_tone.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/default_sensor/mt6895/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db
+vendor/bin/hw/mt6895/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
+vendor/etc/camera/CFR_para_UW.bin
+vendor/etc/camera/F1_pink.cng
+vendor/etc/camera/ai_scene.bin
+vendor/etc/camera/anc.bin
+vendor/etc/camera/apu_miai_preview.bin
+vendor/etc/camera/com.xiaomi.dcal.wu.golden
+vendor/etc/camera/deblur_sd_opencl_binary.bin
+vendor/etc/camera/deblur_sd_opencl_params.bin
+vendor/etc/camera/deblur_txt_apu.bin
+vendor/etc/camera/gma_custom.xml
+vendor/etc/camera/ldc/AI_Seg.bin
+vendor/etc/camera/miai_psn_config.yaml
+vendor/etc/camera/mibokeh_mt6873_opencl.bin
+vendor/etc/camera/mibokeh_mt6873_parameter.bin
+vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_bs1_1285.dla
+vendor/etc/camera/sceneDetection.xml
+vendor/etc/camera/svq_cache
+vendor/etc/camera/video_bokeh_apu_front_20210413.bin
+vendor/etc/camera/vidhance_calibration
+vendor/etc/camera/xiaomi/dualbokehsnapshot.json
+vendor/etc/camera/xiaomi/frontbokehsnapshot.json
+vendor/etc/camera/xiaomi/frontsinglesnapshot.json
+vendor/etc/camera/xiaomi/frontsupernightsnapshot.json
+vendor/etc/camera/xiaomi/manualsnapshot.json
+vendor/etc/camera/xiaomi/normalpreview.json
+vendor/etc/camera/xiaomi/normalsnapshot.json
+vendor/etc/camera/xiaomi/satsnapshot.json
+vendor/etc/camera/xiaomi/superhdsnapshot.json
+vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
+vendor/etc/init/camerahalserver.rc
+vendor/firmware/lib3a.ccu
+vendor/firmware/lib3a.ccu_dummy
+vendor/lib64/hw/mt6895/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
+vendor/lib64/lib3a.ae.pipe.so
+vendor/lib64/libArcNetMtk.so
+vendor/lib64/libBasicModule.so
+vendor/lib64/libOpenCL.so;MODULE_SUFFIX=-vendor
+vendor/lib64/libSQLiteModule_VER_ALL.so
+vendor/lib64/libaispq.so
+vendor/lib64/libalAILDC.so
+vendor/lib64/libalAI_Seg.so
+vendor/lib64/libalLDC.so
+vendor/lib64/libalNN.so
+vendor/lib64/libalNN_engine.so
+vendor/lib64/libalNN_gpu.so
+vendor/lib64/libalhLDC.so
+vendor/lib64/libanc_calibration_parser.so
+vendor/lib64/libanc_supervq.so
+vendor/lib64/libarcsoft_beautyshot.so
+vendor/lib64/libarcsoft_hdr_detection.so
+vendor/lib64/libarcsoft_low_light_hdr.so
+vendor/lib64/libarcsoft_mf_superresolution.so
+vendor/lib64/libarcsoft_portrait_lighting.so
+vendor/lib64/libarcsoft_portrait_lighting_c.so
+vendor/lib64/libarcsoft_super_night_raw.so
+vendor/lib64/libbeauty_face_interface.so
+vendor/lib64/libc++_shared.so
+vendor/lib64/libcamalgo.WarpMapResizer.so
+vendor/lib64/libcamalgo.dngop.so
+vendor/lib64/libcamalgo.hdr10p.so
+vendor/lib64/libcamalgo.platform.so
+vendor/lib64/libcamalgo.utility.so
+vendor/lib64/libcamalgo.warp.so
+vendor/lib64/libcamera_scene.so
+vendor/lib64/libcameraplatforminfoxiaomi.so
+vendor/lib64/libceres.so
+vendor/lib64/libcom.xiaomi.pluginutils.so
+vendor/lib64/libdeflicker.so
+vendor/lib64/libheichal.so
+vendor/lib64/libimagebuffer_wrapper.so
+vendor/lib64/libmiStereoFactoryRemapBasicLib.so
+vendor/lib64/libmiStereoFactoryRemapLib.so
+vendor/lib64/libmiai_deblur.so
+vendor/lib64/libmiai_portraitsupernight.so
+vendor/lib64/libmialgo_ie_capture.so
+vendor/lib64/libmialgo_sd.so
+vendor/lib64/libmialgo_utils.so
+vendor/lib64/libmibokeh_845_video.so
+vendor/lib64/libmibokeh_mt6873.so
+vendor/lib64/libminiui.so
+vendor/lib64/libmpbase.so
+vendor/lib64/libmtkcam_3rdcalibration.so
+vendor/lib64/libpixelflinger.so
+vendor/lib64/librelight_only.so
+vendor/lib64/libremosaic_wrapper.so
+vendor/lib64/libvidhance.so
+vendor/lib64/mt6895/lib3a.ae.core.so;SYMLINK=vendor/lib64/lib3a.ae.core.so
+vendor/lib64/mt6895/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so
+vendor/lib64/mt6895/lib3a.af.assist.models1d.so
+vendor/lib64/mt6895/lib3a.af.assist.models2d.so
+vendor/lib64/mt6895/lib3a.af.assist.so;SYMLINK=vendor/lib64/lib3a.af.assist.so
+vendor/lib64/mt6895/lib3a.af.assist.utils.so;SYMLINK=vendor/lib64/lib3a.af.assist.utils.so
+vendor/lib64/mt6895/lib3a.af.core.so;SYMLINK=vendor/lib64/lib3a.af.core.so
+vendor/lib64/mt6895/lib3a.af.so;SYMLINK=vendor/lib64/lib3a.af.so
+vendor/lib64/mt6895/lib3a.aishutter.so;SYMLINK=vendor/lib64/lib3a.aishutter.so
+vendor/lib64/mt6895/lib3a.alsflicker.so;SYMLINK=vendor/lib64/lib3a.alsflicker.so
+vendor/lib64/mt6895/lib3a.awb.core.so;SYMLINK=vendor/lib64/lib3a.awb.core.so
+vendor/lib64/mt6895/lib3a.awbsync.so;SYMLINK=vendor/lib64/lib3a.awbsync.so
+vendor/lib64/mt6895/lib3a.custom.ae.so;SYMLINK=vendor/lib64/lib3a.custom.ae.so
+vendor/lib64/mt6895/lib3a.flash.so;SYMLINK=vendor/lib64/lib3a.flash.so
+vendor/lib64/mt6895/lib3a.flicker.so;SYMLINK=vendor/lib64/lib3a.flicker.so
+vendor/lib64/mt6895/lib3a.log.so;SYMLINK=vendor/lib64/lib3a.log.so
+vendor/lib64/mt6895/lib3a.sensors.color.so;SYMLINK=vendor/lib64/lib3a.sensors.color.so
+vendor/lib64/mt6895/lib3a.sensors.flicker.so;SYMLINK=vendor/lib64/lib3a.sensors.flicker.so
+vendor/lib64/mt6895/lib3a.stat.so;SYMLINK=vendor/lib64/lib3a.stat.so
+vendor/lib64/mt6895/libAIODcore.so;SYMLINK=vendor/lib64/libAIODcore.so
+vendor/lib64/mt6895/libAIOTcore.so;SYMLINK=vendor/lib64/libAIOTcore.so
+vendor/lib64/mt6895/libDBAccessor_ISP.so;SYMLINK=vendor/lib64/libDBAccessor_ISP.so
+vendor/lib64/mt6895/libMtkMediaController.so;SYMLINK=vendor/lib64/libMtkMediaController.so
+vendor/lib64/mt6895/libSonyIMX519PdafWrapper.so;SYMLINK=vendor/lib64/libSonyIMX519PdafWrapper.so
+vendor/lib64/mt6895/lib_bsscore.so;SYMLINK=vendor/lib64/lib_bsscore.so
+vendor/lib64/mt6895/libaaa_afassist.so;SYMLINK=vendor/lib64/libaaa_afassist.so
+vendor/lib64/mt6895/libaaa_feature.so;SYMLINK=vendor/lib64/libaaa_feature.so
+vendor/lib64/mt6895/libaaa_ltm.so;SYMLINK=vendor/lib64/libaaa_ltm.so
+vendor/lib64/mt6895/libaaa_ltmx.so;SYMLINK=vendor/lib64/libaaa_ltmx.so
+vendor/lib64/mt6895/libaaa_tnc.so;SYMLINK=vendor/lib64/libaaa_tnc.so
+vendor/lib64/mt6895/libaaa_toneutil.so;SYMLINK=vendor/lib64/libaaa_toneutil.so
+vendor/lib64/mt6895/libaiawb_fs.so;SYMLINK=vendor/lib64/libaiawb_fs.so
+vendor/lib64/mt6895/libaiawb_fs_model.so
+vendor/lib64/mt6895/libaiawb_moon.so;SYMLINK=vendor/lib64/libaiawb_moon.so
+vendor/lib64/mt6895/libaiawb_moon_model.so
+vendor/lib64/mt6895/libaiawb_p1ggm.so;SYMLINK=vendor/lib64/libaiawb_p1ggm.so
+vendor/lib64/mt6895/libaiawb_sun.so;SYMLINK=vendor/lib64/libaiawb_sun.so
+vendor/lib64/mt6895/libaiawb_sun_model.so
+vendor/lib64/mt6895/libaibc_tuning.so
+vendor/lib64/mt6895/libaibc_tuning_p2.so
+vendor/lib64/mt6895/libaibc_tuning_p3.so
+vendor/lib64/mt6895/libaicapturecore.so;SYMLINK=vendor/lib64/libaicapturecore.so
+vendor/lib64/mt6895/libaidepth_tuning.so
+vendor/lib64/mt6895/libalgo.aosp.log.so;SYMLINK=vendor/lib64/libalgo.aosp.log.so
+vendor/lib64/mt6895/libapudcutils.so;SYMLINK=vendor/lib64/libapudcutils.so
+vendor/lib64/mt6895/libcam.3a_isp.utils.so;SYMLINK=vendor/lib64/libcam.3a_isp.utils.so
+vendor/lib64/mt6895/libcam.afmgr.so;SYMLINK=vendor/lib64/libcam.afmgr.so
+vendor/lib64/mt6895/libcam.chdr.so;SYMLINK=vendor/lib64/libcam.chdr.so
+vendor/lib64/mt6895/libcam.feature_utils.so;SYMLINK=vendor/lib64/libcam.feature_utils.so
+vendor/lib64/mt6895/libcam.fw_me_tcy.so;SYMLINK=vendor/lib64/libcam.fw_me_tcy.so
+vendor/lib64/mt6895/libcam.hal3a.afassitmgr.so;SYMLINK=vendor/lib64/libcam.hal3a.afassitmgr.so
+vendor/lib64/mt6895/libcam.hal3a.cctsvr.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.ctrl.so;SYMLINK=vendor/lib64/libcam.hal3a.ctrl.so
+vendor/lib64/mt6895/libcam.hal3a.ircutdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.ircutdrv.so
+vendor/lib64/mt6895/libcam.hal3a.lensdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.lensdrv.so
+vendor/lib64/mt6895/libcam.hal3a.log.so;SYMLINK=vendor/lib64/libcam.hal3a.log.so
+vendor/lib64/mt6895/libcam.hal3a.lscMgrApi.so;SYMLINK=vendor/lib64/libcam.hal3a.lscMgrApi.so
+vendor/lib64/mt6895/libcam.hal3a.oisdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.oisdrv.so
+vendor/lib64/mt6895/libcam.hal3a.ozoomdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.ozoomdrv.so
+vendor/lib64/mt6895/libcam.hal3a.policy.so;SYMLINK=vendor/lib64/libcam.hal3a.policy.so
+vendor/lib64/mt6895/libcam.hal3a.so;SYMLINK=vendor/lib64/libcam.hal3a.so
+vendor/lib64/mt6895/libcam.hal3a.tofdrv.so;SYMLINK=vendor/lib64/libcam.hal3a.tofdrv.so
+vendor/lib64/mt6895/libcam.hal3a.utils.so;SYMLINK=vendor/lib64/libcam.hal3a.utils.so
+vendor/lib64/mt6895/libcam.hal3a.v3.ae.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.ae.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.ai3a_v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.ai3a_v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.awb_v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.awb_v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.cac.mgr.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.cac.mgr.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.dng.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.dng.so
+vendor/lib64/mt6895/libcam.hal3a.v3.flash.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.flash.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.flicker.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.flicker.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.ir.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.ir.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.lsctbl.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.lsctbl.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.nvram.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.nvram.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.sensor.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.sensor.v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.strobe.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.strobe.so
+vendor/lib64/mt6895/libcam.hal3a.v3.stt_v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.stt_v4l2.so
+vendor/lib64/mt6895/libcam.hal3a.v3.tone.mgr.v4l2.so;SYMLINK=vendor/lib64/libcam.hal3a.v3.tone.mgr.v4l2.so
+vendor/lib64/mt6895/libcam.halisp.TopCtrlMgr.so;SYMLINK=vendor/lib64/libcam.halisp.TopCtrlMgr.so
+vendor/lib64/mt6895/libcam.halisp.TuningDataProvider.so;SYMLINK=vendor/lib64/libcam.halisp.TuningDataProvider.so
+vendor/lib64/mt6895/libcam.halisp.TuningDataProviderFactory.so;SYMLINK=vendor/lib64/libcam.halisp.TuningDataProviderFactory.so
+vendor/lib64/mt6895/libcam.halisp.imp.v4l2.so;SYMLINK=vendor/lib64/libcam.halisp.imp.v4l2.so
+vendor/lib64/mt6895/libcam.halisp.plugin.so;SYMLINK=vendor/lib64/libcam.halisp.plugin.so
+vendor/lib64/mt6895/libcam.halisp.utils.so;SYMLINK=vendor/lib64/libcam.halisp.utils.so
+vendor/lib64/mt6895/libcam.halisp.v4l2.so;SYMLINK=vendor/lib64/libcam.halisp.v4l2.so
+vendor/lib64/mt6895/libcam.halsensor.so;SYMLINK=vendor/lib64/libcam.halsensor.so
+vendor/lib64/mt6895/libcam.isptuning.v4l2.so;SYMLINK=vendor/lib64/libcam.isptuning.v4l2.so
+vendor/lib64/mt6895/libcam.peripheralcontroller.so;SYMLINK=vendor/lib64/libcam.peripheralcontroller.so
+vendor/lib64/mt6895/libcam.tuningcachemgr.so;SYMLINK=vendor/lib64/libcam.tuningcachemgr.so
+vendor/lib64/mt6895/libcam.utils.sensorprovider.so;SYMLINK=vendor/lib64/libcam.utils.sensorprovider.so
+vendor/lib64/mt6895/libcam.vhdr.so;SYMLINK=vendor/lib64/libcam.vhdr.so
+vendor/lib64/mt6895/libcam_ipc_hal3a_client.so;SYMLINK=vendor/lib64/libcam_ipc_hal3a_client.so
+vendor/lib64/mt6895/libcam_ipc_halisp_client.so;SYMLINK=vendor/lib64/libcam_ipc_halisp_client.so
+vendor/lib64/mt6895/libcam_ipc_nvbuf_client.so;SYMLINK=vendor/lib64/libcam_ipc_nvbuf_client.so
+vendor/lib64/mt6895/libcamalgo.BSSwrapper.so;SYMLINK=vendor/lib64/libcamalgo.BSSwrapper.so
+vendor/lib64/mt6895/libcamalgo.Mfbllwrapper.so;SYMLINK=vendor/lib64/libcamalgo.Mfbllwrapper.so
+vendor/lib64/mt6895/libcamalgo.aibc.so;SYMLINK=vendor/lib64/libcamalgo.aibc.so
+vendor/lib64/mt6895/libcamalgo.aibcwrapper.so;SYMLINK=vendor/lib64/libcamalgo.aibcwrapper.so
+vendor/lib64/mt6895/libcamalgo.aihdr.so;SYMLINK=vendor/lib64/libcamalgo.aihdr.so
+vendor/lib64/mt6895/libcamalgo.ainr.so;SYMLINK=vendor/lib64/libcamalgo.ainr.so
+vendor/lib64/mt6895/libcamalgo.bss.so;SYMLINK=vendor/lib64/libcamalgo.bss.so
+vendor/lib64/mt6895/libcamalgo.fus.so;SYMLINK=vendor/lib64/libcamalgo.fus.so
+vendor/lib64/mt6895/libcamalgo.lsc.so;SYMLINK=vendor/lib64/libcamalgo.lsc.so
+vendor/lib64/mt6895/libcamalgo.mfnr.so;SYMLINK=vendor/lib64/libcamalgo.mfnr.so
+vendor/lib64/mt6895/libcamalgo.platform2.so;SYMLINK=vendor/lib64/libcamalgo.platform2.so
+vendor/lib64/mt6895/libcamalgo.rotate.so;SYMLINK=vendor/lib64/libcamalgo.rotate.so
+vendor/lib64/mt6895/libcamalgo.vaidepth.so;SYMLINK=vendor/lib64/libcamalgo.vaidepth.so
+vendor/lib64/mt6895/libcamalgo.vainr.so;SYMLINK=vendor/lib64/libcamalgo.vainr.so
+vendor/lib64/mt6895/libcamalgo.vsf.so;SYMLINK=vendor/lib64/libcamalgo.vsf.so
+vendor/lib64/mt6895/libcamera.custom.af_assist_buf_mgr.so;SYMLINK=vendor/lib64/libcamera.custom.af_assist_buf_mgr.so
+vendor/lib64/mt6895/libcamera.custom.af_assist_buf_mgr_open.so;SYMLINK=vendor/lib64/libcamera.custom.af_assist_buf_mgr_open.so
+vendor/lib64/mt6895/libcamera.custom.af_assist_mgr.so;SYMLINK=vendor/lib64/libcamera.custom.af_assist_mgr.so
+vendor/lib64/mt6895/libcamera.custom.af_assist_pdp.so;SYMLINK=vendor/lib64/libcamera.custom.af_assist_pdp.so
+vendor/lib64/mt6895/libcamera.customae.so;SYMLINK=vendor/lib64/libcamera.customae.so
+vendor/lib64/mt6895/libcamera.customaf.so;SYMLINK=vendor/lib64/libcamera.customaf.so
+vendor/lib64/mt6895/libcamera.customawb.so;SYMLINK=vendor/lib64/libcamera.customawb.so
+vendor/lib64/mt6895/libcamera.customflk.so;SYMLINK=vendor/lib64/libcamera.customflk.so
+vendor/lib64/mt6895/libcameracustom.camera.3a.so;SYMLINK=vendor/lib64/libcameracustom.camera.3a.so
+vendor/lib64/mt6895/libcameracustom.camera.isp.so;SYMLINK=vendor/lib64/libcameracustom.camera.isp.so
+vendor/lib64/mt6895/libcameracustom.camera.sensors.so;SYMLINK=vendor/lib64/libcameracustom.camera.sensors.so
+vendor/lib64/mt6895/libcameracustom.camera_calibration.core.so;SYMLINK=vendor/lib64/libcameracustom.camera_calibration.core.so
+vendor/lib64/mt6895/libcameracustom.camera_exif.so;SYMLINK=vendor/lib64/libcameracustom.camera_exif.so
+vendor/lib64/mt6895/libcameracustom.cfg_setting.core.so;SYMLINK=vendor/lib64/libcameracustom.cfg_setting.core.so
+vendor/lib64/mt6895/libcameracustom.eis.so;SYMLINK=vendor/lib64/libcameracustom.eis.so
+vendor/lib64/mt6895/libcameracustom.flashlight.so;SYMLINK=vendor/lib64/libcameracustom.flashlight.so
+vendor/lib64/mt6895/libcameracustom.imgsensor.core.so;SYMLINK=vendor/lib64/libcameracustom.imgsensor.core.so
+vendor/lib64/mt6895/libcameracustom.lens.so;SYMLINK=vendor/lib64/libcameracustom.lens.so
+vendor/lib64/mt6895/libcameracustom.plugin.so
+vendor/lib64/mt6895/libcameracustom.so;SYMLINK=vendor/lib64/libcameracustom.so
+vendor/lib64/mt6895/libccd.so
+vendor/lib64/mt6895/libeffecthal.base.so;SYMLINK=vendor/lib64/libeffecthal.base.so
+vendor/lib64/mt6895/libfeature.face.so;SYMLINK=vendor/lib64/libfeature.face.so
+vendor/lib64/mt6895/libfeature.fwmvp.so;SYMLINK=vendor/lib64/libfeature.fwmvp.so
+vendor/lib64/mt6895/libfeature.mcnr.so;SYMLINK=vendor/lib64/libfeature.mcnr.so
+vendor/lib64/mt6895/libfeature.stereo.provider.so;SYMLINK=vendor/lib64/libfeature.stereo.provider.so
+vendor/lib64/mt6895/libfeature.vainr.hal.so;SYMLINK=vendor/lib64/libfeature.vainr.hal.so
+vendor/lib64/mt6895/libfeature.vsdof.3a_info_provider.so;SYMLINK=vendor/lib64/libfeature.vsdof.3a_info_provider.so
+vendor/lib64/mt6895/libfeature.vsdof.hal.so;SYMLINK=vendor/lib64/libfeature.vsdof.hal.so
+vendor/lib64/mt6895/libfeature_eis.so;SYMLINK=vendor/lib64/libfeature_eis.so
+vendor/lib64/mt6895/libfeature_fsc.so;SYMLINK=vendor/lib64/libfeature_fsc.so
+vendor/lib64/mt6895/libfeature_rss.so;SYMLINK=vendor/lib64/libfeature_rss.so
+vendor/lib64/mt6895/libfeature_vrp.so;SYMLINK=vendor/lib64/libfeature_vrp.so
+vendor/lib64/mt6895/libfeatureiodrv_mem.so;SYMLINK=vendor/lib64/libfeatureiodrv_mem.so
+vendor/lib64/mt6895/libimgsys_adl.so;SYMLINK=vendor/lib64/libimgsys_adl.so
+vendor/lib64/mt6895/libimgsys_cmt.so;SYMLINK=vendor/lib64/libimgsys_cmt.so
+vendor/lib64/mt6895/libimgsys_daemon.so
+vendor/lib64/mt6895/libimgsys_dip.so;SYMLINK=vendor/lib64/libimgsys_dip.so
+vendor/lib64/mt6895/libimgsys_drvcommon.so;SYMLINK=vendor/lib64/libimgsys_drvcommon.so
+vendor/lib64/mt6895/libimgsys_gce.so;SYMLINK=vendor/lib64/libimgsys_gce.so
+vendor/lib64/mt6895/libimgsys_main.so;SYMLINK=vendor/lib64/libimgsys_main.so
+vendor/lib64/mt6895/libimgsys_me.so;SYMLINK=vendor/lib64/libimgsys_me.so
+vendor/lib64/mt6895/libimgsys_pqdip.so;SYMLINK=vendor/lib64/libimgsys_pqdip.so
+vendor/lib64/mt6895/libimgsys_sensor.so;SYMLINK=vendor/lib64/libimgsys_sensor.so
+vendor/lib64/mt6895/libimgsys_system.so;SYMLINK=vendor/lib64/libimgsys_system.so
+vendor/lib64/mt6895/libimgsys_taskhandler.so;SYMLINK=vendor/lib64/libimgsys_taskhandler.so
+vendor/lib64/mt6895/libimgsys_tdrhal.so;SYMLINK=vendor/lib64/libimgsys_tdrhal.so
+vendor/lib64/mt6895/libimgsys_traw.so;SYMLINK=vendor/lib64/libimgsys_traw.so
+vendor/lib64/mt6895/libimgsys_utils.so;SYMLINK=vendor/lib64/libimgsys_utils.so
+vendor/lib64/mt6895/libimgsys_v4l2.so;SYMLINK=vendor/lib64/libimgsys_v4l2.so
+vendor/lib64/mt6895/libimgsys_wpe.so;SYMLINK=vendor/lib64/libimgsys_wpe.so
+vendor/lib64/mt6895/libispfeature_mtkcam.v4l2.so;SYMLINK=vendor/lib64/libispfeature_mtkcam.v4l2.so
+vendor/lib64/mt6895/liblpnr.so;SYMLINK=vendor/lib64/liblpnr.so
+vendor/lib64/mt6895/libmfllcore.so;SYMLINK=vendor/lib64/libmfllcore.so
+vendor/lib64/mt6895/libmgr3a.adapt.so;SYMLINK=vendor/lib64/libmgr3a.adapt.so
+vendor/lib64/mt6895/libmtkcam.atmseventmgr.so;SYMLINK=vendor/lib64/libmtkcam.atmseventmgr.so
+vendor/lib64/mt6895/libmtkcam.debugwrapper.so;SYMLINK=vendor/lib64/libmtkcam.debugwrapper.so
+vendor/lib64/mt6895/libmtkcam.eventcallback.so;SYMLINK=vendor/lib64/libmtkcam.eventcallback.so
+vendor/lib64/mt6895/libmtkcam.featurepipe.capture.so;SYMLINK=vendor/lib64/libmtkcam.featurepipe.capture.so
+vendor/lib64/mt6895/libmtkcam.featurepipe.depthmap.so;SYMLINK=vendor/lib64/libmtkcam.featurepipe.depthmap.so
+vendor/lib64/mt6895/libmtkcam.featurepipe.p2g.so;SYMLINK=vendor/lib64/libmtkcam.featurepipe.p2g.so
+vendor/lib64/mt6895/libmtkcam.featurepipe.streaming.so;SYMLINK=vendor/lib64/libmtkcam.featurepipe.streaming.so
+vendor/lib64/mt6895/libmtkcam.featurepipe.vsdof.wrapper.so;SYMLINK=vendor/lib64/libmtkcam.featurepipe.vsdof.wrapper.so
+vendor/lib64/mt6895/libmtkcam.logicalcaminfoprovider.so;SYMLINK=vendor/lib64/libmtkcam.logicalcaminfoprovider.so
+vendor/lib64/mt6895/libmtkcam.logicalmodule.so;SYMLINK=vendor/lib64/libmtkcam.logicalmodule.so
+vendor/lib64/mt6895/libmtkcam_aie.so;SYMLINK=vendor/lib64/libmtkcam_aie.so
+vendor/lib64/mt6895/libmtkcam_android_zslprocessor.so;SYMLINK=vendor/lib64/libmtkcam_android_zslprocessor.so
+vendor/lib64/mt6895/libmtkcam_buffer_flush.so;SYMLINK=vendor/lib64/libmtkcam_buffer_flush.so
+vendor/lib64/mt6895/libmtkcam_ca.so;SYMLINK=vendor/lib64/libmtkcam_ca.so
+vendor/lib64/mt6895/libmtkcam_calibration_convertor.so;SYMLINK=vendor/lib64/libmtkcam_calibration_convertor.so
+vendor/lib64/mt6895/libmtkcam_calibration_provider.so;SYMLINK=vendor/lib64/libmtkcam_calibration_provider.so
+vendor/lib64/mt6895/libmtkcam_camcontroller.so;SYMLINK=vendor/lib64/libmtkcam_camcontroller.so
+vendor/lib64/mt6895/libmtkcam_camcoordinator.so;SYMLINK=vendor/lib64/libmtkcam_camcoordinator.so
+vendor/lib64/mt6895/libmtkcam_camctrl.so;SYMLINK=vendor/lib64/libmtkcam_camctrl.so
+vendor/lib64/mt6895/libmtkcam_coredev.so;SYMLINK=vendor/lib64/libmtkcam_coredev.so
+vendor/lib64/mt6895/libmtkcam_custzone.so;SYMLINK=vendor/lib64/libmtkcam_custzone.so
+vendor/lib64/mt6895/libmtkcam_debugutils.so;SYMLINK=vendor/lib64/libmtkcam_debugutils.so
+vendor/lib64/mt6895/libmtkcam_devicemgr.so;SYMLINK=vendor/lib64/libmtkcam_devicemgr.so
+vendor/lib64/mt6895/libmtkcam_diputils.so;SYMLINK=vendor/lib64/libmtkcam_diputils.so
+vendor/lib64/mt6895/libmtkcam_dma_map.so;SYMLINK=vendor/lib64/libmtkcam_dma_map.so
+vendor/lib64/mt6895/libmtkcam_exif.so;SYMLINK=vendor/lib64/libmtkcam_exif.so
+vendor/lib64/mt6895/libmtkcam_faceResultHandler.so;SYMLINK=vendor/lib64/libmtkcam_faceResultHandler.so
+vendor/lib64/mt6895/libmtkcam_grallocutils.so;SYMLINK=vendor/lib64/libmtkcam_grallocutils.so
+vendor/lib64/mt6895/libmtkcam_hal3a_provider.so;SYMLINK=vendor/lib64/libmtkcam_hal3a_provider.so
+vendor/lib64/mt6895/libmtkcam_hal_android_app_cbadaptor.so;SYMLINK=vendor/lib64/libmtkcam_hal_android_app_cbadaptor.so
+vendor/lib64/mt6895/libmtkcam_hal_android_common.so;SYMLINK=vendor/lib64/libmtkcam_hal_android_common.so
+vendor/lib64/mt6895/libmtkcam_hal_android_device.so;SYMLINK=vendor/lib64/libmtkcam_hal_android_device.so
+vendor/lib64/mt6895/libmtkcam_hal_android_provider.so;SYMLINK=vendor/lib64/libmtkcam_hal_android_provider.so
+vendor/lib64/mt6895/libmtkcam_hal_android_utils.so;SYMLINK=vendor/lib64/libmtkcam_hal_android_utils.so
+vendor/lib64/mt6895/libmtkcam_hal_core_app.so;SYMLINK=vendor/lib64/libmtkcam_hal_core_app.so
+vendor/lib64/mt6895/libmtkcam_hal_core_app_cbadaptor.so;SYMLINK=vendor/lib64/libmtkcam_hal_core_app_cbadaptor.so
+vendor/lib64/mt6895/libmtkcam_hal_core_device.so;SYMLINK=vendor/lib64/libmtkcam_hal_core_device.so
+vendor/lib64/mt6895/libmtkcam_hal_core_devicesessionpolicy.so;SYMLINK=vendor/lib64/libmtkcam_hal_core_devicesessionpolicy.so
+vendor/lib64/mt6895/libmtkcam_hal_core_featurepolicy.so;SYMLINK=vendor/lib64/libmtkcam_hal_core_featurepolicy.so
+vendor/lib64/mt6895/libmtkcam_hal_core_provider.so;SYMLINK=vendor/lib64/libmtkcam_hal_core_provider.so
+vendor/lib64/mt6895/libmtkcam_hal_core_utils.so;SYMLINK=vendor/lib64/libmtkcam_hal_core_utils.so
+vendor/lib64/mt6895/libmtkcam_hal_custom.so;SYMLINK=vendor/lib64/libmtkcam_hal_custom.so
+vendor/lib64/mt6895/libmtkcam_hal_custom_provider.so;SYMLINK=vendor/lib64/libmtkcam_hal_custom_provider.so
+vendor/lib64/mt6895/libmtkcam_hwnode.so;SYMLINK=vendor/lib64/libmtkcam_hwnode.so
+vendor/lib64/mt6895/libmtkcam_hwutils.so;SYMLINK=vendor/lib64/libmtkcam_hwutils.so
+vendor/lib64/mt6895/libmtkcam_hwutils_android.so;SYMLINK=vendor/lib64/libmtkcam_hwutils_android.so
+vendor/lib64/mt6895/libmtkcam_hwutils_poweronoffcontroller.so;SYMLINK=vendor/lib64/libmtkcam_hwutils_poweronoffcontroller.so
+vendor/lib64/mt6895/libmtkcam_imgbuf_v2.so;SYMLINK=vendor/lib64/libmtkcam_imgbuf_v2.so
+vendor/lib64/mt6895/libmtkcam_ipc_core.so;SYMLINK=vendor/lib64/libmtkcam_ipc_core.so
+vendor/lib64/mt6895/libmtkcam_ipc_wrapper_common_client.so;SYMLINK=vendor/lib64/libmtkcam_ipc_wrapper_common_client.so
+vendor/lib64/mt6895/libmtkcam_ipc_wrapper_common_server.so;SYMLINK=vendor/lib64/libmtkcam_ipc_wrapper_common_server.so
+vendor/lib64/mt6895/libmtkcam_ipc_wrapper_mtk_client.so;SYMLINK=vendor/lib64/libmtkcam_ipc_wrapper_mtk_client.so
+vendor/lib64/mt6895/libmtkcam_ipc_wrapper_mtk_server.so;SYMLINK=vendor/lib64/libmtkcam_ipc_wrapper_mtk_server.so
+vendor/lib64/mt6895/libmtkcam_jsonconvertor.so;SYMLINK=vendor/lib64/libmtkcam_jsonconvertor.so
+vendor/lib64/mt6895/libmtkcam_jsondata.so;SYMLINK=vendor/lib64/libmtkcam_jsondata.so
+vendor/lib64/mt6895/libmtkcam_mapping_mgr.so;SYMLINK=vendor/lib64/libmtkcam_mapping_mgr.so
+vendor/lib64/mt6895/libmtkcam_metaconv.so;SYMLINK=vendor/lib64/libmtkcam_metaconv.so
+vendor/lib64/mt6895/libmtkcam_metadata.so;SYMLINK=vendor/lib64/libmtkcam_metadata.so
+vendor/lib64/mt6895/libmtkcam_metastore.so;SYMLINK=vendor/lib64/libmtkcam_metastore.so
+vendor/lib64/mt6895/libmtkcam_modulefactory_custom.so
+vendor/lib64/mt6895/libmtkcam_modulefactory_utils.so
+vendor/lib64/mt6895/libmtkcam_modulehelper.so;SYMLINK=vendor/lib64/libmtkcam_modulehelper.so
+vendor/lib64/mt6895/libmtkcam_packutils.so;SYMLINK=vendor/lib64/libmtkcam_packutils.so
+vendor/lib64/mt6895/libmtkcam_pipeline.so;SYMLINK=vendor/lib64/libmtkcam_pipeline.so
+vendor/lib64/mt6895/libmtkcam_pipeline_fbm.so;SYMLINK=vendor/lib64/libmtkcam_pipeline_fbm.so
+vendor/lib64/mt6895/libmtkcam_pipelinemodel_capture.so;SYMLINK=vendor/lib64/libmtkcam_pipelinemodel_capture.so
+vendor/lib64/mt6895/libmtkcam_pipelinemodel_session.so;SYMLINK=vendor/lib64/libmtkcam_pipelinemodel_session.so
+vendor/lib64/mt6895/libmtkcam_pipelinemodel_utils.so;SYMLINK=vendor/lib64/libmtkcam_pipelinemodel_utils.so
+vendor/lib64/mt6895/libmtkcam_pipelinepolicy-security.so;SYMLINK=vendor/lib64/libmtkcam_pipelinepolicy-security.so
+vendor/lib64/mt6895/libmtkcam_pipelinepolicy-smvr.so;SYMLINK=vendor/lib64/libmtkcam_pipelinepolicy-smvr.so
+vendor/lib64/mt6895/libmtkcam_pipelinepolicy.so;SYMLINK=vendor/lib64/libmtkcam_pipelinepolicy.so
+vendor/lib64/mt6895/libmtkcam_pipelinepolicy_factory.so;SYMLINK=vendor/lib64/libmtkcam_pipelinepolicy_factory.so
+vendor/lib64/mt6895/libmtkcam_pipemgr.so;SYMLINK=vendor/lib64/libmtkcam_pipemgr.so
+vendor/lib64/mt6895/libmtkcam_postprocprovider.so;SYMLINK=vendor/lib64/libmtkcam_postprocprovider.so
+vendor/lib64/mt6895/libmtkcam_prerelease.so;SYMLINK=vendor/lib64/libmtkcam_prerelease.so
+vendor/lib64/mt6895/libmtkcam_proc.so;SYMLINK=vendor/lib64/libmtkcam_proc.so
+vendor/lib64/mt6895/libmtkcam_request_requlator.so;SYMLINK=vendor/lib64/libmtkcam_request_requlator.so
+vendor/lib64/mt6895/libmtkcam_sensorcontrol.so;SYMLINK=vendor/lib64/libmtkcam_sensorcontrol.so
+vendor/lib64/mt6895/libmtkcam_simager.so;SYMLINK=vendor/lib64/libmtkcam_simager.so
+vendor/lib64/mt6895/libmtkcam_stdutils.so;SYMLINK=vendor/lib64/libmtkcam_stdutils.so
+vendor/lib64/mt6895/libmtkcam_streamutils.so;SYMLINK=vendor/lib64/libmtkcam_streamutils.so
+vendor/lib64/mt6895/libmtkcam_synchelper.so;SYMLINK=vendor/lib64/libmtkcam_synchelper.so
+vendor/lib64/mt6895/libmtkcam_sysutils.so;SYMLINK=vendor/lib64/libmtkcam_sysutils.so
+vendor/lib64/mt6895/libmtkcam_thirdparty.core.so;SYMLINK=vendor/lib64/libmtkcam_thirdparty.core.so
+vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so;SYMLINK=vendor/lib64/libmtkcam_thirdparty.customer.so
+vendor/lib64/mt6895/libmtkcam_thirdparty.mtk.so;SYMLINK=vendor/lib64/libmtkcam_thirdparty.mtk.so
+vendor/lib64/mt6895/libmtkcam_thirdparty.so;SYMLINK=vendor/lib64/libmtkcam_thirdparty.so
+vendor/lib64/mt6895/libmtkcam_tuning_utils.so;SYMLINK=vendor/lib64/libmtkcam_tuning_utils.so
+vendor/lib64/mt6895/libmtkcam_ulog.so;SYMLINK=vendor/lib64/libmtkcam_ulog.so
+vendor/lib64/mt6895/libmtkcm_ipc_dummy.so;SYMLINK=vendor/lib64/libmtkcm_ipc_dummy.so
+vendor/lib64/mt6895/libpda_usdriver.so;SYMLINK=vendor/lib64/libpda_usdriver.so
+vendor/lib64/mt6895/libstereoinfoaccessor_vsdof.so;SYMLINK=vendor/lib64/libstereoinfoaccessor_vsdof.so
+vendor/lib64/mt6895/mtk000_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/mtk000_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/mtk000_mipi_raw_tuning.so
+vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
+vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
+vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so
+vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so
+vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
+vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
+
+# reference classification: proprietary-files.txt / Chipinfo
+vendor/bin/chipinfo
+vendor/etc/init/chipinfo_init.rc
+
+# reference classification: proprietary-files.txt / Connectivity
+vendor/bin/conninfra_loader
+vendor/etc/init/init.connfem.rc
+vendor/firmware/conninfra.cfg
+vendor/firmware/soc7_0_ram_mcu_1b_t_1_hdr.bin
+
+# reference classification: proprietary-files.txt / ConsumerIR
+vendor/lib64/hw/consumerir.common.so
+
+# reference classification: proprietary-files.txt / DRM
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libwvkeybox.so
+
+# reference classification: proprietary-files.txt / Display
+vendor/etc/cust_color.xml
+vendor/firmware/mali_csffw.bin
+vendor/lib/egl/egl.cfg
+vendor/lib64/egl/libGLES_meow.so
+vendor/lib64/egl/libMEOW_data.so
+vendor/lib64/egl/libMEOW_gift.so
+vendor/lib64/egl/libMEOW_qt.so
+vendor/lib64/egl/libMEOW_trace.so
+vendor/lib64/egl/mt6895/libGLES_mali.so;SYMLINK=vendor/lib64/egl/libGLES_mali.so
+vendor/lib64/hw/hwcomposer.mtk_common.so
+vendor/lib64/hw/mt6895/vulkan.mali.so
+vendor/lib64/libDefaultFpsActor.so
+vendor/lib64/libFrameRecord.so
+vendor/lib64/libNoFpsActor.so
+vendor/lib64/libaal_cust.so
+vendor/lib64/libaal_key.so
+vendor/lib64/libcomposer_ext.so
+vendor/lib64/libged.so
+vendor/lib64/libgpu_aux.so
+vendor/lib64/libgpud.so
+vendor/lib64/libgralloc_extra.so
+vendor/lib64/libgralloc_metadata.so
+vendor/lib64/libgralloctypes_mtk.so
+vendor/lib64/libion_mtk.so
+vendor/lib64/libion_ulit.so
+vendor/lib64/libpqframework.so
+vendor/lib64/libudf.so
+vendor/lib64/mt6895/libaal_cust_func.so
+vendor/lib64/mt6895/libaiselector.so;SYMLINK=vendor/lib64/libaiselector.so
+vendor/lib64/mt6895/libdpframework.so;SYMLINK=vendor/lib64/libdpframework.so
+vendor/lib64/mt6895/libgamehdr.so
+vendor/lib64/mt6895/libmtk_drvb.so;SYMLINK=vendor/lib64/libmtk_drvb.so
+vendor/lib64/mt6895/libpq_cust_base.so
+vendor/lib64/mt6895/libpqparamparser.so;SYMLINK=vendor/lib64/libpqparamparser.so
+vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.1.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.10.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.11.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.3.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.4.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.5.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
+vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
+
+# reference classification: proprietary-files.txt / Fingerprint
+vendor/lib64/hw/fingerprint.goodix_fod.so
+vendor/lib64/libgf_hal.so
+
+# reference classification: proprietary-files.txt / GNSS
+vendor/bin/hw/android.hardware.gnss-service.mediatek
+vendor/bin/mnld
+vendor/bin/mtk_agpsd
+vendor/etc/gnss/agps_profiles_conf2.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml
+vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
+vendor/etc/init/android.hardware.gnss-service.mediatek.rc
+vendor/etc/init/init.gps_drv.rc
+vendor/etc/init/init.gps_pwr.rc
+vendor/etc/init/init.gps_scp.rc
+vendor/etc/init/mtk_agpsd_p.rc
+vendor/etc/slp_conf
+vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
+vendor/lib64/hw/gps.default.so
+vendor/lib64/mt6895/libDR.so;SYMLINK=vendor/lib64/libDR.so
+vendor/lib64/mt6895/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
+
+# reference classification: proprietary-files.txt / HotwordEnrollment
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
+# reference classification: proprietary-files.txt / Media (C2)
+vendor/lib64/libcodec2_mtk_c2store.so
+vendor/lib64/libcodec2_mtk_vdec.so
+vendor/lib64/libcodec2_mtk_venc.so
+vendor/lib64/libcodec2_vpp_dolby_plugin.so
+vendor/lib64/libcodec2_vpp_qt_plugin.so
+vendor/lib64/libcodec2_vpp_rs_plugin.so
+vendor/lib64/libdolbyeglplugin.so
+vendor/lib64/libdolbyottcameracontrol.so
+vendor/lib64/libdolbyplugin.so
+vendor/lib64/libformatter.so
+
+# reference classification: proprietary-files.txt / Media (MMS)
+vendor/lib64/libJpgEncPipe.so
+vendor/lib64/libjpeg-alpha-oal_vendor.so
+vendor/lib64/libjpeg-alpha_vendor.so
+
+# reference classification: proprietary-files.txt / NFC
+vendor/etc/libnfc-nxp-pnscr.conf
+vendor/etc/sn100u_bootup.pnscr
+vendor/etc/sn100u_ese_disableIso.pnscr
+vendor/etc/sn100u_ese_disableIsoRead.pnscr
+vendor/etc/sn100u_nfcon.pnscr
+vendor/etc/sn100u_pnx_chr.pnscr
+vendor/etc/sn100u_pnx_cui.pnscr
+vendor/etc/sn100u_pnx_ese_3.pnscr
+vendor/etc/sn100u_pnx_ese_aclog.pnscr
+vendor/etc/sn100u_pnx_ese_cplc.pnscr
+vendor/etc/sn100u_pnx_ese_fabkey.pnscr
+vendor/etc/sn100u_pnx_ese_free.pnscr
+vendor/etc/sn100u_pnx_ese_keyset.pnscr
+vendor/etc/sn100u_pnx_ese_sei2c_disable.pnscr
+vendor/etc/sn100u_pnx_ese_sei2c_enable.pnscr
+vendor/etc/sn100u_pnx_ese_sei2c_read.pnscr
+vendor/etc/sn100u_pnx_ese_sn.pnscr
+vendor/etc/sn100u_pnx_ndi.pnscr
+vendor/etc/sn100u_pnx_pcv.pnscr
+vendor/etc/sn100u_pnx_sst.pnscr
+
+# reference classification: proprietary-files.txt / NFC Firmware
+vendor/lib64/libsn100u_fw.so
+
+# reference classification: proprietary-files.txt / NVRAM
+vendor/bin/nvram_daemon
+vendor/etc/init/nvram_daemon.rc
+vendor/lib64/libconnfem.so
+vendor/lib64/libcustom_nvram.so
+vendor/lib64/libfile_op.so
+vendor/lib64/libhwm.so
+vendor/lib64/libnvram.so
+vendor/lib64/libnvram_sec.so
+
+# reference classification: proprietary-files.txt / Neural Networks
+vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk
+vendor/etc/nnapi_powerhal.json
+vendor/lib64/libapu_mdw.so
+vendor/lib64/libapu_mdw_batch.so
+vendor/lib64/libapusys.so
+vendor/lib64/libarmnn.so;MODULE_SUFFIX=-vendor
+vendor/lib64/libarmnn_ndk.mtk.vndk.so
+vendor/lib64/libcmdl.so
+vendor/lib64/libcmdl_ndk.mtk.vndk.so
+vendor/lib64/libmvpu_cic_ci_compiler.so
+vendor/lib64/libmvpu_clc_cl_compiler.so
+vendor/lib64/libmvpu_clc_mvpu_debuginfo.so
+vendor/lib64/libmvpu_clc_mvpu_elf.so
+vendor/lib64/libmvpu_clc_mvpu_utility.so
+vendor/lib64/libmvpu_clc_vpu_isa.so
+vendor/lib64/libmvpu_config.so
+vendor/lib64/libmvpu_config_data.so
+vendor/lib64/libmvpu_engine.so
+vendor/lib64/libmvpu_engine_pub.so
+vendor/lib64/libmvpu_pattern.so
+vendor/lib64/libmvpu_pattern_pub.so
+vendor/lib64/libmvpu_runtime.so
+vendor/lib64/libmvpu_runtime_pub.so
+vendor/lib64/libmvpuop_mtk_cv.so
+vendor/lib64/libmvpuop_mtk_nn.so
+vendor/lib64/libnpagent.so
+vendor/lib64/libnpagent_server.so
+vendor/lib64/mt6895/libneuron_adapter_mgvi.so
+vendor/lib64/mt6895/libneuron_runtime.5.so;SYMLINK=vendor/lib64/libneuron_runtime.5.so
+vendor/lib64/mt6895/libneuron_wrapper.so;SYMLINK=vendor/lib64/libneuron_wrapper.so
+vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
+vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
+vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
+vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so
+vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
+vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
+
+# reference classification: proprietary-files.txt / Power
+vendor/lib64/vendor.mediatek.hardware.power@1.1.so
+vendor/lib64/vendor.mediatek.hardware.power@2.0.so
+
+# reference classification: proprietary-files.txt / Radio
+vendor/bin/ccci_mdinit
+vendor/bin/ccci_rpcd
+vendor/bin/hw/mtkfusionrild
+vendor/etc/ecc_list.xml
+vendor/etc/ecc_list_OP01.xml
+vendor/etc/ecc_list_OP02.xml
+vendor/etc/ecc_list_OP09.xml
+vendor/etc/ecc_list_OP12.xml
+vendor/etc/ecc_list_OP17.xml
+vendor/etc/ecc_list_OP18.xml
+vendor/etc/ecc_list_OP236.xml
+vendor/etc/ecc_list_preference.xml
+vendor/etc/init/init.cccimdinit.rc
+vendor/etc/init/init.cccirpcd.rc
+vendor/etc/init/mtkrild.rc
+vendor/etc/special_pws_channel.xml
+vendor/etc/vendor-apns-conf.xml
+vendor/etc/virtual-spn-conf-by-efgid1.xml
+vendor/etc/virtual-spn-conf-by-efpnn.xml
+vendor/etc/virtual-spn-conf-by-efspn.xml
+vendor/etc/virtual-spn-conf-by-imsi.xml
+vendor/lib64/libcarrierconfig.so
+vendor/lib64/libccci_util.so
+vendor/lib64/libgwsdv2-ril.so
+vendor/lib64/libgwsdv3-ril.so
+vendor/lib64/libmipc.so
+vendor/lib64/libmnetlink_v104.so
+vendor/lib64/libmtk-fusion-ril-prop-vsim.so
+vendor/lib64/libmtk-ril.so
+vendor/lib64/libmtkconfig.so
+vendor/lib64/libmtkconfigutils.so
+vendor/lib64/libmtkcutils.so
+vendor/lib64/libmtkhardware_legacy.so
+vendor/lib64/libmtkmipc-ril.so
+vendor/lib64/libmtknetcap.so
+vendor/lib64/libmtknetutils.so
+vendor/lib64/libmtkproperty.so
+vendor/lib64/libmtkrillog.so
+vendor/lib64/libmtkrilutils.so
+vendor/lib64/libmtksysutils.so
+vendor/lib64/libmtktinyxml.so
+vendor/lib64/libmtkutils.so
+vendor/lib64/libratconfig.so
+vendor/lib64/librilfusion.so
+vendor/lib64/libstorage_otp.so
+vendor/lib64/libsysenv.so
+vendor/lib64/libtrm.so
+vendor/lib64/libvia-ril.so
+vendor/lib64/libviamipc-ril.so
+vendor/lib64/libwpfa.so
+
+# reference classification: proprietary-files.txt / Secure Element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+
+# reference classification: proprietary-files.txt / Sensors
+vendor/etc/sensors/hals.conf
+vendor/firmware/remoteproc_scp
+vendor/lib64/hw/sensors.mediatek.V2.0.so
+vendor/lib64/libhfmanager.so
+
+# reference classification: proprietary-files.txt / Tether Offload
+vendor/bin/hw/tetheroffloadservice
+vendor/bin/netdagent
+vendor/etc/init/netdagent.rc
+vendor/lib64/libforkexecwrap.so
+vendor/lib64/libifcutils_mtk.so
+vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
+
+# reference classification: proprietary-files.txt / Thermal
+vendor/bin/mi_thermald
+vendor/etc/thermal-map.conf
+vendor/etc/thermald-devices.conf
+
+# reference classification: proprietary-files.txt / Trusted Execution Environment (TEE)
+vendor/lib64/libgz_gp_client.so
+vendor/lib64/libgz_uree.so
+vendor/lib64/libthha.so
+
+# reference classification: proprietary-files.txt / Vibrator
+vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
+vendor/etc/excluded-input-devices.xml
+vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc
+
+# reference classification: proprietary-files.txt / Vibrator firmware
+vendor/firmware/0_click_P_RTP.bin
+vendor/firmware/1_doubelClick_P_RTP.bin
+vendor/firmware/2_tick_P_RTP.bin
+vendor/firmware/3_thud_P_RTP.bin
+vendor/firmware/4_pop_P_RTP.bin
+vendor/firmware/5_heavyClick_P_RTP.bin
+vendor/firmware/6_ringTone1_P_RTP.bin
+vendor/firmware/7_ringTone2_P_RTP.bin
+vendor/firmware/8_ringTone3_P_RTP.bin
+vendor/firmware/9_ringTone4_P_RTP.bin
+vendor/firmware/aw8697_haptic.bin
+vendor/firmware/aw8697_rtp_1.bin
+
+# reference classification: proprietary-files.txt / Wi-Fi
+vendor/bin/wlan_assistant
+vendor/etc/init/init.wlan_drv.rc
+vendor/etc/init/wlan_assistant.rc
+vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_t_1.bin
+vendor/firmware/soc7_0_ram_wmmcu_1b_t_1_hdr.bin
+vendor/firmware/txpowerctrl.cfg
+vendor/firmware/wifi.cfg
+vendor/lib64/libwifi-hal.so;MODULE_SUFFIX=-vendor
