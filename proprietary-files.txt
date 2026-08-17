@@ -740,7 +740,7 @@ vendor/etc/init/thermal-mediatek.rc
 vendor/etc/init/touch_boost.rc
 vendor/etc/init/v3avpud-64b.rc
 vendor/etc/init/vendor.dolby.media.c2-default-service-dax.rc
-vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc
+# vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.aee@V1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc
