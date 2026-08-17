@@ -51,8 +51,6 @@ genfscon sysfs /devices/platform/1c804000.spmi/spmi-0/0-06/wakeup u:object_r:sys
 genfscon sysfs /devices/platform/1c804000.spmi/spmi-0/0-07/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1c804000.spmi/spmi-0/0-09/mt6685-rtc/rtc/rtc0/alarmtimer.0.auto/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1c804000.spmi/spmi-0/0-09/mt6685-rtc/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/charger/power_supply/mtk-mst-div-chg/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/charger/power_supply/mtk-slv-div-chg/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/charger/power_supply/usb/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/fingerprint/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/goodix_ts.0/wakeup u:object_r:sysfs_wakeup:s0
@@ -83,7 +81,6 @@ genfscon sysfs /devices/platform/soc/14017000.dsi/wakeup u:object_r:sysfs_wakeup
 genfscon sysfs /devices/platform/soc/1e000000.adspsys/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1e980000.gce/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1e990000.gce/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/1f000000.mdp/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/1f800000.mmlsys_config/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/xagapro_charger/power_supply/mtk-master-charger/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/xagapro_charger/power_supply/mtk-mst-div-chg/wakeup u:object_r:sysfs_wakeup:s0
