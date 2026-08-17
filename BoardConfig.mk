@@ -138,6 +138,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
+# Filesystem config
+TARGET_FS_CONFIG_GEN += $(DEVICE_PATH)/config.fs
+
 # AVB topology follows stock metadata. Development keys are used unlocked;
 # flags are deliberately not disabled with --flags 3.
 BOARD_AVB_ENABLE := true
