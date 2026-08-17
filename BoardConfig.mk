@@ -128,6 +128,8 @@ DEVICE_MANIFEST_FILE := \
     $(DEVICE_PATH)/vintf/vendor/manifest.xml \
     $(wildcard $(DEVICE_PATH)/vintf/vendor/manifest/*.xml)
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/vendor/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix.xml
+TARGET_REQUIRES_HIDL_CAS_HAL := false
 ODM_MANIFEST_FILES := \
     $(DEVICE_PATH)/vintf/odm/manifest_dsds.xml \
     $(wildcard $(DEVICE_PATH)/vintf/odm/manifest/*.xml)
