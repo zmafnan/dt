@@ -24,7 +24,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script \
     fastbootd \
-    android.hardware.fastboot@1.1-impl.custom
+    android.hardware.fastboot@1.1-impl.custom \
+    create_pl_dev.recovery \
+    android.hardware.boot-service.default_recovery \
+    android.hardware.health-service.mediatek-recovery
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
