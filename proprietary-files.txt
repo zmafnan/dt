@@ -266,56 +266,56 @@ vendor/etc/init/hw/meta_init.project.rc
 vendor/etc/init/hw/meta_init.rc
 vendor/etc/init/hw/meta_init.vendor.rc
 vendor/etc/init/hw/multi_init.rc
-vendor/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml
 vendor/etc/permissions/android.hardware.audio.low_latency.xml
-vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml
 vendor/etc/permissions/android.hardware.camera.xml
-vendor/etc/permissions/android.hardware.consumerir.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.consumerir.prebuilt.xml
 vendor/etc/permissions/android.hardware.consumerir.xml
-vendor/etc/permissions/android.hardware.faketouch.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.faketouch.prebuilt.xml
 vendor/etc/permissions/android.hardware.fingerprint.xml
-vendor/etc/permissions/android.hardware.hardware_keystore.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.hardware_keystore.xml
 vendor/etc/permissions/android.hardware.identity_credential.mitee.xml
 vendor/etc/permissions/android.hardware.keystore.app_attest_key.xml
-vendor/etc/permissions/android.hardware.location.gps.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.location.gps.prebuilt.xml
 vendor/etc/permissions/android.hardware.location.gps.xml
 vendor/etc/permissions/android.hardware.microphone.xml
 vendor/etc/permissions/android.hardware.opengles.aep.prebuilt.xml
-vendor/etc/permissions/android.hardware.se.omapi.ese.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.se.omapi.ese.prebuilt.xml
 vendor/etc/permissions/android.hardware.se.omapi.prebuilt.xml
-vendor/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml
-vendor/etc/permissions/android.hardware.sensor.compass.prebuilt.xml
-vendor/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml
-vendor/etc/permissions/android.hardware.sensor.light.prebuilt.xml
-vendor/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml
-vendor/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml
-vendor/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.sensor.compass.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.sensor.light.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml
 vendor/etc/permissions/android.hardware.telephony.gsm.xml
-vendor/etc/permissions/android.hardware.telephony.ims.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.telephony.ims.prebuilt.xml
 vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml
 vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml
 vendor/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml
 vendor/etc/permissions/android.hardware.touchscreen.prebuilt.xml
 vendor/etc/permissions/android.hardware.touchscreen.xml
-vendor/etc/permissions/android.hardware.usb.accessory.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.usb.accessory.prebuilt.xml
 vendor/etc/permissions/android.hardware.usb.accessory.xml
-vendor/etc/permissions/android.hardware.usb.host.prebuilt.xml
-vendor/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml
-vendor/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml
-vendor/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.usb.host.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml
 vendor/etc/permissions/android.hardware.wifi.direct.xml
-vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml
 vendor/etc/permissions/android.hardware.wifi.xml
-vendor/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml
 vendor/etc/permissions/android.software.midi.xml
 vendor/etc/permissions/android.software.opengles.deqp.level-2025-03-01.prebuilt.xml
-vendor/etc/permissions/android.software.verified_boot.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/android.software.verified_boot.prebuilt.xml
 vendor/etc/permissions/android.software.vulkan.deqp.level-2025-03-01.prebuilt.xml
 vendor/etc/permissions/camera_extensions.xml
 vendor/etc/permissions/com.mediatek.hardware.vow.gva.tflite.xml
 vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml
 vendor/etc/permissions/com.xiaomi.sensor.xml
-vendor/etc/permissions/handheld_core_hardware.prebuilt.xml
+# Provided by AOSP/Soong: vendor/etc/permissions/handheld_core_hardware.prebuilt.xml
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy
 vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy
 vendor/etc/seccomp_policy/mediacodec.policy
@@ -598,7 +598,7 @@ vendor/firmware/vib_170/9_ringTone4_P_RTP.bin
 vendor/etc/fstab.emmc
 vendor/etc/fstab.enableswap
 vendor/etc/fstab.mt6895
-vendor/etc/linker.config.pb
+# Generated by AOSP build system: vendor/etc/linker.config.pb
 vendor/etc/public.libraries.txt
 vendor/etc/ueventd.rc
 
@@ -615,14 +615,14 @@ system_ext/etc/init/aee_aed.rc
 system_ext/etc/init/aee_aed64.rc
 system_ext/etc/init/aee_aed64_v2.rc
 system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc
-system_ext/etc/init/android.hidl.allocator@1.0-service.rc
+# Provided by AOSP/Soong: system_ext/etc/init/android.hidl.allocator@1.0-service.rc
 system_ext/etc/init/bootlogoupdater.rc
 system_ext/etc/init/bpf_service.rc
 system_ext/etc/init/consyslogger.rc
 system_ext/etc/init/emdlogger.rc
 system_ext/etc/init/f2fs.dfc.native@1.0-service.rc
 system_ext/etc/init/hw/init.aee.rc
-system_ext/etc/init/hwservicemanager.rc
+# Provided by AOSP/Soong: system_ext/etc/init/hwservicemanager.rc
 system_ext/etc/init/hyper_bpfloader.rc
 system_ext/etc/init/hypsys_system.rc
 system_ext/etc/init/init.hbt.leroy.rc
@@ -660,30 +660,30 @@ system_ext/etc/init/native.hang@1.0-service.rc
 system_ext/etc/init/netdiag.rc
 system_ext/etc/init/terserver.rc
 system_ext/etc/init/virtual_keyboard.rc
-vendor/etc/boringssl_self_test.zygote64_32.rc
+# Provided by AOSP/Soong: vendor/etc/boringssl_self_test.zygote64_32.rc
 vendor/etc/init/FastSwitch.rc
 vendor/etc/init/aee_aedv64_v2.rc
 vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc
 vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc
 vendor/etc/init/android.hardware.boot-service.mtk.rc
-vendor/etc/init/android.hardware.drm-service.clearkey.rc
+# Provided by AOSP/Soong: vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc
 vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc
 vendor/etc/init/android.hardware.graphics.composer@3.4-service.rc
-vendor/etc/init/android.hardware.health-service.example.rc
+# Provided by AOSP/Soong: vendor/etc/init/android.hardware.health-service.example.rc
 vendor/etc/init/android.hardware.identity@5.0-service.mitee.rc
-vendor/etc/init/android.hardware.ir-service.example.rc
+# Provided by AOSP/Soong: vendor/etc/init/android.hardware.ir-service.example.rc
 vendor/etc/init/android.hardware.media.c2-mediatek-64b.rc
 vendor/etc/init/android.hardware.security.keymint.mitee@4.0-service.rc
-vendor/etc/init/android.hardware.sensors-service-multihal.rc
+# Provided by AOSP/Soong: vendor/etc/init/android.hardware.sensors-service-multihal.rc
 vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc
 vendor/etc/init/android.hardware.usb.gadget-aidl-service.mediatek.rc
-vendor/etc/init/android.hardware.wifi-service-lazy.rc
+# Provided by AOSP/Soong: vendor/etc/init/android.hardware.wifi-service-lazy.rc
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
-vendor/etc/init/boringssl_self_test.rc
+# Provided by AOSP/Soong: vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/dmc_core.rc
 vendor/etc/init/dms-service.rc
 vendor/etc/init/dumpstate-xiaomi.rc
@@ -693,7 +693,7 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/gpuserv-default.rc
 vendor/etc/init/gsm0710muxd.rc
-vendor/etc/init/hostapd.android.rc
+# Provided by AOSP/Soong: vendor/etc/init/hostapd.android.rc
 vendor/etc/init/hw/init.aee.rc
 vendor/etc/init/hw/init.batterysecret.rc
 vendor/etc/init/hw/init.cgroup.rc
@@ -721,7 +721,7 @@ vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/mbrain-mtk-default.rc
 vendor/etc/init/mcfota_service.rc
 vendor/etc/init/md_monitor.rc
-vendor/etc/init/memtrack-mediatek.rc
+# Provided by AOSP/Soong: vendor/etc/init/memtrack-mediatek.rc
 vendor/etc/init/miteelog.rc
 vendor/etc/init/mtk_gnss.rc
 vendor/etc/init/mtk_lbs_service.rc
@@ -732,7 +732,7 @@ vendor/etc/init/mtkpower_applist-mtk-default.rc
 vendor/etc/init/muxreport.rc
 vendor/etc/init/networksetting.rc
 vendor/etc/init/neuronservice-mtk-default.rc
-vendor/etc/init/nfc-service-nxp.rc
+# Provided by AOSP/Soong: vendor/etc/init/nfc-service-nxp.rc
 vendor/etc/init/secure_element-service.rc
 vendor/etc/init/slad.rc
 vendor/etc/init/tee-supplicant.rc
@@ -757,7 +757,7 @@ vendor/etc/init/vendor.xiaomi.hardware.mimd2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys.core-service.rc
 vendor/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc
 vendor/etc/init/vgoservice.rc
-vendor/etc/init/vndservicemanager.rc
+# Provided by AOSP/Soong: vendor/etc/init/vndservicemanager.rc
 vendor/etc/init/volte_clientapi_ua.rc
 
 # Android 16 stock audio/media configuration
