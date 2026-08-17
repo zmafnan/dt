@@ -632,7 +632,7 @@ system_ext/etc/init/init.lbs_dbg.rc
 system_ext/etc/init/init.milletmonitor.rc
 system_ext/etc/init/init.misight.rc
 system_ext/etc/init/init.miui.cameraopt.rc
-system_ext/etc/init/init.miui.cust.rc
+# system_ext/etc/init/init.miui.cust.rc
 system_ext/etc/init/init.miui.dumpaudiobinderInfo.rc
 system_ext/etc/init/init.miui.ext.rc
 system_ext/etc/init/init.nativedebug.rc
