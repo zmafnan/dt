@@ -2565,7 +2565,7 @@ vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/deblur_sd_opencl_binary.bin
 vendor/etc/camera/deblur_sd_opencl_params.bin
 vendor/etc/camera/deblur_txt_apu.bin
-vendor/etc/camera/gma_custom.xml
+-vendor/etc/camera/gma_custom.xml
 vendor/etc/camera/ldc/AI_Seg.bin
 vendor/etc/camera/miai_psn_config.yaml
 vendor/etc/camera/mibokeh_mt6873_opencl.bin
