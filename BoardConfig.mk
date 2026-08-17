@@ -67,19 +67,11 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilt/dtb
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
-# V8 is a Kleaf Android GKI build. The platform common path is a manifest link
-# to kernel/xiaomi/aristotle; device DTB/DTBO stay stock Android 16 prebuilts.
-TARGET_KERNEL_VERSION := 6.12
-TARGET_KERNEL_SOURCE := common
-TARGET_KERNEL_PLATFORM_TARGET := kernel_aarch64
-TARGET_KERNEL_PLATFORM_BAZEL_ARGS := \
-    --user_clang_toolchain=/home/zmafnan/Project/derp/toolchains/neutron-30062026 \
-    --config=fast \
-    --lto=thin \
-    --notrim \
-    --defconfig_fragment=//common:arch/arm64/configs/ksu-balanced-v2-kfence-on-thinlto.fragment
-BOARD_KERNEL_IMAGE_NAME := Image.lz4
-TARGET_KERNEL_MIXED_MODE := true
+# Prebuilt kernel pipeline
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.lz4
+TARGET_PREBUILT_KERNEL_HEADERS := $(DEVICE_PATH)/prebuilt/kernel-uapi-headers.tar.gz
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_KERNEL_SOURCE :=
 
 include $(DEVICE_PATH)/modules.mk
 
@@ -170,7 +162,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 # Wi-Fi platform settings.
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
-BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_mt66xx
 BOARD_HOSTAPD_DRIVER := NL80211
 WIFI_DRIVER_FW_PATH_PARAM := /dev/wmtWifi
 WIFI_DRIVER_FW_PATH_STA := STA

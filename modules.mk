@@ -20,6 +20,12 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     $(strip $(shell cat $(ARISTOTLE_MODULES_PATH)/vendor_dlkm/modules.load))
 BOARD_DO_NOT_STRIP_VENDOR_MODULES := true
 
+BOARD_SYSTEM_KERNEL_MODULES := \
+    $(wildcard $(ARISTOTLE_MODULES_PATH)/system_dlkm/*.ko)
+BOARD_SYSTEM_KERNEL_MODULES_LOAD := \
+    $(strip $(shell cat $(ARISTOTLE_MODULES_PATH)/system_dlkm/modules.load))
+BOARD_DO_NOT_STRIP_SYSTEM_MODULES := true
+
 # Stock Android 16 has an empty odm_dlkm. Keep the image present but do not
 # invent module payloads for it.
 BOARD_ODM_KERNEL_MODULES :=

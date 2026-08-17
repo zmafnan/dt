@@ -840,13 +840,13 @@ vendor/lib64/mt6895/libpqconfig.so;SYMLINK=vendor/lib64/libpqconfig.so
 
 
 # ELF dependency `android.frameworks.sensorservice@1.0.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
-vendor/lib64/android.frameworks.sensorservice@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.frameworks.sensorservice@1.0.so;MODULE_SUFFIX=-vendor
 
 
 
 
 # ELF dependency `android.hardware.audio.common@5.0.so` required by `vendor/lib64/hw/audio.primary.mediatek.so`
-vendor/lib64/android.hardware.audio.common@5.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.common@5.0.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.audio.core-impl-mediatek.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
@@ -860,7 +860,7 @@ vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so
 
 
 # ELF dependency `android.hardware.biometrics.common.thread.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/android.hardware.biometrics.common.thread.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.biometrics.common.thread.so;MODULE_SUFFIX=-vendor
 
 
 
@@ -871,46 +871,46 @@ vendor/lib64/android.hardware.biometrics.common.thread.so;MODULE_SUFFIX=-vendor
 vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
 
 # ELF dependency `android.hardware.bluetooth.audio@2.0.so` required by `vendor/lib64/libbluetooth_audio_session_aidl_mtk.so`
-vendor/lib64/android.hardware.bluetooth.audio@2.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.bluetooth.audio@2.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.bluetooth.audio@2.1.so` required by `vendor/lib64/libbluetooth_audio_session_aidl_mtk.so`
-vendor/lib64/android.hardware.bluetooth.audio@2.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.bluetooth.audio@2.1.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.boot@1.0.so` required by `vendor/lib64/android.hardware.boot@1.1.so`
-vendor/lib64/android.hardware.boot@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.boot@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.boot@1.1.so` required by `vendor/bin/hw/android.hardware.boot-service.mtk`
-vendor/lib64/android.hardware.boot@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.boot@1.1.so;MODULE_SUFFIX=-vendor
 
 
 
 # ELF dependency `android.hardware.camera.common@1.0.so` required by `vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so`
-vendor/lib64/android.hardware.camera.common@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.common@1.0.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.camera.device@1.0.so` required by `vendor/lib64/android.hardware.camera.provider@2.4.so`
-vendor/lib64/android.hardware.camera.device@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.device@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.camera.device@3.2.so` required by `vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so`
-vendor/lib64/android.hardware.camera.device@3.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.device@3.2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.camera.device@3.3.so` required by `vendor/lib64/android.hardware.camera.provider@2.6.so`
-vendor/lib64/android.hardware.camera.device@3.3.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.device@3.3.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.camera.device@3.4.so` required by `vendor/lib64/android.hardware.camera.provider@2.6.so`
-vendor/lib64/android.hardware.camera.device@3.4.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.device@3.4.so;MODULE_SUFFIX=-vendor
 
 
 
 # ELF dependency `android.hardware.camera.provider@2.4.so` required by `vendor/bin/hw/camerahalserver`
-vendor/lib64/android.hardware.camera.provider@2.4.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.provider@2.4.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.camera.provider@2.5.so` required by `vendor/bin/hw/camerahalserver`
-vendor/lib64/android.hardware.camera.provider@2.5.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.provider@2.5.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.camera.provider@2.6.so` required by `vendor/bin/hw/camerahalserver`
-vendor/lib64/android.hardware.camera.provider@2.6.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.provider@2.6.so;MODULE_SUFFIX=-vendor
 
 
 
@@ -921,223 +921,223 @@ vendor/lib64/android.hardware.camera.provider@2.6.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.graphics.allocator@2.0.so` required by `odm/lib64/hw/displayfeature.default.so`
-vendor/lib64/android.hardware.graphics.allocator@2.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.allocator@2.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.allocator@3.0.so` required by `odm/lib64/hw/displayfeature.default.so`
-vendor/lib64/android.hardware.graphics.allocator@3.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.allocator@3.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.allocator@4.0.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
-vendor/lib64/android.hardware.graphics.allocator@4.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.allocator@4.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.bufferqueue@1.0.so` required by `vendor/lib64/android.hardware.media.c2@1.0.so`
-vendor/lib64/android.hardware.graphics.bufferqueue@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.bufferqueue@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.bufferqueue@2.0.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
-vendor/lib64/android.hardware.graphics.bufferqueue@2.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.bufferqueue@2.0.so;MODULE_SUFFIX=-vendor
 
 
 
 # ELF dependency `android.hardware.graphics.common@1.0.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
-vendor/lib64/android.hardware.graphics.common@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.common@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.common@1.1.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
-vendor/lib64/android.hardware.graphics.common@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.common@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.common@1.2.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
-vendor/lib64/android.hardware.graphics.common@1.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.common@1.2.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.graphics.mapper@2.0.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
-vendor/lib64/android.hardware.graphics.mapper@2.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.mapper@2.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.mapper@2.1.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
-vendor/lib64/android.hardware.graphics.mapper@2.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.mapper@2.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.mapper@3.0.so` required by `odm/lib64/hw/displayfeature.default.so`
-vendor/lib64/android.hardware.graphics.mapper@3.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.mapper@3.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.graphics.mapper@4.0.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
-vendor/lib64/android.hardware.graphics.mapper@4.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.mapper@4.0.so;MODULE_SUFFIX=-vendor
 
 
 
 # ELF dependency `android.hardware.health@1.0.so` required by `vendor/bin/batterysecret`
-vendor/lib64/android.hardware.health@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.health@1.0.so;MODULE_SUFFIX=-vendor
 
 
 
 # ELF dependency `android.hardware.keymaster@3.0.so` required by `vendor/lib64/libkeymaster4support.so`
-vendor/lib64/android.hardware.keymaster@3.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.keymaster@3.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.keymaster@4.0.so` required by `vendor/lib64/libkeymaster4support.so`
-vendor/lib64/android.hardware.keymaster@4.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.keymaster@4.0.so;MODULE_SUFFIX=-vendor
 
 # Stock Mitee uses both frozen KeyMint generations in one vendor dependency graph
-vendor/lib64/android.hardware.security.keymint-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.security.keymint-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.security.keymint-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.security.keymint-V4-ndk.so;MODULE_SUFFIX=-vendor
 
 # Stock A16 frozen/current AIDL libraries paired with proprietary vendor consumers
-vendor/lib/android.frameworks.sensorservice-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.frameworks.sensorservice-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.frameworks.stats-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.frameworks.stats-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.audio.common-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.common-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.audio.common-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.common-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.core-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.core.sounddose-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.audio.core.sounddose-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.core.sounddose-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.audio.effect-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.effect-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.audio.effect-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.audio.effect-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.biometrics.common-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.biometrics.fingerprint-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.bluetooth-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.bluetooth.audio-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.bluetooth.audio-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.bluetooth.audio-V5-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.bluetooth.audio-V5-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.bluetooth.finder-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.bluetooth.ranging-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.boot-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.camera.common-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.camera.common-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.camera.device-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.camera.metadata-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.camera.provider-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.common-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.common-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.common.fmq-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.common.fmq-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.contexthub-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.drm-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.drm.common-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.dumpstate-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.gatekeeper-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.gnss-V5-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.graphics.allocator-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.graphics.allocator-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.graphics.common-V5-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.graphics.common-V6-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.graphics.common-V6-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.graphics.composer3-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.graphics.composer3-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.health-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.health-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.ir-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.keymaster-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.light-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.light-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.media.bufferpool2-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.media.bufferpool2-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.media.c2-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.media.c2-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.memtrack-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.nfc-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.power-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.power-V6-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.config-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.data-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.ims-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.messaging-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.modem-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.network-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.sap-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.sim-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.radio.voice-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.secure_element-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.security.keymint-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.security.rkp-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.security.secureclock-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.security.sharedsecret-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.sensors-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.sensors-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.sensors-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.sensors-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.soundtrigger3-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.hardware.soundtrigger3-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.soundtrigger3-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.tetheroffload-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.usb-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.usb.gadget-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.vibrator-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.wifi-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.wifi.common-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.wifi.hostapd-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.hardware.wifi.supplicant-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.media.audio.common.types-V2-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.media.audio.common.types-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.media.audio.common.types-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.media.audio.common.types-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.media.audio.common.types-V4-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.media.audio.eraser.types-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.media.audio.eraser.types-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.media.soundtrigger.types-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.media.soundtrigger.types-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.media.soundtrigger.types-V3-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.system.keystore2-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/android.system.suspend-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/android.system.suspend-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib/vendor.mediatek.hardware.audio-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/vendor.mediatek.hardware.audio-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/vendor.nxp.nxpnfc_aidl-V1-ndk.so;MODULE_SUFFIX=-vendor
-vendor/lib64/vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.frameworks.sensorservice-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.frameworks.sensorservice-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.frameworks.stats-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.frameworks.stats-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.audio.common-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.common-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.audio.common-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.common-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.core-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.core.sounddose-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.audio.core.sounddose-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.core.sounddose-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.audio.effect-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.effect-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.audio.effect-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.audio.effect-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.biometrics.common-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.biometrics.fingerprint-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.bluetooth-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.bluetooth.audio-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.bluetooth.audio-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.bluetooth.audio-V5-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.bluetooth.audio-V5-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.bluetooth.finder-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.bluetooth.ranging-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.boot-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.common-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.device-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.metadata-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.camera.provider-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.common.fmq-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.common.fmq-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.contexthub-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.drm-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.drm.common-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.dumpstate-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.gatekeeper-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.gnss-V5-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.graphics.allocator-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.allocator-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.common-V5-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.graphics.common-V6-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.common-V6-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.composer3-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.graphics.composer3-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.health-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.health-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.ir-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.keymaster-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.light-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.light-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.media.bufferpool2-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media.bufferpool2-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.media.c2-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media.c2-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.memtrack-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.nfc-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.power-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.power-V6-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.config-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.data-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.ims-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.messaging-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.modem-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.network-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.sap-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.sim-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.radio.voice-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.secure_element-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.security.keymint-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.security.rkp-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.security.secureclock-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.security.sharedsecret-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.sensors-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.sensors-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.sensors-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.sensors-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.soundtrigger3-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.hardware.soundtrigger3-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.soundtrigger3-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.tetheroffload-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.usb-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.usb.gadget-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.vibrator-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.wifi-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.wifi.common-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.wifi.hostapd-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.wifi.supplicant-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.media.audio.common.types-V2-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.media.audio.common.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.media.audio.common.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.media.audio.common.types-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.media.audio.common.types-V4-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.media.audio.eraser.types-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.media.audio.eraser.types-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.media.soundtrigger.types-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.media.soundtrigger.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.media.soundtrigger.types-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.system.keystore2-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/android.system.suspend-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.system.suspend-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/vendor.mediatek.hardware.audio-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.audio-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.nxp.nxpnfc_aidl-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk.so;MODULE_SUFFIX=-vendor
 
 
 
 # ELF dependency `android.hardware.light@2.0.so` required by `vendor/bin/factory`
-vendor/lib64/android.hardware.light@2.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.light@2.0.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.media.bufferpool@2.0.so` required by `vendor/lib64/libcodec2_vndk.so`
-vendor/lib64/android.hardware.media.bufferpool@2.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media.bufferpool@2.0.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.media.c2@1.0.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
-vendor/lib64/android.hardware.media.c2@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media.c2@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.media.c2@1.1.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
-vendor/lib64/android.hardware.media.c2@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media.c2@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.media.c2@1.2.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
-vendor/lib64/android.hardware.media.c2@1.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media.c2@1.2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.media.omx@1.0.so` required by `vendor/lib64/android.hardware.media.c2@1.0.so`
-vendor/lib64/android.hardware.media.omx@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media.omx@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.media@1.0.so` required by `vendor/lib64/android.hardware.media.c2@1.0.so`
-vendor/lib64/android.hardware.media@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.media@1.0.so;MODULE_SUFFIX=-vendor
 
 
 
 # ELF dependency `android.hardware.nfc@1.0.so` required by `vendor/lib64/android.hardware.nfc@1.2.so`
-vendor/lib64/android.hardware.nfc@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.nfc@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.nfc@1.1.so` required by `vendor/lib64/android.hardware.nfc@1.2.so`
-vendor/lib64/android.hardware.nfc@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.nfc@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.nfc@1.2.so` required by `vendor/bin/hw/android.hardware.nqnfc-service.nxp`
-vendor/lib64/android.hardware.nfc@1.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.nfc@1.2.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.power-service-mediatek.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek`
 vendor/lib64/android.hardware.power-service-mediatek.so
 
 # ELF dependency `android.hardware.power@1.0.so` required by `vendor/lib64/mt6895/libmtkcam_hwutils_android.so`
-vendor/lib64/android.hardware.power@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.power@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.power@1.1.so` required by `vendor/lib64/vendor.mediatek.hardware.power@2.0.so`
-vendor/lib64/android.hardware.power@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.power@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.power@1.2.so` required by `vendor/lib64/vendor.mediatek.hardware.power@2.0.so`
-vendor/lib64/android.hardware.power@1.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.power@1.2.so;MODULE_SUFFIX=-vendor
 
 
 
@@ -1151,13 +1151,13 @@ vendor/lib64/android.hardware.power@1.2.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.secure_element@1.0.so` required by `vendor/lib64/libmigpese@2.0.so`
-vendor/lib64/android.hardware.secure_element@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.secure_element@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.secure_element@1.1.so` required by `vendor/lib64/android.hardware.secure_element@1.2.so`
-vendor/lib64/android.hardware.secure_element@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.secure_element@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.secure_element@1.2.so` required by `vendor/lib64/libmigpese@2.0.so`
-vendor/lib64/android.hardware.secure_element@1.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.secure_element@1.2.so;MODULE_SUFFIX=-vendor
 
 
 
@@ -1168,20 +1168,20 @@ vendor/lib64/android.hardware.secure_element@1.2.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.sensors@1.0.so` required by `vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so`
-vendor/lib64/android.hardware.sensors@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.sensors@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.sensors@2.0-ScopedWakelock.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.sensors@2.0.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
-vendor/lib64/android.hardware.sensors@2.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.sensors@2.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hardware.sensors@2.1.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
-vendor/lib64/android.hardware.sensors@2.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hardware.sensors@2.1.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hardware.soundtrigger3-impl.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
-vendor/lib64/hw/android.hardware.soundtrigger3-impl.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/hw/android.hardware.soundtrigger3-impl.so;MODULE_SUFFIX=-vendor
 
 
 
@@ -1192,22 +1192,22 @@ vendor/lib64/hw/android.hardware.soundtrigger3-impl.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.hidl.allocator@1.0.so` required by `system_ext/bin/hypsys_system`
-vendor/lib64/android.hidl.allocator@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hidl.allocator@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hidl.memory.token@1.0.so` required by `vendor/lib64/libhidlmemory.so`
-vendor/lib64/android.hidl.memory.token@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hidl.memory.token@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hidl.memory@1.0.so` required by `system_ext/bin/hypsys_system`
-vendor/lib64/android.hidl.memory@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hidl.memory@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hidl.safe_union@1.0.so` required by `vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so`
-vendor/lib64/android.hidl.safe_union@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hidl.safe_union@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hidl.token@1.0-utils.so` required by `vendor/lib64/libstagefright_bufferqueue_helper.so`
-vendor/lib64/android.hidl.token@1.0-utils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hidl.token@1.0-utils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `android.hidl.token@1.0.so` required by `vendor/lib64/android.hidl.token@1.0-utils.so`
-vendor/lib64/android.hidl.token@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.hidl.token@1.0.so;MODULE_SUFFIX=-vendor
 
 
 
@@ -1216,7 +1216,7 @@ vendor/lib64/android.hidl.token@1.0.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `android.system.suspend@1.0.so` required by `vendor/bin/factory`
-vendor/lib64/android.system.suspend@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/android.system.suspend@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `com.fingerprints.extension3-V1-ndk.so` required by `odm/bin/hw/mfp-daemon`
 vendor/lib64/com.fingerprints.extension3-V1-ndk.so
@@ -1239,7 +1239,7 @@ vendor/lib64/libHardwareBacklightcore.so
 vendor/lib64/libMiPhotoFilter.so
 
 # ELF dependency `lib_android_keymaster_keymint_utils.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
-vendor/lib64/lib_android_keymaster_keymint_utils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/lib_android_keymaster_keymint_utils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libaaa_flickerutil.so` required by `vendor/lib64/mt6895/lib3a.flicker.so`
 vendor/lib64/libaaa_flickerutil.so
@@ -1248,7 +1248,7 @@ vendor/lib64/libaaa_flickerutil.so
 vendor/lib64/libaal_sec.so
 
 # ELF dependency `libaconfig_storage_read_api_cc.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
-vendor/lib64/libaconfig_storage_read_api_cc.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libaconfig_storage_read_api_cc.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libaed.so` required by `system_ext/bin/aee`
 system_ext/lib/libaed.so
@@ -1258,7 +1258,7 @@ system_ext/lib64/libaed.so
 vendor/lib64/libalgobaseutils.so
 
 # ELF dependency `libalsautilsv2.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
-vendor/lib64/libalsautilsv2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libalsautilsv2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libarcsoft_super_night_detection.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
 vendor/lib64/libarcsoft_super_night_detection.so
@@ -1267,25 +1267,25 @@ vendor/lib64/libarcsoft_super_night_detection.so
 vendor/lib64/libasn1c_core.so
 
 # ELF dependency `libaudio_aidl_conversion_common_ndk.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
-vendor/lib64/libaudio_aidl_conversion_common_ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libaudio_aidl_conversion_common_ndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libaudioaidlcommon.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
-vendor/lib64/libaudioaidlcommon.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libaudioaidlcommon.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libaudiocloudctrl.so` required by `vendor/lib64/hw/audio.primary.mediatek.so`
 vendor/lib64/libaudiocloudctrl.so
 
 # ELF dependency `libaudioutils.so` required by `vendor/bin/factory`
-vendor/lib64/libaudioutils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libaudioutils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libavservices_minijail.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
-vendor/lib64/libavservices_minijail.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libavservices_minijail.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libbase.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libbase.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libbase.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libbinder.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libbinder.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libbinder.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libbluetooth_audio_session_aidl_mtk.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
 vendor/lib64/libbluetooth_audio_session_aidl_mtk.so
@@ -1299,13 +1299,13 @@ system_ext/lib64/libboost.so
 vendor/lib64/libcam.halsensor.hwintegration_mt6895.so
 
 # ELF dependency `libcamera_metadata.so` required by `vendor/lib64/hw/mt6895/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so`
-vendor/lib64/libcamera_metadata.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcamera_metadata.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcamlog.so` required by `vendor/lib64/mt6895/libmtkcam.debugwrapper.so`
 vendor/lib64/libcamlog.so
 
 # ELF dependency `libcap.so` required by `vendor/lib64/libminijail.so`
-vendor/lib64/libcap.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcap.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcdsprpc.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
 vendor/lib64/libcdsprpc.so
@@ -1314,37 +1314,37 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libclang_rt.ubsan_standalone-aarch64-android.so
 
 # ELF dependency `libcodec2.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
-vendor/lib64/libcodec2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_aidl.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
-vendor/lib64/libcodec2_aidl.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_aidl.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_fsr.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
 vendor/lib64/libcodec2_fsr.so
 
 # ELF dependency `libcodec2_hal_common.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
-vendor/lib64/libcodec2_hal_common.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_hal_common.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_hidl@1.0.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
-vendor/lib64/libcodec2_hidl@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_hidl@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_hidl@1.1.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
-vendor/lib64/libcodec2_hidl@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_hidl@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_hidl@1.2.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
-vendor/lib64/libcodec2_hidl@1.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_hidl@1.2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_hidl_plugin.so` required by `vendor/lib64/libcodec2_aidl.so`
-vendor/lib64/libcodec2_hidl_plugin.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_hidl_plugin.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_soft_common.so` required by `vendor/lib64/libcodec2_mtk_c2store.so`
-vendor/lib64/libcodec2_soft_common.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_soft_common.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_store_dolby.so` required by `vendor/bin/hw/vendor.dolby.media.c2-default-service-dax`
 vendor/lib64/libcodec2_store_dolby.so
 
 # ELF dependency `libcodec2_vndk.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
-vendor/lib64/libcodec2_vndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcodec2_vndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcodec2_vpp_chdr_plugin.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
 vendor/lib64/libcodec2_vpp_chdr_plugin.so
@@ -1386,23 +1386,23 @@ vendor/lib64/libcom.xiaomi.mizone.so
 system_ext/lib64/libcomutils.so
 
 # ELF dependency `libcppbor.so` required by `vendor/lib64/libkeymint.so`
-vendor/lib64/libcppbor.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcppbor.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcppbor_external.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
-vendor/lib64/libcppbor_external.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcppbor_external.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcppcose_rkp.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
-vendor/lib64/libcppcose_rkp.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcppcose_rkp.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcrypto.so` required by `odm/bin/mtd_mitee`
-vendor/lib/libcrypto.so;MODULE_SUFFIX=-vendor
-vendor/lib64/libcrypto.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib/libcrypto.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcrypto.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcurl.so` required by `vendor/bin/mnld`
-vendor/lib64/libcurl.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcurl.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libcutils.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libcutils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libcutils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libdapparamstorage.so` required by `vendor/bin/hw/vendor.dolby.dms.service`
 vendor/lib64/libdapparamstorage.so
@@ -1420,22 +1420,22 @@ vendor/lib64/libdisplayfeatureservice.so
 vendor/lib64/libdlbdsservice.so
 
 # ELF dependency `libdmabufheap.so` required by `vendor/lib64/egl/mt6895/libGLES_mali.so`
-vendor/lib64/libdmabufheap.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libdmabufheap.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libdmshal.so` required by `vendor/bin/hw/vendor.dolby.dms.service`
 vendor/lib64/libdmshal.so
 
 # ELF dependency `libdrm.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
-vendor/lib64/libdrm.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libdrm.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libdumpstateutil.so` required by `vendor/bin/hw/android.hardware.dumpstate-service.xiaomi`
-vendor/lib64/libdumpstateutil.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libdumpstateutil.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libellv.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
 vendor/lib64/libellv.so
 
 # ELF dependency `libexpat.so` required by `system_ext/bin/DfcNativeService`
-vendor/lib64/libexpat.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libexpat.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libfdpp.so` required by `system_ext/bin/fdpp`
 system_ext/lib64/libfdpp.so
@@ -1444,40 +1444,40 @@ system_ext/lib64/libfdpp.so
 vendor/lib64/libfft_vendor.so
 
 # ELF dependency `libflatbuffers-cpp.so` required by `vendor/lib64/libbluetooth_audio_session_aidl_mtk.so`
-vendor/lib64/libflatbuffers-cpp.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libflatbuffers-cpp.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libfmq.so` required by `odm/bin/mrmd_mitee`
-vendor/lib64/libfmq.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libfmq.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libfsutils.so` required by `system_ext/bin/FboNativeService`
 system_ext/lib64/libfsutils.so
 
 # ELF dependency `libgatekeeper.so` required by `vendor/bin/hw/android.hardware.gatekeeper-service.mitee`
-vendor/lib64/libgatekeeper.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libgatekeeper.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libgralloctypes.so` required by `vendor/lib64/egl/mt6895/libGLES_mali.so`
-vendor/lib64/libgralloctypes.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libgralloctypes.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libgrallocusage.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
-vendor/lib64/libgrallocusage.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libgrallocusage.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libhardware.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libhardware.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libhardware.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libhardware_legacy.so` required by `vendor/bin/ccci_mdinit`
-vendor/lib64/libhardware_legacy.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libhardware_legacy.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libhfmanagerwrapper.so` required by `vendor/bin/factory`
 vendor/lib64/libhfmanagerwrapper.so
 
 # ELF dependency `libhidlbase.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libhidlbase.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libhidlbase.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libhidlmemory.so` required by `system_ext/bin/DfcNativeService`
-vendor/lib64/libhidlmemory.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libhidlmemory.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libhidltransport.so` required by `system_ext/bin/lbs_dbg_ext`
-vendor/lib64/libhidltransport.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libhidltransport.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libhis_face_tracking.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
 vendor/lib64/libhis_face_tracking.so
@@ -1486,7 +1486,7 @@ vendor/lib64/libhis_face_tracking.so
 vendor/lib64/libhis_motion_tracker.so
 
 # ELF dependency `libhwbinder.so` required by `vendor/bin/factory`
-vendor/lib64/libhwbinder.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libhwbinder.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libicd_decoder.so` required by `vendor/bin/dmc_core`
 vendor/lib64/libicd_decoder.so
@@ -1504,40 +1504,40 @@ system_ext/lib64/libimsma_rtp.so
 system_ext/lib64/libimsma_socketwrapper.so
 
 # ELF dependency `libion.so` required by `odm/bin/mrmd_mitee`
-vendor/lib64/libion.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libion.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libjpeg.so` required by `vendor/bin/factory`
-vendor/lib64/libjpeg.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libjpeg.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libjsoncpp.so` required by `system_ext/bin/DfcNativeService`
-vendor/lib64/libjsoncpp.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libjsoncpp.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libkeymaster4support.so` required by `odm/lib64/libmt_mitee.so`
-vendor/lib64/libkeymaster4support.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libkeymaster4support.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libkeymaster_messages.so` required by `vendor/bin/hw/android.hardware.identity-service.mitee@5.0`
-vendor/lib64/libkeymaster_messages.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libkeymaster_messages.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libkeymaster_portable.so` required by `vendor/lib64/libkeymint.so`
-vendor/lib64/libkeymaster_portable.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libkeymaster_portable.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libkeymint.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
-vendor/lib64/libkeymint.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libkeymint.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libkeymint_remote_prov_support.so` required by `odm/lib64/libmt_mitee.so`
-vendor/lib64/libkeymint_remote_prov_support.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libkeymint_remote_prov_support.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libkeymint_support.so` required by `odm/lib64/libmt_mitee.so`
-vendor/lib64/libkeymint_support.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libkeymint_support.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libkeystore-engine-wifi-hidl.so` required by `vendor/bin/hw/wpa_supplicant`
-vendor/lib64/libkeystore-engine-wifi-hidl.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libkeystore-engine-wifi-hidl.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libladder.so` required by `vendor/bin/factory`
 vendor/lib64/libladder.so
 
 # ELF dependency `liblzma.so` required by `vendor/lib64/libunwindstack.so`
-vendor/lib64/liblzma.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/liblzma.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libmagt.so` required by `system_ext/bin/magt`
 system_ext/lib64/libmagt.so
@@ -1546,16 +1546,16 @@ system_ext/lib64/libmagt.so
 system_ext/lib64/libmagtsync.so
 
 # ELF dependency `libmedia_helper.so` required by `system_ext/bin/hw/android.hardware.audio.parameter_parser.service`
-vendor/lib64/libmedia_helper.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libmedia_helper.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libmediautils_vendor.so` required by `vendor/lib/hw/vendor.mediatek.hardware.audio-impl.so`
-vendor/lib64/libmediautils_vendor.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libmediautils_vendor.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libmeminfo.so` required by `system_ext/lib64/libmagt.so`
-vendor/lib64/libmeminfo.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libmeminfo.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libmemunreachable.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.secure_element-service`
-vendor/lib64/libmemunreachable.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libmemunreachable.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libmialgo_ai_vision.so` required by `vendor/lib64/libmialgo_sd.so`
 vendor/lib64/libmialgo_ai_vision.so
@@ -1573,7 +1573,7 @@ vendor/lib64/libmialgoengine.so
 vendor/lib64/libmigpese@2.0.so
 
 # ELF dependency `libminijail.so` required by `vendor/lib64/libavservices_minijail.so`
-vendor/lib64/libminijail.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libminijail.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libmiphone_preview_bokeh.so` required by `vendor/lib64/mt6895/libmtkcam_thirdparty.customer.so`
 vendor/lib64/libmiphone_preview_bokeh.so
@@ -1588,7 +1588,7 @@ vendor/lib64/libmiphone_preview_depth.so
 vendor/lib64/libmiphone_preview_mdbokeh.so
 
 # ELF dependency `libmisight.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libmisight.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libmisight.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libmisight.so` required by `system_ext/bin/hypsys_system`
 system_ext/lib64/libmisight.so
@@ -1624,16 +1624,16 @@ vendor/lib64/libmvpu_runtime_builtin.so
 vendor/lib64/libmvpu_wrapper.so
 
 # ELF dependency `libnbaio_mono.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
-vendor/lib64/libnbaio_mono.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libnbaio_mono.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libnetutils.so` required by `system_ext/bin/loghidlsysservice`
-vendor/lib64/libnetutils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libnetutils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libneuralnetworks_sl_driver_mtk_prebuilt.so` required by `vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk`
 vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so
 
 # ELF dependency `libnl.so` required by `system_ext/bin/hypsys_system`
-vendor/lib64/libnl.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libnl.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `liboctvm.so` required by `system_ext/bin/mcd`
 system_ext/lib64/liboctvm.so
@@ -1651,16 +1651,16 @@ system_ext/lib64/liboctvm_utils.so
 vendor/lib64/libomp.so
 
 # ELF dependency `libpcap.so` required by `vendor/bin/tcpdump-vendor`
-vendor/lib64/libpcap.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libpcap.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libpcap_bak.so` required by `system_ext/bin/netdiag`
 system_ext/lib64/libpcap_bak.so
 
 # ELF dependency `libpng.so` required by `vendor/bin/hw/android.hardware.health-service.example`
-vendor/lib64/libpng.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libpng.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libpower.so` required by `vendor/bin/hw/android.hardware.sensors-service.multihal`
-vendor/lib64/libpower.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libpower.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libpower_timer.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower-service.mediatek`
 vendor/lib64/libpower_timer.so
@@ -1687,31 +1687,31 @@ vendor/lib64/libpqxmlflagparser.so
 vendor/lib64/libpqxmlparser.so
 
 # ELF dependency `libprocessgroup.so` required by `system_ext/bin/iorapd`
-vendor/lib64/libprocessgroup.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libprocessgroup.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libprocinfo.so` required by `system_ext/bin/inject_mgr`
-vendor/lib64/libprocinfo.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libprocinfo.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libprotobuf-cpp-lite-21.12.so` required by `vendor/bin/hw/android.hardware.drm-service.clearkey`
-vendor/lib64/libprotobuf-cpp-lite-21.12.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libprotobuf-cpp-lite-21.12.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libpuresoftkeymasterdevice.so` required by `vendor/lib64/libkeymint.so`
-vendor/lib64/libpuresoftkeymasterdevice.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libpuresoftkeymasterdevice.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `librfs_warp.so` required by `vendor/lib64/mt6895/libmtkcam.featurepipe.capture.so`
 vendor/lib64/librfs_warp.so
 
 # ELF dependency `librilutils.so` required by `vendor/lib64/libmtk-fusion-ril-prop-vsim.so`
-vendor/lib64/librilutils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/librilutils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libsdrparser.so` required by `vendor/lib64/mt6895/libpqparamparser.so`
 vendor/lib64/libsdrparser.so
 
 # ELF dependency `libsensorndkbridge.so` required by `vendor/bin/mnld`
-vendor/lib64/libsensorndkbridge.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libsensorndkbridge.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libsfplugin_ccodec_utils.so` required by `vendor/lib64/libcodec2_mtk_c2store.so`
-vendor/lib64/libsfplugin_ccodec_utils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libsfplugin_ccodec_utils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libshell.so` required by `system_ext/lib64/libshellservice.so`
 system_ext/lib64/libshell.so
@@ -1746,38 +1746,38 @@ system/lib64/libstd.dylib.so
 system/lib64/libxml_rust.dylib.so
 
 # Stock A16 pair required by the system_ext audio parameter parser
-system/lib64/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-stock
-system/lib64/av-audio-types-aidl-ndk.so;MODULE_SUFFIX=-stock
+# Source-built in ROM: system/lib64/android.hardware.audio.core-V3-ndk.so;MODULE_SUFFIX=-stock
+# Source-built in ROM: system/lib64/av-audio-types-aidl-ndk.so;MODULE_SUFFIX=-stock
 
 # ELF dependency `libsoft_attestation_cert.so` required by `vendor/lib64/libpuresoftkeymasterdevice.so`
-vendor/lib64/libsoft_attestation_cert.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libsoft_attestation_cert.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libsource.so` required by `system_ext/lib64/libmtk_vt_service.so`
 system_ext/lib64/libsource.so
 
 # ELF dependency `libspeexresampler.so` required by `vendor/lib64/libaudioutils.so`
-vendor/lib64/libspeexresampler.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libspeexresampler.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libsqlite.so` required by `system_ext/bin/DfcNativeService`
-vendor/lib64/libsqlite.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libsqlite.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libssl.so` required by `system_ext/bin/hypsys_system`
-vendor/lib64/libssl.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libssl.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libstagefright_aidl_bufferpool2.so` required by `vendor/lib64/libcodec2_mtk_vdec.so`
-vendor/lib64/libstagefright_aidl_bufferpool2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libstagefright_aidl_bufferpool2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libstagefright_bufferpool@2.0.1.so` required by `vendor/lib64/libcodec2_vndk.so`
-vendor/lib64/libstagefright_bufferpool@2.0.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libstagefright_bufferpool@2.0.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libstagefright_bufferqueue_helper.so` required by `vendor/lib64/libcodec2_hidl@1.0.so`
-vendor/lib64/libstagefright_bufferqueue_helper.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libstagefright_bufferqueue_helper.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libstagefright_foundation.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libstagefright_foundation.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libstagefright_foundation.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libsysutils.so` required by `system_ext/bin/loghidlsysservice`
-vendor/lib64/libsysutils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libsysutils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libteecli.so` required by `odm/bin/hw/mfp-daemon`
 vendor/lib64/libteecli.so
@@ -1786,40 +1786,40 @@ vendor/lib64/libteecli.so
 system_ext/lib64/libterservice.so
 
 # ELF dependency `libtextclassifier_hash.so` required by `vendor/lib64/libtflite.so`
-vendor/lib64/libtextclassifier_hash.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libtextclassifier_hash.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libtflite.so` required by `vendor/bin/displayfeature`
-vendor/lib64/libtflite.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libtflite.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libtinyalsa.so` required by `vendor/bin/factory`
-vendor/lib64/libtinyalsa.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libtinyalsa.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libtinyalsav2.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
-vendor/lib64/libtinyalsav2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libtinyalsav2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libtinycompress.so` required by `vendor/bin/factory`
-vendor/lib64/libtinycompress.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libtinycompress.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libtinyxml2.so` required by `system_ext/bin/miupdater`
-vendor/lib64/libtinyxml2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libtinyxml2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libtranslator_utils.so` required by `vendor/bin/dmc_core`
 vendor/lib64/libtranslator_utils.so
 
 # ELF dependency `libtrusty.so` required by `vendor/bin/hw/android.hardware.security.keymint@4.0-service.mitee`
-vendor/lib64/libtrusty.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libtrusty.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libui.so` required by `odm/bin/hw/vendor.xiaomi.hw.touchfeature-service`
-vendor/lib64/libui.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libui.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libunwindstack.so` required by `system_ext/bin/aee_aed`
-vendor/lib64/libunwindstack.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libunwindstack.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libutils.so` required by `odm/bin/hw/mfp-daemon`
-vendor/lib64/libutils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libutils.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libutilscallstack.so` required by `vendor/lib64/egl/libMEOW_gift.so`
-vendor/lib64/libutilscallstack.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libutilscallstack.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libvcodec_cap.so` required by `system_ext/lib64/libmtk_vt_service.so`
 system_ext/lib64/libvcodec_cap.so
@@ -1846,7 +1846,7 @@ vendor/lib64/libwa_opticalzoomfactor.so
 vendor/lib64/libwa_sat.so
 
 # ELF dependency `libwifi-system-iface.so` required by `vendor/bin/hw/android.hardware.wifi-service-lazy`
-vendor/lib64/libwifi-system-iface.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libwifi-system-iface.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libwifical.so` required by `vendor/bin/meta_tst`
 vendor/lib64/libwifical.so
@@ -1861,10 +1861,10 @@ vendor/lib64/libwifitest.so
 vendor/lib64/libwifitesttool.so
 
 # ELF dependency `libxml2.so` required by `system_ext/bin/misight`
-vendor/lib64/libxml2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libxml2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `libz.so` required by `system_ext/bin/aee`
-vendor/lib64/libz.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libz.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `miui-native-nativehang-aidl-cpp.so` required by `system_ext/bin/NativeHangService`
 system_ext/lib64/miui-native-nativehang-aidl-cpp.so
@@ -1885,7 +1885,7 @@ vendor/lib64/nfc_nci.nqx.default.hw.so
 vendor/lib64/nwk_opt_imp.so
 
 # ELF dependency `server_configurable_flags.so` required by `vendor/bin/hw/android.hardware.media.c2-mediatek-64b`
-vendor/lib64/server_configurable_flags.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/server_configurable_flags.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.dolby.dms-V1-ndk.so` required by `vendor/bin/hw/vendor.dolby.dms.service`
 vendor/lib64/vendor.dolby.dms-V1-ndk.so
@@ -1907,21 +1907,21 @@ system_ext/lib/vendor.mediatek.hardware.aee-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.aee-V1-ndk.so
 
 # ELF dependency `vendor.mediatek.hardware.aee-V1-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.aee@V1-service`
-vendor/lib64/vendor.mediatek.hardware.aee-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.aee-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.aee@1.0.so` required by `system_ext/lib64/vendor.mediatek.hardware.aee@1.1.so`
 system_ext/lib/vendor.mediatek.hardware.aee@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.aee@1.0.so
 
 # ELF dependency `vendor.mediatek.hardware.aee@1.0.so` required by `vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service`
-vendor/lib64/vendor.mediatek.hardware.aee@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.aee@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.aee@1.1.so` required by `system_ext/bin/aee_aed`
 system_ext/lib/vendor.mediatek.hardware.aee@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.aee@1.1.so
 
 # ELF dependency `vendor.mediatek.hardware.aee@1.1.so` required by `vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service`
-vendor/lib64/vendor.mediatek.hardware.aee@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.aee@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.apmonitor-V1-ndk.so` required by `vendor/bin/dmc_core`
 vendor/lib64/vendor.mediatek.hardware.apmonitor-V1-ndk.so
@@ -1931,7 +1931,7 @@ vendor/lib64/vendor.mediatek.hardware.atci-V1-ndk.so
 
 
 # ELF dependency `vendor.mediatek.hardware.audio-impl.so` required by `vendor/bin/hw/android.hardware.audio.service-aidl.mediatek`
-vendor/lib64/hw/vendor.mediatek.hardware.audio-impl.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/hw/vendor.mediatek.hardware.audio-impl.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so` required by `vendor/lib64/hw/audio.primary.mediatek.so`
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio-V1-ndk.so
@@ -1961,7 +1961,7 @@ vendor/lib64/vendor.mediatek.hardware.composer_ext-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.dmc-V1-ndk.so
 
 # ELF dependency `vendor.mediatek.hardware.dmc-V1-ndk.so` required by `vendor/bin/dmc_core`
-vendor/lib64/vendor.mediatek.hardware.dmc-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.dmc-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.dmc@1.0.so` required by `system_ext/bin/mdi_redirector`
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.0.so
@@ -1991,13 +1991,13 @@ vendor/lib64/vendor.mediatek.hardware.lbs-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.lbs@1.0.so
 
 # ELF dependency `vendor.mediatek.hardware.lbs@1.0.so` required by `vendor/bin/meta_tst`
-vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.log-V1-ndk.so` required by `system_ext/bin/loghidlsysservice`
 system_ext/lib64/vendor.mediatek.hardware.log-V1-ndk.so
 
 # ELF dependency `vendor.mediatek.hardware.log-V1-ndk.so` required by `vendor/bin/loghidlvendorservice`
-vendor/lib64/vendor.mediatek.hardware.log-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.log-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.log@1.0.so` required by `system_ext/bin/loghidlsysservice`
 system_ext/lib64/vendor.mediatek.hardware.log@1.0.so
@@ -2045,13 +2045,13 @@ vendor/lib64/hw/vendor.mediatek.hardware.mtkpower-aidl-impl.so
 system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
 
 # ELF dependency `vendor.mediatek.hardware.mtkpower@1.0.so` required by `vendor/lib64/mt6895/libmtkcam_pipelinemodel_session.so`
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.mtkpower@1.1.so` required by `vendor/lib64/android.hardware.power-service-mediatek.so`
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.mtkpower@1.2.so` required by `vendor/lib64/android.hardware.power-service-mediatek.so`
-vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.mtkpower_applist-V4-ndk.so` required by `vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek`
 vendor/lib64/vendor.mediatek.hardware.mtkpower_applist-V4-ndk.so
@@ -2144,7 +2144,7 @@ vendor/lib64/vendor.mediatek.hardware.pq_aidl-V7-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
 
 # ELF dependency `vendor.mediatek.hardware.videotelephony-V1-ndk.so` required by `vendor/bin/hw/vtservice_aidl`
-vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.mediatek.hardware.videotelephony-impl.so` required by `vendor/bin/hw/vtservice_aidl`
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony-impl.so
@@ -2156,7 +2156,7 @@ system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
 
 # ELF dependency `vendor.nxp.nxpese@1.0.so` required by `vendor/lib64/nfc_nci.nqx.default.hw.so`
-vendor/lib64/vendor.nxp.nxpese@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.nxp.nxpese@1.0.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `vendor.qti.sla.service-V1-ndk.so` required by `vendor/bin/hw/vendor.qti.sla.service@2.0-service`
@@ -2172,7 +2172,7 @@ vendor/lib64/hw/vendor.xiaomi.hardware.aidlbgservice-V1-impl.so
 vendor/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so
 
 # ELF dependency `vendor.xiaomi.hardware.displayfeature@1.0.so` required by `vendor/lib64/hw/hwcomposer.mtk_common.so`
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so;MODULE_SUFFIX=-vendor
 
 
 # ELF dependency `vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so` required by `odm/bin/hw/mfp-daemon`
@@ -2194,13 +2194,13 @@ vendor/lib64/vendor.xiaomi.hardware.mimd2-V1-ndk.so
 system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so
 
 # ELF dependency `vendor.xiaomi.hardware.misys.common-V3-ndk.so` required by `vendor/bin/hypsys_vendor`
-vendor/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.xiaomi.hardware.misys.core-V1-ndk.so` required by `system_ext/bin/hypsys_system`
 system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so
 
 # ELF dependency `vendor.xiaomi.hardware.misys.core-V1-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.hardware.misys.core-service`
-vendor/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # ELF dependency `vendor.xiaomi.hardware.misys@1.0.so` required by `system_ext/bin/hypsys_system`
 system_ext/lib64/vendor.xiaomi.hardware.misys@1.0.so
@@ -2236,7 +2236,7 @@ system_ext/lib64/xiaomi.launch_boost.readahead-ndk.so
 system_ext/lib64/xiaomi.system.hypsys.common-V1-ndk.so
 
 # ELF dependency `xiaomi.system.hypsys.common-V1-ndk.so` required by `vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl`
-vendor/lib64/xiaomi.system.hypsys.common-V1-ndk.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/xiaomi.system.hypsys.common-V1-ndk.so;MODULE_SUFFIX=-vendor
 
 # executable referenced by Android 16 init
 system_ext/bin/DfcNativeService
@@ -2395,7 +2395,7 @@ vendor/lib64/hw/audio.r_submix.mediatek.so
 vendor/lib64/hw/sound_trigger.primary.default.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
-vendor/lib64/libalsautils.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libalsautils.so;MODULE_SUFFIX=-vendor
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
 vendor/lib64/libaudiocompensationfilterc.so
@@ -2533,7 +2533,7 @@ vendor/firmware/BT_FW.cfg
 vendor/firmware/soc7_0_ram_bt_1b_t_1_hdr.bin
 vendor/lib64/libbluetooth_mtk.so
 vendor/lib64/libbluetooth_mtk_pure.so
-vendor/lib64/libbt-vendor.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libbt-vendor.so;MODULE_SUFFIX=-vendor
 
 # reference classification: proprietary-files.txt / Bluetooth (A2DP)
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
@@ -2592,7 +2592,7 @@ vendor/lib64/hw/mt6895/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
 vendor/lib64/lib3a.ae.pipe.so
 vendor/lib64/libArcNetMtk.so
 vendor/lib64/libBasicModule.so
-vendor/lib64/libOpenCL.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libOpenCL.so;MODULE_SUFFIX=-vendor
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libaispq.so
 vendor/lib64/libalAILDC.so
@@ -3066,7 +3066,7 @@ vendor/etc/nnapi_powerhal.json
 vendor/lib64/libapu_mdw.so
 vendor/lib64/libapu_mdw_batch.so
 vendor/lib64/libapusys.so
-vendor/lib64/libarmnn.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libarmnn.so;MODULE_SUFFIX=-vendor
 vendor/lib64/libarmnn_ndk.mtk.vndk.so
 vendor/lib64/libcmdl.so
 vendor/lib64/libcmdl_ndk.mtk.vndk.so
@@ -3209,4 +3209,4 @@ vendor/firmware/WIFI_RAM_CODE_soc7_0_1b_t_1.bin
 vendor/firmware/soc7_0_ram_wmmcu_1b_t_1_hdr.bin
 vendor/firmware/txpowerctrl.cfg
 vendor/firmware/wifi.cfg
-vendor/lib64/libwifi-hal.so;MODULE_SUFFIX=-vendor
+# Source-built in ROM: vendor/lib64/libwifi-hal.so;MODULE_SUFFIX=-vendor
