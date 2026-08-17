@@ -1,3 +1,6 @@
+# Disable deprecated HIDL CAS HAL before base_vendor.mk is inherited
+TARGET_REQUIRES_HIDL_CAS_HAL := false
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
@@ -38,3 +41,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.product.marketname=Xiaomi 13T
 
+# TEMPORARY: allow known-booting 6.12.38 KFENCE=n prebuilt during bring-up.
+# Remove after rebuilding kernel with CONFIG_KFENCE=y.
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
