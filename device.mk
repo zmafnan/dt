@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.1-impl.custom \
     create_pl_dev.recovery \
+    com.android.hardware.boot \
     android.hardware.boot-service.default_recovery \
     android.hardware.health-service.mediatek-recovery
 

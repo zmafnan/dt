@@ -5,8 +5,6 @@
 # Battery
 /vendor/bin/batterysecret                                                 u:object_r:vendor_batterysecret_exec:s0
 
-# Boot Control
-/(vendor|system/vendor)/bin/hw/android\.hardware\.boot-service\.mtk        u:object_r:hal_bootctl_default_exec:s0
 
 # Camera
 /data/vendor/camera(/.*)?                                                 u:object_r:vendor_camera_data_file:s0

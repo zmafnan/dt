@@ -677,7 +677,7 @@ vendor/etc/init/FastSwitch.rc
 vendor/etc/init/aee_aedv64_v2.rc
 vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc
 vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc
-vendor/etc/init/android.hardware.boot-service.mtk.rc
+# Provided by AOSP/Soong: vendor/etc/init/android.hardware.boot-service.mtk.rc
 # Provided by AOSP/Soong: vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.gatekeeper-service.mitee.rc
 vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc
@@ -2314,7 +2314,7 @@ vendor/bin/gps_dump
 vendor/bin/gsm0710muxd
 vendor/bin/hw/android.hardware.audio.service-aidl.mediatek
 vendor/bin/hw/android.hardware.bluetooth-service-mediatek
-vendor/bin/hw/android.hardware.boot-service.mtk
+# Provided by AOSP/Soong: vendor/bin/hw/android.hardware.boot-service.mtk
 vendor/bin/hw/android.hardware.drm-service.clearkey
 vendor/bin/hw/android.hardware.dumpstate-service.xiaomi
 vendor/bin/hw/android.hardware.gatekeeper-service.mitee
