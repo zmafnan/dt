@@ -3,7 +3,7 @@
 # Generated build identity/API properties are intentionally excluded.
 
 # Graphics & Hardware HALs
-ro.hardware.egl=mali
+ro.hardware.egl=meow
 ro.hardware.vulkan=mali
 ro.hardware.hwcomposer=mtk_common
 ro.hardware.gralloc=common
