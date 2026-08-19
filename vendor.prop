@@ -2,6 +2,12 @@
 # Evidence: extracted/vendor/build.prop
 # Generated build identity/API properties are intentionally excluded.
 
+# Graphics & Hardware HALs
+ro.hardware.egl=mali
+ro.hardware.vulkan=mali
+ro.hardware.hwcomposer=mtk_common
+ro.hardware.gralloc=common
+
 ro.vendor.init.sensor.rc=init.sensor_2_0.rc
 ro.crypto.volume.filenames_mode=aes-256-cts
 camera.disable_zsl_mode=1
