@@ -7,6 +7,7 @@ ro.hardware.egl=meow
 ro.hardware.vulkan=mali
 ro.hardware.hwcomposer=mtk_common
 ro.hardware.gralloc=common
+ro.sf.lcd_density=480
 
 ro.vendor.init.sensor.rc=init.sensor_2_0.rc
 ro.crypto.volume.filenames_mode=aes-256-cts

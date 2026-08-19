@@ -2,7 +2,7 @@
 # Evidence: extracted/system/system/build.prop
 # Generated build identity/API properties are intentionally excluded.
 
-vendor.rild.libpath=mtk-ril.so
+vendor.rild.libpath=libmtk-ril.so
 vendor.rild.libargs=-d /dev/ttyC0
 wifi.interface=wlan0
 ro.mediatek.wlan.wsc=1
