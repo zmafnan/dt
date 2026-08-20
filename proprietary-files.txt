@@ -2320,6 +2320,7 @@ vendor/bin/hw/android.hardware.bluetooth-service-mediatek
 vendor/bin/hw/android.hardware.drm-service.clearkey
 vendor/bin/hw/android.hardware.dumpstate-service.xiaomi
 vendor/bin/hw/android.hardware.gatekeeper-service.mitee
+vendor/bin/hw/mt6895/android.hardware.graphics.allocator-V2-service-mediatek.mt6895;SYMLINK=vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek
 vendor/bin/hw/android.hardware.graphics.composer@3.4-service
 vendor/bin/hw/android.hardware.health-service.example
 vendor/bin/hw/android.hardware.identity-service.mitee@5.0
@@ -2948,7 +2949,11 @@ vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/egl/mt6895/libGLES_mali.so;SYMLINK=vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/hw/hwcomposer.mtk_common.so
+vendor/lib64/hw/mt6895/android.hardware.graphics.allocator-V2-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.graphics.allocator-V2-mediatek.so
+vendor/lib64/hw/mt6895/mapper.mediatek.so;SYMLINK=vendor/lib64/hw/mapper.mediatek.so
 vendor/lib64/hw/mt6895/vulkan.mali.so
+vendor/lib64/mt6895/arm.graphics-V5-ndk.so;SYMLINK=vendor/lib64/arm.graphics-V5-ndk.so
+vendor/lib64/vendor.mediatek.hardware.graphics-V1-ndk.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libNoFpsActor.so
