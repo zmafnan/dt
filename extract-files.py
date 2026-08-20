@@ -12,6 +12,7 @@ that they are necessary.
 
 from os import path
 
+from extract_utils.fixups_blob import blob_fixup
 from extract_utils.fixups_lib import lib_fixups as lib_fixups_base
 from extract_utils.main import ExtractUtils, ExtractUtilsModule
 from extract_utils.tools import android_root
@@ -28,13 +29,25 @@ lib_fixups = {
 }
 
 
+blob_fixups = {
+    (
+        "vendor/bin/hw/mt6895/android.hardware.graphics.allocator-V2-service-mediatek.mt6895",
+        "vendor/lib64/hw/mt6895/android.hardware.graphics.allocator-V2-mediatek.so",
+        "vendor/lib64/hw/mt6895/mapper.mediatek.so",
+    ): blob_fixup().replace_needed(
+        "android.hardware.graphics.common-V6-ndk.so",
+        "android.hardware.graphics.common-V7-ndk.so",
+    ),
+}
+
+
 module = ExtractUtilsModule(
     "aristotle",
     "xiaomi",
     # extract-utils is rooted at derp/, while this independent implementation
     # must remain one directory above it until validation is complete.
     device_rel_path="../fresh/device/xiaomi/aristotle",
-    blob_fixups={},
+    blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=[
         "hardware/mediatek",
