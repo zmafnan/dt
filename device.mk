@@ -49,6 +49,9 @@ PRODUCT_PACKAGES += \
     MtkInCallService
 
 PRODUCT_PACKAGES += \
+    com.android.hardware.net.nlinterceptor
+
+PRODUCT_PACKAGES += \
     vibratorfeature-wrapper \
     PowerOffAlarm \
     IFAAService
