@@ -15,8 +15,18 @@ def lib_fixup_xiaomi_suffix(lib: str, partition: str, *args, **kwargs):
     return f"{lib}-xiaomi" if partition == "system_ext" else None
 
 
+def lib_fixup_graphics_common_v6_dependency(
+    lib: str, partition: str, *args, **kwargs
+):
+    """Keep the stock V6 ELF as runtime-only while Soong consumers use V7."""
+    return "android.hardware.graphics.common-V7-ndk"
+
+
 lib_fixups = {
     **lib_fixups_base,
+    (
+        "android.hardware.graphics.common-V6-ndk",
+    ): lib_fixup_graphics_common_v6_dependency,
     ("libsink",): lib_fixup_xiaomi_suffix,
 }
 
