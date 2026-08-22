@@ -48,6 +48,12 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl \
     MtkInCallService
 
+# Runtime compatibility for stock Mali blobs that DT_NEEDED Graphics Common V6.
+# Keep proprietary Soong dependencies on V7; install only the source-built V6
+# vendor variant under its original SONAME.
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V6-ndk.vendor
+
 PRODUCT_PACKAGES += \
     com.android.hardware.net.nlinterceptor
 
