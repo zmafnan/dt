@@ -171,6 +171,8 @@ mtk_panel_ext.ko
 miev.ko
 panel-m12a-36-02-0a-dsc-cmd.ko
 mediatek_drm_v1.ko
+xiaomi_touch_aristotle.ko
+goodix_core_aristotle.ko
 mtk-mminfra-debug.ko
 mtk-mminfra-imax.ko
 xm_power.ko

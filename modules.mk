@@ -6,8 +6,13 @@
 
 ARISTOTLE_MODULES_PATH := device/xiaomi/aristotle/prebuilt/modules
 
+ARISTOTLE_RECOVERY_TOUCH_MODULES := \
+    $(ARISTOTLE_MODULES_PATH)/vendor_dlkm/xiaomi_touch_aristotle.ko \
+    $(ARISTOTLE_MODULES_PATH)/vendor_dlkm/goodix_core_aristotle.ko
+
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES := \
-    $(wildcard $(ARISTOTLE_MODULES_PATH)/vendor_ramdisk/*.ko)
+    $(wildcard $(ARISTOTLE_MODULES_PATH)/vendor_ramdisk/*.ko) \
+    $(ARISTOTLE_RECOVERY_TOUCH_MODULES)
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := \
     $(strip $(shell cat $(ARISTOTLE_MODULES_PATH)/vendor_ramdisk/modules.load))
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := \
